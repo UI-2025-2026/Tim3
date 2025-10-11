@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B91D0B53-2424-F022-3CF5-4D6D9D3386DB" name="Podaci_za_prijavu">
+<createdBy>srnam</createdBy>
+<createdTime>2025-10-11 12:35:14 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pp_id" id="4DDC5FC4-EB9B-467F-7F0C-5E1A53D8CB79">
+<createdBy>srnam</createdBy>
+<createdTime>2025-10-11 12:35:25 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="14333D5A-A9CB-8C9E-BE0C-B51E8DA88CB5">
+<createdBy>srnam</createdBy>
+<createdTime>2025-10-11 12:35:37 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="korisnicko_ime" id="576D632A-82A4-81A7-B0C7-E255B88AA095">
+<createdBy>srnam</createdBy>
+<createdTime>2025-10-11 12:36:08 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sifra" id="3A5019AB-8BF5-6C32-0F31-15552233CA6E">
+<createdBy>srnam</createdBy>
+<createdTime>2025-10-11 12:36:22 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_kreiranja" id="2CC96451-138F-30FC-F883-A2934683175D">
+<createdBy>srnam</createdBy>
+<createdTime>2025-10-11 12:36:48 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status_naloga" id="849767E1-F6CE-92B6-EB31-88BBAA53C1E9">
+<createdBy>srnam</createdBy>
+<createdTime>2025-10-11 12:37:07 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="korisnik_id" id="C3083C55-7DF6-9480-A539-14D973533F27">
+<createdBy>srnam</createdBy>
+<createdTime>2025-10-11 12:38:33 UTC</createdTime>
+<generatorID>F0C9A61D-407B-F9FD-A974-BD41AF32F4D1</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
+</engineerTo>
+<referedAttribute>BE732D9B-8DA7-A294-FA9B-DB9331A0ADF2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DCC1679C-015D-223A-3184-895DC6DDC93E" name="Podaci_za_prijavu PK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-10-11 12:35:36 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4DDC5FC4-EB9B-467F-7F0C-5E1A53D8CB79</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B0E91C36-BE32-E8BC-8359-BCDF4946AC0B" containerWithKeyObject="EF8D18BC-30C1-5EDD-33A0-A88F50494BA2" localFKIndex="B098224B-4B67-1245-492C-20C49D910CBC" name="Korisnik_dokumenta_Dokumenta_FK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-10-11 13:14:03 UTC</createdTime>
+<generatorID>7881646D-34C3-EC5F-C72E-D7B93048B416</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<referredTableLongName>Dokumenta</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A873F135-340E-6598-E803-EA2ADAD81617</referredTableID>
+<keyObject>F3CCA597-522A-83C6-4AA0-D40F03B952A3</keyObject>
+<referredKeyID>F3CCA597-522A-83C6-4AA0-D40F03B952A3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>dokument_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

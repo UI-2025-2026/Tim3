@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Korisnik_dokumenta" directorySegmentName="seg_0" id="7881646D-34C3-EC5F-C72E-D7B93048B416">
+<createdBy>srnam</createdBy>
+<createdTime>2025-10-11 12:23:51 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
+</engineerTo>
+<sourcePk>D03F7A4E-B923-D233-00E1-81B2D959AF30</sourcePk>
+<targetPk>D6344F07-DE45-A427-4CA7-DBDD3D3FC615</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>506C83C4-3068-E3BA-273C-2F6925D5F77C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>02F645D5-6EA6-9B42-0D57-DCE7985FF253</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
