@@ -51,14 +51,29 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="klijent_id" id="B780234C-CB1D-795C-2DDA-1AF7AD21B0B9">
+<createdBy>srnam</createdBy>
+<createdTime>2025-10-12 17:11:47 UTC</createdTime>
+<generatorID>4A67D7AA-FF98-4BD5-B926-62CA51AF847D</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
+</engineerTo>
+<referedAttribute>BE732D9B-8DA7-A294-FA9B-DB9331A0ADF2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="D6344F07-DE45-A427-4CA7-DBDD3D3FC615" name="Dokumenta PK">
 <createdBy>srnam</createdBy>
 <createdTime>2025-10-11 12:20:18 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
+<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

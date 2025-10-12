@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3DD2E0DD-3B87-8C12-5264-B490D76246BD" name="Log_aktivnosti_korisnika">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3DD2E0DD-3B87-8C12-5264-B490D76246BD" name="Log_aktivnosti_klijenta">
 <createdBy>srnam</createdBy>
 <createdTime>2025-10-11 13:14:03 UTC</createdTime>
 <generatorID>CB90C8B2-4EDE-DB2D-EB58-D7F570D97CF4</generatorID>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
+<ordsAlias>log_aktivnosti_korisnika</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -88,9 +89,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Korisnik_korisnik_id" id="1C29E352-E92B-9792-5A2D-AB155F9D616E">
+<Column name="Kllijent_klijent_id" id="C054F844-7FAB-C026-21DD-1B1B52F93BCE">
 <createdBy>srnam</createdBy>
-<createdTime>2025-10-11 13:14:03 UTC</createdTime>
+<createdTime>2025-10-12 16:56:00 UTC</createdTime>
 <generatorID>6F28894E-F14E-AC32-280A-CAAEE9507414</generatorID>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -100,12 +101,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="8EA232E1-E960-ACDF-85DF-113587BCBC6A" referredColumn="B8A199E2-EC61-9D0A-FB1F-3674FC2DB2AA"/>
+<colAssociation fkAssociation="857BB34F-3120-4333-521B-F283AA4F62CA" referredColumn="B8A199E2-EC61-9D0A-FB1F-3674FC2DB2AA"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="1E5F2D42-9063-0EBD-6F8A-0FB6AA95C5B2" name="Log_aktivnosti_korisnika_PK">
+<ind_PK_UK id="1E5F2D42-9063-0EBD-6F8A-0FB6AA95C5B2" name="Istorija_aktivnosti_klijenta_PK">
 <createdBy>srnam</createdBy>
 <createdTime>2025-10-11 13:14:03 UTC</createdTime>
 <generatorID>9B9ABF51-EE55-9819-4FB5-DCF515E989B6</generatorID>
@@ -117,15 +118,15 @@
 <colUsage columnID="35518F91-9F8A-7501-7072-FEAE1F4DDCFA"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="18E20EC9-BF2D-C5DC-23FE-3996C6ABD791" name="Log_aktivnosti_korisnika_Korisnik_FK">
+<ind_PK_UK id="D597E9D8-6EDD-971B-AE92-DB752082C6A2" name="Log_aktivnosti_klijenta_Kllijent_FK">
 <createdBy>srnam</createdBy>
-<createdTime>2025-10-11 13:14:03 UTC</createdTime>
+<createdTime>2025-10-12 16:56:00 UTC</createdTime>
 <generatorID>9FFF7749-FB21-FFA7-D99C-5811797CE0B2</generatorID>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="1C29E352-E92B-9792-5A2D-AB155F9D616E"/>
+<colUsage columnID="C054F844-7FAB-C026-21DD-1B1B52F93BCE"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

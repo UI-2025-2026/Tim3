@@ -98,10 +98,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Korisnik_korisnik_id" id="3D875605-E7A5-B411-1D62-93FB748A0B1D">
+<Column name="Kllijent_klijent_id" id="EDB29860-66AB-1873-3B27-6CD262CF464C">
 <createdBy>srnam</createdBy>
-<createdTime>2025-10-11 13:14:03 UTC</createdTime>
-<generatorID>F6466087-7056-3DEC-D936-572459CB5E76</generatorID>
+<createdTime>2025-10-12 17:17:33 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -110,7 +109,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="6504FF58-C0B7-260B-BB28-7B472696518F" referredColumn="B8A199E2-EC61-9D0A-FB1F-3674FC2DB2AA"/>
+<colAssociation fkAssociation="CF56F3AD-C8A4-909F-A376-CE89606A1D93" referredColumn="B8A199E2-EC61-9D0A-FB1F-3674FC2DB2AA"/>
 </associations>
 </Column>
 </columns>
@@ -127,15 +126,15 @@
 <colUsage columnID="356839F4-424F-2609-20E2-5587D5EF165A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="609A4D2B-27F5-3BBC-58A1-CBBFEE574C1A" name="Adresa_Korisnik_FK">
+<ind_PK_UK id="8B45DCD6-1F9A-E8E1-79E4-53B9010E0F5C" name="Adresa_Kllijent_FK">
 <createdBy>srnam</createdBy>
-<createdTime>2025-10-11 13:14:03 UTC</createdTime>
-<generatorID>318A6E2A-1387-DCE7-752A-0B22E8D19DD0</generatorID>
+<createdTime>2025-10-12 17:17:33 UTC</createdTime>
+<generatorID>D03F7A4E-B923-D233-00E1-81B2D959AF30</generatorID>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="3D875605-E7A5-B411-1D62-93FB748A0B1D"/>
+<colUsage columnID="EDB29860-66AB-1873-3B27-6CD262CF464C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

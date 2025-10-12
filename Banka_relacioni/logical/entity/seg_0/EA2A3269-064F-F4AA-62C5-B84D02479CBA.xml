@@ -113,10 +113,10 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="korisnik_id" id="F6466087-7056-3DEC-D936-572459CB5E76">
+<Attribute name="klijent_id" id="CD18E94E-6DDC-C244-78CC-D5C9DF6218AA">
 <createdBy>srnam</createdBy>
-<createdTime>2025-10-11 12:28:37 UTC</createdTime>
-<generatorID>318A6E2A-1387-DCE7-752A-0B22E8D19DD0</generatorID>
+<createdTime>2025-10-12 17:06:11 UTC</createdTime>
+<generatorID>4D401FB2-EC37-4E32-4685-1ECABD79055C</generatorID>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
 <item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
@@ -133,8 +133,9 @@
 <createdBy>srnam</createdBy>
 <createdTime>2025-10-11 12:24:41 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
+<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C64A9F7B-CC9E-B6C7-79D0-B511977F4939" name="Tipovi_korisnika">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C64A9F7B-CC9E-B6C7-79D0-B511977F4939" name="Kategorija_klijenta">
 <createdBy>srnam</createdBy>
 <createdTime>2025-10-11 12:31:38 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="tip_id" id="BB9AFB5F-A2F2-3A95-C2E0-B6F6216C2DCA">
+<Attribute name="kategorija_id" id="BB9AFB5F-A2F2-3A95-C2E0-B6F6216C2DCA">
 <createdBy>srnam</createdBy>
 <createdTime>2025-10-11 12:31:46 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>

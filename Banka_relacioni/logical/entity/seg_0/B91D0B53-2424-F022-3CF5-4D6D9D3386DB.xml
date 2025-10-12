@@ -88,7 +88,7 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="korisnik_id" id="C3083C55-7DF6-9480-A539-14D973533F27">
+<Attribute name="klijent_id" id="C3083C55-7DF6-9480-A539-14D973533F27">
 <createdBy>srnam</createdBy>
 <createdTime>2025-10-11 12:38:33 UTC</createdTime>
 <generatorID>F0C9A61D-407B-F9FD-A974-BD41AF32F4D1</generatorID>
@@ -108,8 +108,9 @@
 <createdBy>srnam</createdBy>
 <createdTime>2025-10-11 12:35:36 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
+<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

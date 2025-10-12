@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="506C83C4-3068-E3BA-273C-2F6925D5F77C" name="Korisnik">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="506C83C4-3068-E3BA-273C-2F6925D5F77C" name="Kllijent">
 <createdBy>srnam</createdBy>
 <createdTime>2025-10-11 12:12:47 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="korisnik_id" id="BE732D9B-8DA7-A294-FA9B-DB9331A0ADF2">
+<Attribute name="klijent_id" id="BE732D9B-8DA7-A294-FA9B-DB9331A0ADF2">
 <createdBy>srnam</createdBy>
 <createdTime>2025-10-11 12:13:17 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
@@ -88,7 +88,7 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tip_id" id="E36941C9-CC92-E9F3-28E6-64B32FE966F6">
+<Attribute name="kategorija_id" id="E36941C9-CC92-E9F3-28E6-64B32FE966F6">
 <createdBy>srnam</createdBy>
 <createdTime>2025-10-11 12:34:30 UTC</createdTime>
 <generatorID>772044E4-2F89-6303-3F25-89059875DA62</generatorID>
@@ -97,20 +97,6 @@
 <item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
 </engineerTo>
 <referedAttribute>BB9AFB5F-A2F2-3A95-C2E0-B6F6216C2DCA</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="uloga_id" id="800B7EBE-861E-3DD5-3DFE-1F3A6DC65F93">
-<createdBy>srnam</createdBy>
-<createdTime>2025-10-11 13:00:41 UTC</createdTime>
-<generatorID>58B5A63B-A4F2-E170-5B31-BC44365A4105</generatorID>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<engineerTo>
-<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
-</engineerTo>
-<referedAttribute>B52C8E41-776A-7A2D-C212-DCCB0B219043</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -136,8 +122,9 @@
 <createdBy>srnam</createdBy>
 <createdTime>2025-10-11 12:13:40 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
+<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

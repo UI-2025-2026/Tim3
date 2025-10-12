@@ -1,14 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0351470E-EA11-1EE3-DEEF-84D57609AC62" name="Tipovi_korisnika">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0351470E-EA11-1EE3-DEEF-84D57609AC62" name="Kategorija_klijenta">
 <createdBy>srnam</createdBy>
 <createdTime>2025-10-11 13:14:03 UTC</createdTime>
 <generatorID>C64A9F7B-CC9E-B6C7-79D0-B511977F4939</generatorID>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
+<ordsAlias>tipovi_korisnika</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="tip_id" id="E53E1CC7-09A0-5C58-93B4-11886E1263FE">
+<Column name="kategorija_id" id="E53E1CC7-09A0-5C58-93B4-11886E1263FE">
 <createdBy>srnam</createdBy>
 <createdTime>2025-10-11 13:14:03 UTC</createdTime>
 <generatorID>BB9AFB5F-A2F2-3A95-C2E0-B6F6216C2DCA</generatorID>
@@ -56,7 +57,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="185E3843-3DFF-155C-E400-654E68B863F3" name="Tipovi_korisnika_PK">
+<ind_PK_UK id="185E3843-3DFF-155C-E400-654E68B863F3" name="Kategorija_klijenta_PK">
 <createdBy>srnam</createdBy>
 <createdTime>2025-10-11 13:14:03 UTC</createdTime>
 <generatorID>218911FA-8CE1-A84E-2B00-23A3D07D7D96</generatorID>

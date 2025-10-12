@@ -41,6 +41,21 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Kllijent_klijent_id" id="375F6C07-EC7F-40F7-FBD0-2474A3BC4FD9">
+<createdBy>srnam</createdBy>
+<createdTime>2025-10-12 17:11:56 UTC</createdTime>
+<generatorID>B780234C-CB1D-795C-2DDA-1AF7AD21B0B9</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ADD0F69F-E439-EF65-1F9A-DC783F7CEA58" referredColumn="B8A199E2-EC61-9D0A-FB1F-3674FC2DB2AA"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="F3CCA597-522A-83C6-4AA0-D40F03B952A3" name="Dokumenta_PK">
@@ -53,6 +68,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="0FAE7082-BA61-0871-774B-4CBC60791734"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8845322D-5883-1C0F-89CD-49ED033ED1A0" name="Dokumenta_Kllijent_FK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-10-12 17:11:56 UTC</createdTime>
+<generatorID>4A67D7AA-FF98-4BD5-B926-62CA51AF847D</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="375F6C07-EC7F-40F7-FBD0-2474A3BC4FD9"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,15 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF8D18BC-30C1-5EDD-33A0-A88F50494BA2" name="Korisnik_dokumenta">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD0A68A9-560A-68E2-C82A-B1C2DDE8EF5B" name="Klijentov_kontakt">
 <createdBy>srnam</createdBy>
-<createdTime>2025-10-11 13:14:03 UTC</createdTime>
+<createdTime>2025-10-12 17:11:56 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
+<ordsAlias>relation_16</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Korisnik_korisnik_id" id="3E4A94DE-7713-DE25-E287-E682F206FDD8">
+<Column name="Kllijent_klijent_id" id="0DE5D321-CEB3-1AB6-D29C-3F29D0C85800">
 <createdBy>srnam</createdBy>
-<createdTime>2025-10-11 13:14:03 UTC</createdTime>
+<createdTime>2025-10-12 17:11:56 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,12 +19,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="3EFFC3B9-1DE8-A3B1-11E5-09394E288F5F" referredColumn="B8A199E2-EC61-9D0A-FB1F-3674FC2DB2AA"/>
+<colAssociation fkAssociation="BCCAF71F-2F8B-A864-685C-2BC6DEFBF9FB" referredColumn="B8A199E2-EC61-9D0A-FB1F-3674FC2DB2AA"/>
 </associations>
 </Column>
-<Column name="Dokumenta_dokument_id" id="25D2BE53-C51B-ECBA-E2AA-549FEE031133">
+<Column name="Kontakt_kontakt_id" id="CD2EFFFB-7BE1-F1DD-0090-F0CEDF727855">
 <createdBy>srnam</createdBy>
-<createdTime>2025-10-11 13:14:03 UTC</createdTime>
+<createdTime>2025-10-12 17:11:56 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,43 +33,43 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="B0E91C36-BE32-E8BC-8359-BCDF4946AC0B" referredColumn="0FAE7082-BA61-0871-774B-4CBC60791734"/>
+<colAssociation fkAssociation="1F5780E3-7952-B4C0-B379-6245B7E72BD0" referredColumn="D3F640C6-0056-AEB4-416A-5B0DDEBDD80B"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="09D7AB09-C7EB-63FA-E842-F2B6D9F69F66" name="Korisnik_dokumenta_PK">
+<ind_PK_UK id="DA9E7D49-0483-35EF-B352-EBB86C70CC8E" name="Klijentov_kontakt_PK">
 <createdBy>srnam</createdBy>
-<createdTime>2025-10-11 13:14:03 UTC</createdTime>
+<createdTime>2025-10-12 17:11:56 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="3E4A94DE-7713-DE25-E287-E682F206FDD8"/>
-<colUsage columnID="25D2BE53-C51B-ECBA-E2AA-549FEE031133"/>
+<colUsage columnID="0DE5D321-CEB3-1AB6-D29C-3F29D0C85800"/>
+<colUsage columnID="CD2EFFFB-7BE1-F1DD-0090-F0CEDF727855"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="DAB86860-6165-9E11-ABF5-95C9C524AA87" name="Korisnik_dokumenta_Korisnik_FK">
+<ind_PK_UK id="12237E5D-8A11-7E05-3FD1-E31E64E57C51" name="Kontakt_Kllijent_FK">
 <createdBy>srnam</createdBy>
-<createdTime>2025-10-11 13:14:03 UTC</createdTime>
-<generatorID>7881646D-34C3-EC5F-C72E-D7B93048B416</generatorID>
+<createdTime>2025-10-12 17:11:56 UTC</createdTime>
+<generatorID>CF8B766A-AD5A-B6E7-C7F1-039E303267BA</generatorID>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="3E4A94DE-7713-DE25-E287-E682F206FDD8"/>
+<colUsage columnID="0DE5D321-CEB3-1AB6-D29C-3F29D0C85800"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B098224B-4B67-1245-492C-20C49D910CBC" name="Korisnik_dokumenta_Dokumenta_FK">
+<ind_PK_UK id="9ACCDDE8-9CF9-87C2-DB12-E2EF1500B878" name="Klijent_Kontakt_FK">
 <createdBy>srnam</createdBy>
-<createdTime>2025-10-11 13:14:03 UTC</createdTime>
-<generatorID>7881646D-34C3-EC5F-C72E-D7B93048B416</generatorID>
+<createdTime>2025-10-12 17:11:56 UTC</createdTime>
+<generatorID>CF8B766A-AD5A-B6E7-C7F1-039E303267BA</generatorID>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="25D2BE53-C51B-ECBA-E2AA-549FEE031133"/>
+<colUsage columnID="CD2EFFFB-7BE1-F1DD-0090-F0CEDF727855"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

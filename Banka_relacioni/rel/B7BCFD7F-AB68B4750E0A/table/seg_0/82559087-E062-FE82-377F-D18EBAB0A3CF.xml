@@ -75,7 +75,7 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Korisnik_korisnik_id" id="B4CED452-BFFA-48DC-F12F-5CC73E2086A9">
+<Column name="Kllijent_klijent_id" id="B4CED452-BFFA-48DC-F12F-5CC73E2086A9">
 <createdBy>srnam</createdBy>
 <createdTime>2025-10-11 13:14:03 UTC</createdTime>
 <generatorID>C3083C55-7DF6-9480-A539-14D973533F27</generatorID>
@@ -115,7 +115,7 @@
 <colUsage columnID="B4CED452-BFFA-48DC-F12F-5CC73E2086A9"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="001CAA10-0D92-2260-4D4C-069907CA4212" name="Podaci_za_prijavu_Korisnik_FK">
+<ind_PK_UK id="001CAA10-0D92-2260-4D4C-069907CA4212" name="Podaci_za_prijavu_Kllijent_FK">
 <createdBy>srnam</createdBy>
 <createdTime>2025-10-11 13:14:03 UTC</createdTime>
 <generatorID>F0C9A61D-407B-F9FD-A974-BD41AF32F4D1</generatorID>
