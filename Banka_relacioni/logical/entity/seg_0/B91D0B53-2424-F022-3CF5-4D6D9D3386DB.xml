@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B91D0B53-2424-F022-3CF5-4D6D9D3386DB" name="Podaci_za_prijavu">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B91D0B53-2424-F022-3CF5-4D6D9D3386DB" name="Nalog">
 <createdBy>srnam</createdBy>
 <createdTime>2025-10-11 12:35:14 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="pp_id" id="4DDC5FC4-EB9B-467F-7F0C-5E1A53D8CB79">
+<Attribute name="nalog_id" id="4DDC5FC4-EB9B-467F-7F0C-5E1A53D8CB79">
 <createdBy>srnam</createdBy>
 <createdTime>2025-10-11 12:35:25 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
@@ -51,7 +51,7 @@
 <logicalDatatype>LOGDT025</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="sifra" id="3A5019AB-8BF5-6C32-0F31-15552233CA6E">
+<Attribute name="hash_sifra" id="3A5019AB-8BF5-6C32-0F31-15552233CA6E">
 <createdBy>srnam</createdBy>
 <createdTime>2025-10-11 12:36:22 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
@@ -88,10 +88,10 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="klijent_id" id="C3083C55-7DF6-9480-A539-14D973533F27">
+<Attribute name="klijent_id" id="935B9272-7625-6032-4CD3-800571CADD27">
 <createdBy>srnam</createdBy>
-<createdTime>2025-10-11 12:38:33 UTC</createdTime>
-<generatorID>F0C9A61D-407B-F9FD-A974-BD41AF32F4D1</generatorID>
+<createdTime>2025-10-16 16:46:23 UTC</createdTime>
+<generatorID>9769AA86-C089-0155-6ABA-352E725AB651</generatorID>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
 <item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>

@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Status_klijenta" directorySegmentName="seg_0" id="98193935-780C-ADE3-22F1-EC20C49EDA1F">
+<createdBy>srnam</createdBy>
+<createdTime>2025-10-16 16:53:04 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>EE0C083F-8FDF-FF4C-D0C8-CC68FE705CBE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>506C83C4-3068-E3BA-273C-2F6925D5F77C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="datum_od" id="B8144AF4-BD04-FB71-BF5E-00F68DB2642C">
+<createdBy>srnam</createdBy>
+<createdTime>2025-10-16 16:54:12 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="datum_do" id="3488783D-59D0-5642-0D5F-AF5651722920">
+<createdBy>srnam</createdBy>
+<createdTime>2025-10-16 16:54:37 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

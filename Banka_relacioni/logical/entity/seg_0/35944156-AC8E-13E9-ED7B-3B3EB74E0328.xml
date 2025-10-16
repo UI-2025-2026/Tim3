@@ -27,6 +27,19 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="trenutni_kontakt" id="6B7DBBC3-20D0-F9EB-FA82-E4E329D2084A">
+<createdBy>srnam</createdBy>
+<createdTime>2025-10-16 16:27:59 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="telefon" id="0B587BD0-7FF3-7085-F68C-DC4A7C0DE898">
 <createdBy>srnam</createdBy>
 <createdTime>2025-10-11 12:17:54 UTC</createdTime>
@@ -39,13 +52,27 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="vreme_kreiranja" id="55658CB9-90DB-3030-DC11-3FC60F5CFE32">
+<Attribute name="datum_od" id="B23D71FE-6CF9-6871-A67E-DE312F115A22">
 <createdBy>srnam</createdBy>
-<createdTime>2025-10-11 12:18:10 UTC</createdTime>
+<createdTime>2025-10-16 16:27:20 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
 <item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_do" id="5E727D4B-2554-30DE-E53F-B8B25439BE6A">
+<createdBy>srnam</createdBy>
+<createdTime>2025-10-16 16:27:44 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>

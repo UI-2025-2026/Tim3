@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D424337C-F959-6E7F-5CDC-8B0B9548A114" containerWithKeyObject="1DC39555-59B0-4713-9CF0-A818EBDC8648" localFKIndex="B04B9BA9-3E4F-5048-69DC-460228CFF325" name="Klijent_Zaposlenje_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1EB1FF27-CF17-A4A6-CFD0-9838B58C248A" containerWithKeyObject="D66610A2-7A2B-BB8D-EBD6-98FB2C839B07" localFKIndex="EA23E892-69B9-833C-3852-1F96FC331D20" name="Zaposlenje_Poslodavac_FK">
 <createdBy>srnam</createdBy>
-<createdTime>2025-10-12 16:48:20 UTC</createdTime>
-<generatorID>926CFDA8-F424-A04E-057D-45410BA356C2</generatorID>
+<createdTime>2025-10-16 16:57:10 UTC</createdTime>
+<generatorID>F694E616-0298-90F7-6B42-60E25C26AE98</generatorID>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
-<referredTableLongName>Zaposlenje</referredTableLongName>
+<referredTableLongName>Poslodavac</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>71967947-25C3-254F-7B89-6D7026CDF4F1</referredTableID>
 <keyObject>6E313C2F-920D-E0AA-066B-63EF7FAA8646</keyObject>
 <referredKeyID>6E313C2F-920D-E0AA-066B-63EF7FAA8646</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>zaposlenje_id</refColNames>
+<refColNames>poslodavac_id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

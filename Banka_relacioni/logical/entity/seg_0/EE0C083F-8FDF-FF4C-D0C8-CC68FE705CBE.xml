@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C64A9F7B-CC9E-B6C7-79D0-B511977F4939" name="Kategorija_klijenta">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EE0C083F-8FDF-FF4C-D0C8-CC68FE705CBE" name="Kategorija">
 <createdBy>srnam</createdBy>
-<createdTime>2025-10-11 12:31:38 UTC</createdTime>
+<createdTime>2025-10-16 16:50:38 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
 <item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="kategorija_id" id="BB9AFB5F-A2F2-3A95-C2E0-B6F6216C2DCA">
+<Attribute name="kategorija_id" id="1129A880-DFE8-8762-919A-C680FAA862A5">
 <createdBy>srnam</createdBy>
-<createdTime>2025-10-11 12:31:46 UTC</createdTime>
+<createdTime>2025-10-16 16:51:20 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
 <item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="naziv" id="C85F3FC5-73D3-65A5-5DEB-BC603C7F6084">
+<Attribute name="naziv" id="4C6D1FAB-8222-8B7D-A04C-4883451EC850">
 <createdBy>srnam</createdBy>
-<createdTime>2025-10-11 12:32:02 UTC</createdTime>
+<createdTime>2025-10-16 16:51:37 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
 <item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
@@ -39,9 +39,9 @@
 <logicalDatatype>LOGDT025</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="opis" id="C0B12C72-1791-D3B6-8E46-D4514596042F">
+<Attribute name="opis" id="22D7824F-6EF6-F526-007F-C00B8306926D">
 <createdBy>srnam</createdBy>
-<createdTime>2025-10-11 12:32:43 UTC</createdTime>
+<createdTime>2025-10-16 16:52:21 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
 <item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
@@ -49,17 +49,16 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<logicalDatatype>LOGDT025</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="vreme_kreiranja" id="A3431E72-5728-9240-9F36-24BBE15DCF44">
+<Attribute name="vreme_kreiranja" id="8F98B268-D594-F1AB-5B2B-74DE81BD1945">
 <createdBy>srnam</createdBy>
-<createdTime>2025-10-11 12:33:06 UTC</createdTime>
+<createdTime>2025-10-16 16:52:35 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
 <item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
@@ -67,16 +66,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="218911FA-8CE1-A84E-2B00-23A3D07D7D96" name="Tip_korisnika PK">
+<identifier id="595A1BCF-955F-B699-76A9-C7096AC86733" name="Kategorija PK">
 <createdBy>srnam</createdBy>
-<createdTime>2025-10-11 12:31:53 UTC</createdTime>
+<createdTime>2025-10-16 16:52:11 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
 <item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>BB9AFB5F-A2F2-3A95-C2E0-B6F6216C2DCA</attributeRef>
+<attributeRef>1129A880-DFE8-8762-919A-C680FAA862A5</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

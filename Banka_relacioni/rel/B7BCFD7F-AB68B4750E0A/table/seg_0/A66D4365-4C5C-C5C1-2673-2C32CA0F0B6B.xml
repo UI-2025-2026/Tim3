@@ -63,10 +63,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Kllijent_klijent_id" id="C04DBC47-61B7-8933-6E67-D32EE52C522E">
+<Column name="Nalog_nalog_id" id="002D02C4-8E59-F033-4D7A-562B7FFD850F">
 <createdBy>srnam</createdBy>
-<createdTime>2025-10-12 16:56:00 UTC</createdTime>
-<generatorID>30890B3A-6F41-8813-3FFC-DDD29A9AD58A</generatorID>
+<createdTime>2025-10-16 16:57:10 UTC</createdTime>
+<generatorID>321E7A35-B2DF-1C61-9D5D-779E0D95E9F0</generatorID>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -75,7 +75,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="D1FEA9A3-45CE-E762-396F-662BC71B0946" referredColumn="B8A199E2-EC61-9D0A-FB1F-3674FC2DB2AA"/>
+<colAssociation fkAssociation="A5D489D7-10D3-B243-C4B5-039E3F2C1ECE" referredColumn="C69EA1F7-DADD-0570-DF3E-D72C74EDB986"/>
 </associations>
 </Column>
 </columns>
@@ -92,15 +92,15 @@
 <colUsage columnID="8539212E-04A3-6415-8D2D-58054DCB1850"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4E863567-CFED-A90B-FD1E-11B643C30B0E" name="Bezbednosna_pitanja_Kllijent_FK">
+<ind_PK_UK id="2688004D-EFF9-1675-0926-2DA894092E79" name="Bezbednosna_pitanja_Nalog_FK">
 <createdBy>srnam</createdBy>
-<createdTime>2025-10-12 16:56:00 UTC</createdTime>
-<generatorID>D3F50E81-712B-190C-1B4C-E06F71A76668</generatorID>
+<createdTime>2025-10-16 16:57:10 UTC</createdTime>
+<generatorID>585AA82F-B10F-AD2D-1606-0BF71F36D66C</generatorID>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C04DBC47-61B7-8933-6E67-D32EE52C522E"/>
+<colUsage columnID="002D02C4-8E59-F033-4D7A-562B7FFD850F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

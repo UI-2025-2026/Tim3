@@ -1,14 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="82559087-E062-FE82-377F-D18EBAB0A3CF" name="Podaci_za_prijavu">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="82559087-E062-FE82-377F-D18EBAB0A3CF" name="Nalog">
 <createdBy>srnam</createdBy>
 <createdTime>2025-10-11 13:14:03 UTC</createdTime>
 <generatorID>B91D0B53-2424-F022-3CF5-4D6D9D3386DB</generatorID>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
+<ordsAlias>podaci_za_prijavu</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="pp_id" id="C69EA1F7-DADD-0570-DF3E-D72C74EDB986">
+<Column name="nalog_id" id="C69EA1F7-DADD-0570-DF3E-D72C74EDB986">
 <createdBy>srnam</createdBy>
 <createdTime>2025-10-11 13:14:03 UTC</createdTime>
 <generatorID>4DDC5FC4-EB9B-467F-7F0C-5E1A53D8CB79</generatorID>
@@ -41,7 +42,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="sifra" id="642DAE71-AD0E-B97A-01FC-C0610CA0F986">
+<Column name="hash_sifra" id="642DAE71-AD0E-B97A-01FC-C0610CA0F986">
 <createdBy>srnam</createdBy>
 <createdTime>2025-10-11 13:14:03 UTC</createdTime>
 <generatorID>3A5019AB-8BF5-6C32-0F31-15552233CA6E</generatorID>
@@ -75,10 +76,10 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Kllijent_klijent_id" id="B4CED452-BFFA-48DC-F12F-5CC73E2086A9">
+<Column name="Kllijent_klijent_id2" id="527F0D12-3B04-EE0D-4ADD-08043BBB748D">
 <createdBy>srnam</createdBy>
-<createdTime>2025-10-11 13:14:03 UTC</createdTime>
-<generatorID>C3083C55-7DF6-9480-A539-14D973533F27</generatorID>
+<createdTime>2025-10-16 16:57:10 UTC</createdTime>
+<generatorID>935B9272-7625-6032-4CD3-800571CADD27</generatorID>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -87,12 +88,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="E966F0A9-52F8-266D-0F51-E360412FD1DD" referredColumn="B8A199E2-EC61-9D0A-FB1F-3674FC2DB2AA"/>
+<colAssociation fkAssociation="84862328-EE9F-E971-0502-5AE4EB2F37E8" referredColumn="B8A199E2-EC61-9D0A-FB1F-3674FC2DB2AA"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="18A44D63-ED3B-1BCB-1C4B-4699D0A91282" name="Podaci_za_prijavu_PK">
+<ind_PK_UK id="18A44D63-ED3B-1BCB-1C4B-4699D0A91282" name="Nalog_PK">
 <createdBy>srnam</createdBy>
 <createdTime>2025-10-11 13:14:03 UTC</createdTime>
 <generatorID>DCC1679C-015D-223A-3184-895DC6DDC93E</generatorID>
@@ -111,19 +112,16 @@
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <relationGeneratorID>F0C9A61D-407B-F9FD-A974-BD41AF32F4D1</relationGeneratorID>
-<indexColumnUsage>
-<colUsage columnID="B4CED452-BFFA-48DC-F12F-5CC73E2086A9"/>
-</indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="001CAA10-0D92-2260-4D4C-069907CA4212" name="Podaci_za_prijavu_Kllijent_FK">
+<ind_PK_UK id="37938302-4216-1917-C89E-1C6C776CE7A6" name="Nalog_Kllijent_FK">
 <createdBy>srnam</createdBy>
-<createdTime>2025-10-11 13:14:03 UTC</createdTime>
-<generatorID>F0C9A61D-407B-F9FD-A974-BD41AF32F4D1</generatorID>
+<createdTime>2025-10-16 16:57:10 UTC</createdTime>
+<generatorID>9769AA86-C089-0155-6ABA-352E725AB651</generatorID>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B4CED452-BFFA-48DC-F12F-5CC73E2086A9"/>
+<colUsage columnID="527F0D12-3B04-EE0D-4ADD-08043BBB748D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

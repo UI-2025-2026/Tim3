@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="36B9B3C0-12C6-95B6-372F-0C141848030D" name="Fizička_lica">
+<createdBy>srnam</createdBy>
+<createdTime>2025-10-16 16:57:10 UTC</createdTime>
+<generatorID>0AFD495D-385E-6A34-6D15-1B6D76A660E2</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fizicko_lice_id" id="F44ABB05-9200-BCFF-A0B7-DB3D8F0CBA9D">
+<createdBy>srnam</createdBy>
+<createdTime>2025-10-16 16:57:10 UTC</createdTime>
+<generatorID>B62D422E-2ADE-0311-15CB-A7C3DED8215E</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E2A2779D-1EDE-54BE-24AE-54CDECB5D821" name="Fizička_lica_PK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-10-16 16:57:10 UTC</createdTime>
+<generatorID>ABF037DF-FFF5-5F76-D2D2-0409ED5DB6BD</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F44ABB05-9200-BCFF-A0B7-DB3D8F0CBA9D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,16 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD0A68A9-560A-68E2-C82A-B1C2DDE8EF5B" name="Istorija_kontakta">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D66610A2-7A2B-BB8D-EBD6-98FB2C839B07" name="Zaposlenje">
 <createdBy>srnam</createdBy>
-<createdTime>2025-10-12 17:11:56 UTC</createdTime>
+<createdTime>2025-10-16 16:57:10 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
-<ordsAlias>relation_16</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Kllijent_klijent_id" id="0DE5D321-CEB3-1AB6-D29C-3F29D0C85800">
+<Column name="Kllijent_klijent_id" id="CD7C7344-96C2-7E4C-449D-72F521522621">
 <createdBy>srnam</createdBy>
-<createdTime>2025-10-12 17:11:56 UTC</createdTime>
+<createdTime>2025-10-16 16:57:10 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,12 +18,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="BCCAF71F-2F8B-A864-685C-2BC6DEFBF9FB" referredColumn="B8A199E2-EC61-9D0A-FB1F-3674FC2DB2AA"/>
+<colAssociation fkAssociation="AAE9C542-9552-C555-D98D-F2044E623398" referredColumn="B8A199E2-EC61-9D0A-FB1F-3674FC2DB2AA"/>
 </associations>
 </Column>
-<Column name="Kontakt_kontakt_id" id="CD2EFFFB-7BE1-F1DD-0090-F0CEDF727855">
+<Column name="Poslodavac_poslodavac_id" id="A59098F5-1D70-1449-2330-F1C5A9B4FB8E">
 <createdBy>srnam</createdBy>
-<createdTime>2025-10-12 17:11:56 UTC</createdTime>
+<createdTime>2025-10-16 16:57:10 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,43 +32,43 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="1F5780E3-7952-B4C0-B379-6245B7E72BD0" referredColumn="D3F640C6-0056-AEB4-416A-5B0DDEBDD80B"/>
+<colAssociation fkAssociation="1EB1FF27-CF17-A4A6-CFD0-9838B58C248A" referredColumn="06B51FF1-6352-2F5D-F6FA-139BAB573715"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="DA9E7D49-0483-35EF-B352-EBB86C70CC8E" name="Klijentov_kontakt_PK">
+<ind_PK_UK id="E1A0F635-D53D-4788-405B-6243F1F00F2D" name="Zaposlenje_PKv1">
 <createdBy>srnam</createdBy>
-<createdTime>2025-10-12 17:11:56 UTC</createdTime>
+<createdTime>2025-10-16 16:57:10 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="0DE5D321-CEB3-1AB6-D29C-3F29D0C85800"/>
-<colUsage columnID="CD2EFFFB-7BE1-F1DD-0090-F0CEDF727855"/>
+<colUsage columnID="CD7C7344-96C2-7E4C-449D-72F521522621"/>
+<colUsage columnID="A59098F5-1D70-1449-2330-F1C5A9B4FB8E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="12237E5D-8A11-7E05-3FD1-E31E64E57C51" name="Kontakt_Kllijent_FK">
+<ind_PK_UK id="B0E8BB6A-A49D-4133-5E17-BAFB844D3E10" name="Zaposlenje_Kllijent_FK">
 <createdBy>srnam</createdBy>
-<createdTime>2025-10-12 17:11:56 UTC</createdTime>
-<generatorID>CF8B766A-AD5A-B6E7-C7F1-039E303267BA</generatorID>
+<createdTime>2025-10-16 16:57:10 UTC</createdTime>
+<generatorID>F694E616-0298-90F7-6B42-60E25C26AE98</generatorID>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="0DE5D321-CEB3-1AB6-D29C-3F29D0C85800"/>
+<colUsage columnID="CD7C7344-96C2-7E4C-449D-72F521522621"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="9ACCDDE8-9CF9-87C2-DB12-E2EF1500B878" name="Klijent_Kontakt_FK">
+<ind_PK_UK id="EA23E892-69B9-833C-3852-1F96FC331D20" name="Zaposlenje_Poslodavac_FK">
 <createdBy>srnam</createdBy>
-<createdTime>2025-10-12 17:11:56 UTC</createdTime>
-<generatorID>CF8B766A-AD5A-B6E7-C7F1-039E303267BA</generatorID>
+<createdTime>2025-10-16 16:57:10 UTC</createdTime>
+<generatorID>F694E616-0298-90F7-6B42-60E25C26AE98</generatorID>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="CD2EFFFB-7BE1-F1DD-0090-F0CEDF727855"/>
+<colUsage columnID="A59098F5-1D70-1449-2330-F1C5A9B4FB8E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

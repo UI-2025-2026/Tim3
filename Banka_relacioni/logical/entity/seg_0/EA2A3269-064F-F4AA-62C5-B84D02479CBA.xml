@@ -88,19 +88,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tip" id="334B7290-36A1-68DF-70D9-0F2DA03969AC">
-<createdBy>srnam</createdBy>
-<createdTime>2025-10-11 12:25:53 UTC</createdTime>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<engineerTo>
-<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="vreme_kreiranja" id="AC01936F-B547-96A1-7E87-18F00841EF6E">
 <createdBy>srnam</createdBy>
 <createdTime>2025-10-11 12:26:29 UTC</createdTime>
@@ -111,20 +98,6 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="klijent_id" id="CD18E94E-6DDC-C244-78CC-D5C9DF6218AA">
-<createdBy>srnam</createdBy>
-<createdTime>2025-10-12 17:06:11 UTC</createdTime>
-<generatorID>4D401FB2-EC37-4E32-4685-1ECABD79055C</generatorID>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<engineerTo>
-<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
-</engineerTo>
-<referedAttribute>BE732D9B-8DA7-A294-FA9B-DB9331A0ADF2</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

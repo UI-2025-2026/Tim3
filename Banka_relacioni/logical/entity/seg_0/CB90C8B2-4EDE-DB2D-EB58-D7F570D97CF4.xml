@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CB90C8B2-4EDE-DB2D-EB58-D7F570D97CF4" name="Log_aktivnosti_klijenta">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CB90C8B2-4EDE-DB2D-EB58-D7F570D97CF4" name="Onlajn_aktivnosti_klijenta">
 <createdBy>srnam</createdBy>
 <createdTime>2025-10-11 12:40:03 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="log_id" id="A827CFE9-F868-E63A-2C9E-480B22952971">
+<Attribute name="online_log_id" id="A827CFE9-F868-E63A-2C9E-480B22952971">
 <createdBy>srnam</createdBy>
 <createdTime>2025-10-11 12:40:22 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
@@ -25,18 +25,6 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="lokacija" id="C2FE1F8F-D906-9D65-96A6-A31E75697698">
-<createdBy>srnam</createdBy>
-<createdTime>2025-10-11 12:40:36 UTC</createdTime>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<engineerTo>
-<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ip_adresa" id="68F9BF1C-C735-DC24-7574-2BEE4F03D23B">
@@ -102,10 +90,10 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="klijent_id" id="6F28894E-F14E-AC32-280A-CAAEE9507414">
+<Attribute name="klijent_id" id="D6C3E594-855E-2A54-1725-285221006696">
 <createdBy>srnam</createdBy>
-<createdTime>2025-10-11 12:44:07 UTC</createdTime>
-<generatorID>9FFF7749-FB21-FFA7-D99C-5811797CE0B2</generatorID>
+<createdTime>2025-10-16 16:47:16 UTC</createdTime>
+<generatorID>C939060A-BEBE-4612-2060-C20B2F6EEBB5</generatorID>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
 <item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>

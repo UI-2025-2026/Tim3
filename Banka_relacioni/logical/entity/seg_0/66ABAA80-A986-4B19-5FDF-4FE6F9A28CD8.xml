@@ -75,15 +75,15 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="klijent_id" id="30890B3A-6F41-8813-3FFC-DDD29A9AD58A">
+<Attribute name="nalog_id" id="321E7A35-B2DF-1C61-9D5D-779E0D95E9F0">
 <createdBy>srnam</createdBy>
-<createdTime>2025-10-11 13:13:24 UTC</createdTime>
-<generatorID>D3F50E81-712B-190C-1B4C-E06F71A76668</generatorID>
+<createdTime>2025-10-16 16:46:50 UTC</createdTime>
+<generatorID>585AA82F-B10F-AD2D-1606-0BF71F36D66C</generatorID>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
 <item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
 </engineerTo>
-<referedAttribute>BE732D9B-8DA7-A294-FA9B-DB9331A0ADF2</referedAttribute>
+<referedAttribute>4DDC5FC4-EB9B-467F-7F0C-5E1A53D8CB79</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

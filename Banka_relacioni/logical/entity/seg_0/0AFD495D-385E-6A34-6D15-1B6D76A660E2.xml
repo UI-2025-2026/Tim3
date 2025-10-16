@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0AFD495D-385E-6A34-6D15-1B6D76A660E2" name="Fizička lica">
+<createdBy>srnam</createdBy>
+<createdTime>2025-10-16 16:55:19 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fizicko_lice_id" id="B62D422E-2ADE-0311-15CB-A7C3DED8215E">
+<createdBy>srnam</createdBy>
+<createdTime>2025-10-16 16:55:32 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ABF037DF-FFF5-5F76-D2D2-0409ED5DB6BD" name="Fizička lica PK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-10-16 16:56:00 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B62D422E-2ADE-0311-15CB-A7C3DED8215E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

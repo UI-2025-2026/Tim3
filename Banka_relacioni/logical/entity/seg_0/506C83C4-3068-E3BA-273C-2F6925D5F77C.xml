@@ -88,34 +88,6 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="kategorija_id" id="E36941C9-CC92-E9F3-28E6-64B32FE966F6">
-<createdBy>srnam</createdBy>
-<createdTime>2025-10-11 12:34:30 UTC</createdTime>
-<generatorID>772044E4-2F89-6303-3F25-89059875DA62</generatorID>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<engineerTo>
-<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
-</engineerTo>
-<referedAttribute>BB9AFB5F-A2F2-3A95-C2E0-B6F6216C2DCA</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="zaposlenje_id" id="82BC1431-C384-0D37-B149-4909EB43DE1C">
-<createdBy>srnam</createdBy>
-<createdTime>2025-10-11 13:01:01 UTC</createdTime>
-<generatorID>8885B8B6-CDDB-46F0-C5E7-BCFC687AF8C9</generatorID>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<engineerTo>
-<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
-</engineerTo>
-<referedAttribute>DB4C6D87-AE05-CEFE-8DAF-A9AC653BB6CC</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="D03F7A4E-B923-D233-00E1-81B2D959AF30" name="Korisnik PK">
