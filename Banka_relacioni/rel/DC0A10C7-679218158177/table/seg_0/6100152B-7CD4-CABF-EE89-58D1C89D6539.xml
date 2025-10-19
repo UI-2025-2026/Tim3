@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6100152B-7CD4-CABF-EE89-58D1C89D6539" name="Naknada_kartica">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:32:08 UTC</createdTime>
+<generatorID>7B76E8F9-9773-04C1-93C3-98A48E60CB5C</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="naknada_id" id="89ED0656-28D4-BE6F-E85A-1D4685EB28D3">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:32:08 UTC</createdTime>
+<generatorID>57510319-77E3-7092-4F58-152D381D834E</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kartica_id" id="532F4DA0-A6D1-DE0E-8EE0-77BA09A07187">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:32:08 UTC</createdTime>
+<generatorID>0E4F625E-6CA2-8D21-A1F0-437D8452706B</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis" id="821B2CEC-5EE1-93E9-FBA2-191899D5B872">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:32:08 UTC</createdTime>
+<generatorID>8B142983-0048-2B2E-A556-5BDF6905E9B0</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="iznos" id="9BD2F5F1-E5C1-F493-05E2-536DB6E97638">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:32:08 UTC</createdTime>
+<generatorID>D876AD4F-4093-DCF0-6B57-97A7A125DF30</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_naplate" id="013B2057-3BC2-1746-B7BF-2A6366B431EB">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:32:08 UTC</createdTime>
+<generatorID>37C88384-7C86-1531-F405-B1BD9EA21E4E</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kartica_kartica_id" id="99EFE8BE-0A19-E3A7-B3A4-7F680C55D8C2">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:32:08 UTC</createdTime>
+<generatorID>5E3DB1B2-6DBE-EFC3-D429-F6E8977746BA</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="827603F5-83D0-7B2F-772D-033404B43D3E" referredColumn="1F60D926-250B-1FAA-BC0F-A39BBA9E8369"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9CECFEC0-20C7-EC01-C7FC-FFBE272494E0" name="Naknada_kartica_PK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:32:08 UTC</createdTime>
+<generatorID>A7D7035F-20DD-CAF4-E17D-AFFD08752729</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89ED0656-28D4-BE6F-E85A-1D4685EB28D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="843176A7-12CE-B53D-D70A-A6647EFEEEE7" name="Naknada_kartica_Kartica_FK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:32:08 UTC</createdTime>
+<generatorID>99A7E8C8-60B2-0704-FAD2-F1CE2D143499</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99EFE8BE-0A19-E3A7-B3A4-7F680C55D8C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

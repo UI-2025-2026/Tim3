@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6738FFD2-B541-0A7E-F4C9-50854FF0DAE5" name="Zemlje">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:32:08 UTC</createdTime>
+<generatorID>9BF773DE-1AFF-5DDC-90EC-4724AAE22F63</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="zemlja_id" id="2024E973-1B4B-631C-F668-6D8714B334A7">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:32:08 UTC</createdTime>
+<generatorID>4A1DBD84-F513-1C72-1119-F369F15B0E08</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="99B0FDCB-8CEF-6BB4-1670-477A21C32E2F">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:32:08 UTC</createdTime>
+<generatorID>03282099-67C2-33F6-0213-6C4FEC4780D2</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zastava" id="5F95EC1A-2BD6-AFB2-5A87-57A32096ED0C">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:32:08 UTC</createdTime>
+<generatorID>24AF196E-2F7B-AB92-11F8-4A55214F20A8</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Valute_valuta_id" id="008C1135-88FB-42A6-8530-96F1C101315F">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:32:08 UTC</createdTime>
+<generatorID>4A19072B-9682-053C-5868-EB5078C4F2D5</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="69B5AFE0-551D-4DA9-1548-A57CDB9F17C8" referredColumn="A72CB1CD-26FC-6532-16F3-F1FA3FC5D24B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D2C568E7-D437-BA1D-039E-40B36CF9B475" name="Zemlje_PK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:32:08 UTC</createdTime>
+<generatorID>5067DD4C-95E0-E260-8505-126B31C3B985</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2024E973-1B4B-631C-F668-6D8714B334A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1583F3E-A4F8-8119-E6BA-F36F45787F90" name="Zemlje__IDX">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:32:08 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F8A13A06-C698-21B2-ACA4-D4E006A4C3A4</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="008C1135-88FB-42A6-8530-96F1C101315F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62C3D7C4-4C69-3B09-4026-F2EF2594D136" name="Zemlje_Valute_FK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:32:08 UTC</createdTime>
+<generatorID>F8A13A06-C698-21B2-ACA4-D4E006A4C3A4</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="008C1135-88FB-42A6-8530-96F1C101315F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

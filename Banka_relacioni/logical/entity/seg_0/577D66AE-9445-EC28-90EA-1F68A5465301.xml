@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="577D66AE-9445-EC28-90EA-1F68A5465301" name="Tip_kartice">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:17:49 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tip_id" id="D3018BE8-5420-E095-FA2B-510CA3FE6D79">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:17:55 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv" id="02B73359-5855-BBAD-C14D-15C51C9795ED">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:17:55 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="opis" id="AC436462-5F59-05B2-AC0F-41FD7ED1F7E5">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:17:55 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kartica_id" id="FD27A271-D767-BC2B-1CD3-35963A48F9A0">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:19:18 UTC</createdTime>
+<generatorID>72FCBFF1-78CB-E3FB-D66A-46402CA6E889</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
+</engineerTo>
+<referedAttribute>B6A73DE5-524C-CCD3-FD67-16572A67EFF4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="681531B4-C4B2-4E00-577A-667DC18EA80A" name="Tip_kartice PK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:18:05 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D3018BE8-5420-E095-FA2B-510CA3FE6D79</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

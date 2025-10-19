@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="racun_valute" directorySegmentName="seg_0" id="BDFAA506-11CD-38A9-AA8D-3A900438237C">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:16:40 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
+</engineerTo>
+<sourcePk>F998BD1E-CA52-C9FE-F486-77145FA730C7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E4BCDAD3-6E4D-3390-7B26-F82FB14DC406</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C4D2EAFE-7523-B952-7E93-0972529F2A41</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

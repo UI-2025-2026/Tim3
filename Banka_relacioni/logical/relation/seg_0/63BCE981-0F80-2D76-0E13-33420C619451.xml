@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pravno_lice_pl_podaci" directorySegmentName="seg_0" id="63BCE981-0F80-2D76-0E13-33420C619451">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 09:50:42 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
+</engineerTo>
+<sourcePk>4CAD0B92-8649-8D8D-0E16-97C23A3600E7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>48AC375B-9BAE-B1E3-0AB6-A4884FF9DCB4</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>0645C563-9100-7CDC-FA9D-D4908C840077</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

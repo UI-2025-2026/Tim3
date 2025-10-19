@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0645C563-9100-7CDC-FA9D-D4908C840077" name="Podaci_o_pravnom_licu">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 09:47:44 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pravno_lice_id" id="533AEEE1-4B25-29CF-A631-7CA8DA629D46">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 09:48:06 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pib" id="FEFDA288-4D32-3D9D-8124-5FEE6574ED7F">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 09:47:56 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="maticni_broj" id="64C796B8-806A-A6D7-DB1D-951AEE01148B">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 09:48:38 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pravno_lice_id1" id="5FB04633-A25A-17A9-05E5-BDBFF6C1EC75">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 09:50:42 UTC</createdTime>
+<generatorID>63BCE981-0F80-2D76-0E13-33420C619451</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
+</engineerTo>
+<referedAttribute>420BBDD8-A2B8-C959-5023-976E3DA222F4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D90A0768-5047-41F1-CD90-1A3851DA9BBC" name="Podaci_o_pravnom_licu PK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 09:48:13 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>533AEEE1-4B25-29CF-A631-7CA8DA629D46</attributeRef>
+<attributeRef>64C796B8-806A-A6D7-DB1D-951AEE01148B</attributeRef>
+<attributeRef>FEFDA288-4D32-3D9D-8124-5FEE6574ED7F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

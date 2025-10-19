@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="827603F5-83D0-7B2F-772D-033404B43D3E" containerWithKeyObject="6100152B-7CD4-CABF-EE89-58D1C89D6539" localFKIndex="843176A7-12CE-B53D-D70A-A6647EFEEEE7" name="Naknada_kartica_Kartica_FK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:32:08 UTC</createdTime>
+<generatorID>99A7E8C8-60B2-0704-FAD2-F1CE2D143499</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<referredTableLongName>Kartica</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>117D38B6-D6C1-E0CF-263A-DCD10B5CB2CA</referredTableID>
+<keyObject>4E37D4F5-B762-FC63-74C1-8E366C21449C</keyObject>
+<referredKeyID>4E37D4F5-B762-FC63-74C1-8E366C21449C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>kartica_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

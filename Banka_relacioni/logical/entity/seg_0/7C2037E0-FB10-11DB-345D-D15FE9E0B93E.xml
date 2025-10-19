@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="506C83C4-3068-E3BA-273C-2F6925D5F77C" name="Kllijent">
-<createdBy>srnam</createdBy>
-<createdTime>2025-10-11 12:12:47 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7C2037E0-FB10-11DB-345D-D15FE9E0B93E" name="Transakcija">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:21:47 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
 <item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="klijent_id" id="BE732D9B-8DA7-A294-FA9B-DB9331A0ADF2">
-<createdBy>srnam</createdBy>
-<createdTime>2025-10-11 12:13:17 UTC</createdTime>
+<Attribute name="transakcija_id" id="F66602BE-67E3-3FAA-CF96-413BFB0B80BD">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:21:53 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
 <item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
@@ -27,33 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Ime" id="555AB3D9-2DE2-79FF-7252-E21514226C18">
-<createdBy>srnam</createdBy>
-<createdTime>2025-10-11 12:13:45 UTC</createdTime>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<engineerTo>
-<item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Prezime" id="C18EA2FA-3655-F3A3-1752-73860BB40DE6">
-<createdBy>srnam</createdBy>
-<createdTime>2025-10-11 12:14:09 UTC</createdTime>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<engineerTo>
-<item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="jmbg" id="6FACD9A1-6C62-27F0-9E19-B8176270C4E0">
-<createdBy>srnam</createdBy>
-<createdTime>2025-10-11 12:14:26 UTC</createdTime>
+<Attribute name="kartica_id" id="6BB1DEC5-B651-3E2F-A8F6-99A246AA7A8F">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:21:54 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
 <item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
@@ -63,21 +39,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="br_licne_karte" id="8115A19A-147F-9792-1D3A-06362EEC39A6">
-<createdBy>srnam</createdBy>
-<createdTime>2025-10-11 12:14:46 UTC</createdTime>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<engineerTo>
-<item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="vreme_kreiranja" id="0D6634C2-6198-004C-3662-BE2E38C2D246">
-<createdBy>srnam</createdBy>
-<createdTime>2025-10-11 12:15:05 UTC</createdTime>
+<Attribute name="datum_transakcije" id="3F46104C-3381-D8A1-2BFB-2F42801A478E">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:21:54 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
 <item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
@@ -88,29 +52,77 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fizicko_lice_id" id="AE60B666-965E-1DAD-05A6-7D3A7BEB0CA2">
+<Attribute name="iznos" id="F77FA65B-0AA2-92A5-C2BA-20411CF4D1CC">
 <createdBy>mihai</createdBy>
-<createdTime>2025-10-19 09:45:03 UTC</createdTime>
-<generatorID>7264E7CD-4F97-6692-6227-D31907D69265</generatorID>
+<createdTime>2025-10-19 10:21:54 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
 <item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
 </engineerTo>
-<referedAttribute>B62D422E-2ADE-0311-15CB-A7C3DED8215E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="opis" id="0BEEB9D0-15D9-1625-3BFF-9E9B0FD300A0">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:21:54 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valuta_id" id="F8FB2D7F-2FD3-4C16-B043-F1838A2A0E36">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:22:49 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="pravno_lice_id" id="DAB0D8EF-3968-8B82-CB4C-CA48FA4F50E4">
+<Attribute name="tip_transakcije" id="46832D2D-986D-7079-1F40-E3A4D7AF6D0A">
 <createdBy>mihai</createdBy>
-<createdTime>2025-10-19 09:47:27 UTC</createdTime>
-<generatorID>EFBF2EA4-9998-A821-559B-3AC0EE57CDEB</generatorID>
+<createdTime>2025-10-19 10:23:14 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
 <item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
 </engineerTo>
-<referedAttribute>420BBDD8-A2B8-C959-5023-976E3DA222F4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prodavac_id" id="089FEEB6-21B2-EBCE-4F81-C4767D7F2E69">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:23:27 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kartica_id1" id="B3EA234C-4D1D-7180-1688-F7E6CB5ED5E3">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:24:23 UTC</createdTime>
+<generatorID>54ADF184-B238-146B-4802-7E5F206EE33D</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
+</engineerTo>
+<referedAttribute>B6A73DE5-524C-CCD3-FD67-16572A67EFF4</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -118,16 +130,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="D03F7A4E-B923-D233-00E1-81B2D959AF30" name="Korisnik PK">
-<createdBy>srnam</createdBy>
-<createdTime>2025-10-11 12:13:40 UTC</createdTime>
+<identifier id="56505045-AD47-C24E-29C7-9BC4FD54FBD2" name="Transakcija PK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:22:05 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
 <item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>BE732D9B-8DA7-A294-FA9B-DB9331A0ADF2</attributeRef>
+<attributeRef>F66602BE-67E3-3FAA-CF96-413BFB0B80BD</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

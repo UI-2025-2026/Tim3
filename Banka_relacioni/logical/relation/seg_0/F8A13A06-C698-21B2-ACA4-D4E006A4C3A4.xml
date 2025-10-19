@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="valuta_zemlja" directorySegmentName="seg_0" id="F8A13A06-C698-21B2-ACA4-D4E006A4C3A4">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:06:41 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
+</engineerTo>
+<sourcePk>15EEF941-2D7F-2EEE-5896-083C101693BE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C4D2EAFE-7523-B952-7E93-0972529F2A41</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>9BF773DE-1AFF-5DDC-90EC-4724AAE22F63</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

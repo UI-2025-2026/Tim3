@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C7919B56-91AC-69EA-2043-7BD02701A60A" containerWithKeyObject="F669D3FE-649A-8E9C-FC36-9490B6F377C8" localFKIndex="FD071725-D76C-A6A1-ECB3-CABB3460E564" name="Bezbednosna_pitanja_Nalog_FK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-10-19 10:32:08 UTC</createdTime>
+<generatorID>585AA82F-B10F-AD2D-1606-0BF71F36D66C</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<referredTableLongName>Nalog</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1011D9D6-1165-E9F6-0D41-A1644077A071</referredTableID>
+<keyObject>5AF19BD3-0328-9AE0-49E6-8E9A18A1CC4F</keyObject>
+<referredKeyID>5AF19BD3-0328-9AE0-49E6-8E9A18A1CC4F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nalog_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
