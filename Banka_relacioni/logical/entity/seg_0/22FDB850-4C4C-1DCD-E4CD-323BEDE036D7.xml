@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="22FDB850-4C4C-1DCD-E4CD-323BEDE036D7" name="Provizija">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 18:47:27 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tip_transakcije" id="E2118B4B-173F-8249-98CB-454F7AA0B4FF">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 18:47:34 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="iznos" id="D787B55D-6A2F-528B-D85C-710D9523F633">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 18:48:52 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tip_transakcije1" id="919BF0AD-C0C3-07F2-2275-EAB1006F6FDF">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 18:51:57 UTC</createdTime>
+<generatorID>311971FD-C2C8-EA8C-6036-CEBCFA90F8F6</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+</engineerTo>
+<referedAttribute>D8CF238A-4B61-4216-C3B3-B5C17AA79156</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

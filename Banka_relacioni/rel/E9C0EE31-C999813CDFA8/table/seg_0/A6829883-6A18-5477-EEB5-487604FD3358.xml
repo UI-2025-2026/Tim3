@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A6829883-6A18-5477-EEB5-487604FD3358" name="Provizija">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 19:07:36 UTC</createdTime>
+<generatorID>22FDB850-4C4C-1DCD-E4CD-323BEDE036D7</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tip_transakcije" id="74502E0A-14B9-8EE8-F042-ED7991A3DCD6">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 19:07:36 UTC</createdTime>
+<generatorID>E2118B4B-173F-8249-98CB-454F7AA0B4FF</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="iznos" id="3C7AE96A-6896-DDA6-E2FC-7A8AF837A100">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 19:07:36 UTC</createdTime>
+<generatorID>D787B55D-6A2F-528B-D85C-710D9523F633</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipovi_transakcije_tip_transakcije" id="B6C07CF4-E21D-AA8F-EF80-F3848BC2FA82">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 19:07:36 UTC</createdTime>
+<generatorID>919BF0AD-C0C3-07F2-2275-EAB1006F6FDF</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DB1BF02-8FB8-A69E-1FE1-FB3F60589E0C" referredColumn="489C81EE-AE11-9C91-797E-0CE54B446C61"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3893EF23-933D-68A7-8EB5-5BB5820B5E6F" name="Provizija__IDX">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 19:07:36 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>311971FD-C2C8-EA8C-6036-CEBCFA90F8F6</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B6C07CF4-E21D-AA8F-EF80-F3848BC2FA82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40A0091E-C9E0-1551-154D-3553964D1B53" name="Provizija_Tipovi_transakcije_FK">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 19:07:36 UTC</createdTime>
+<generatorID>311971FD-C2C8-EA8C-6036-CEBCFA90F8F6</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6C07CF4-E21D-AA8F-EF80-F3848BC2FA82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

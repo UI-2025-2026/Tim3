@@ -4,7 +4,7 @@
 <createdTime>2025-10-19 09:56:29 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
-<item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2025-10-19 09:56:35 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
-<item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2025-10-19 09:56:43 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
-<item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -45,7 +45,7 @@
 <createdTime>2025-10-19 09:56:36 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
-<item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -58,7 +58,7 @@
 <createdTime>2025-10-19 09:56:42 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
-<item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -70,7 +70,7 @@
 <createdTime>2025-10-19 09:56:42 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
-<item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -82,7 +82,7 @@
 <createdTime>2025-10-19 09:56:43 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
-<item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -95,7 +95,7 @@
 <createdTime>2025-10-19 10:08:34 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
-<item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -107,7 +107,7 @@
 <createdTime>2025-10-19 09:56:44 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
-<item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -120,25 +120,11 @@
 <createdTime>2025-10-19 09:56:44 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
-<item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT015</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="klijent_id1" id="3C30D7BD-227A-E8E2-D532-7B7FE55F6CD6">
-<createdBy>mihai</createdBy>
-<createdTime>2025-10-19 10:16:04 UTC</createdTime>
-<generatorID>69AA658A-CFFC-3BBD-6FF2-0A13D93485AA</generatorID>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<engineerTo>
-<item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
-</engineerTo>
-<referedAttribute>BE732D9B-8DA7-A294-FA9B-DB9331A0ADF2</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -147,8 +133,9 @@
 <createdBy>mihai</createdBy>
 <createdTime>2025-10-19 09:56:55 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

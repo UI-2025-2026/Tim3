@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E4B89319-06F3-16E8-CCF5-0CCDC6457553" name="Relation_16">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 15:44:59 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Kllijent_klijent_id" id="E5784F00-D431-0A8A-C63E-076AE42BC585">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 15:44:59 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5AC4B5F-77DE-35BC-6D41-1CF913E78AA6" referredColumn="3C586B66-B481-E81D-0C42-CA20E438617F"/>
+</associations>
+</Column>
+<Column name="Kontakt_kontakt_id" id="6F2A14CE-BF1D-6F16-FB84-A814B323483E">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 15:44:59 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3EE0642D-5CC9-5EA5-781F-BAD04538D53A" referredColumn="6E135E6F-24F6-9D3C-BAF5-A5A697D38CA0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D4E76FFA-A28B-EE86-BF28-847F344E91BB" name="Relation_16_PK">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 15:44:59 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5784F00-D431-0A8A-C63E-076AE42BC585"/>
+<colUsage columnID="6F2A14CE-BF1D-6F16-FB84-A814B323483E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="663D8A99-2DCC-A8AB-A45D-F626A5887CB5" name="Relation_16_Kllijent_FK">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 15:44:59 UTC</createdTime>
+<generatorID>CF8B766A-AD5A-B6E7-C7F1-039E303267BA</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5784F00-D431-0A8A-C63E-076AE42BC585"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C1E2695-80E2-5AC7-620B-0D18491410DE" name="Relation_16_Kontakt_FK">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 15:44:59 UTC</createdTime>
+<generatorID>CF8B766A-AD5A-B6E7-C7F1-039E303267BA</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F2A14CE-BF1D-6F16-FB84-A814B323483E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

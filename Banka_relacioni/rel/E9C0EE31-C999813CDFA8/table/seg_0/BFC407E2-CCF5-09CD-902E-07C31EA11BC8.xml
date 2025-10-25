@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BFC407E2-CCF5-09CD-902E-07C31EA11BC8" name="Kllijent">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 15:44:59 UTC</createdTime>
+<generatorID>506C83C4-3068-E3BA-273C-2F6925D5F77C</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="klijent_id" id="3C586B66-B481-E81D-0C42-CA20E438617F">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 15:44:59 UTC</createdTime>
+<generatorID>BE732D9B-8DA7-A294-FA9B-DB9331A0ADF2</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ime" id="062D3C87-F8FB-2313-11CE-89CE2A1E8892">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 15:44:59 UTC</createdTime>
+<generatorID>555AB3D9-2DE2-79FF-7252-E21514226C18</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prezime" id="BB497B9F-8464-3905-C3A5-FA95DF4A7FBF">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 15:44:59 UTC</createdTime>
+<generatorID>C18EA2FA-3655-F3A3-1752-73860BB40DE6</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jmbg" id="B88B2A62-43A7-84CE-44DA-B594FA0A5F1C">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 15:44:59 UTC</createdTime>
+<generatorID>6FACD9A1-6C62-27F0-9E19-B8176270C4E0</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="br_licne_karte" id="BFB20D65-6931-8258-136A-3F999EAD85D0">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 15:44:59 UTC</createdTime>
+<generatorID>8115A19A-147F-9792-1D3A-06362EEC39A6</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vreme_kreiranja" id="B259D260-25C7-BDFD-A468-9581B6EA8BDA">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 15:44:59 UTC</createdTime>
+<generatorID>0D6634C2-6198-004C-3662-BE2E38C2D246</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fizička_lica_fizicko_lice_id" id="656119E3-EC4D-6DD5-47C8-702B54D02248">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 15:44:59 UTC</createdTime>
+<generatorID>AE60B666-965E-1DAD-05A6-7D3A7BEB0CA2</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A6FC5689-AC74-BCC3-46AF-D84225774BEE" referredColumn="434B8D55-5805-74FF-B3D4-6157B28501A9"/>
+</associations>
+</Column>
+<Column name="Pravna_lica_pravno_lice_id" id="71E45E80-C9A9-3E1D-2232-34379EEC949A">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 15:44:59 UTC</createdTime>
+<generatorID>DAB0D8EF-3968-8B82-CB4C-CA48FA4F50E4</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8DC29CA3-A09D-405B-0E39-B22227858C7B" referredColumn="807482DB-7A22-AFDD-0905-FDFF2815EBBA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="40AFA632-87F6-E5D4-7E7F-2B201F124E15" name="Kllijent_PK">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 15:44:59 UTC</createdTime>
+<generatorID>D03F7A4E-B923-D233-00E1-81B2D959AF30</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C586B66-B481-E81D-0C42-CA20E438617F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0FAA09C6-EE4E-D193-84AE-6027B90EB5AA" name="Kllijent__IDX">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 15:44:59 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>7264E7CD-4F97-6692-6227-D31907D69265</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="656119E3-EC4D-6DD5-47C8-702B54D02248"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51C2E705-FD26-B4E7-BD94-0C71A25AE717" name="Kllijent__IDXv1">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 15:44:59 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>EFBF2EA4-9998-A821-559B-3AC0EE57CDEB</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="71E45E80-C9A9-3E1D-2232-34379EEC949A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E82CDE97-28B9-4A0A-532B-AA674031862C" name="Kllijent_Fizička_lica_FK">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 15:44:59 UTC</createdTime>
+<generatorID>7264E7CD-4F97-6692-6227-D31907D69265</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="656119E3-EC4D-6DD5-47C8-702B54D02248"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50EE6D36-5157-495E-B53E-E66B29548E78" name="Kllijent_Pravna_lica_FK">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 15:44:59 UTC</createdTime>
+<generatorID>EFBF2EA4-9998-A821-559B-3AC0EE57CDEB</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71E45E80-C9A9-3E1D-2232-34379EEC949A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

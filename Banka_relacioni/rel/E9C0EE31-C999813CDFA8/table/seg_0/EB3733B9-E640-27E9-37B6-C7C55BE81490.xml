@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EB3733B9-E640-27E9-37B6-C7C55BE81490" name="Zaposlenje">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 15:44:59 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Kllijent_klijent_id" id="D62C3C51-1D34-CF12-EC7B-A8D504870AB8">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 15:44:59 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E46F656-9EE8-6C01-AA2E-A1695C756328" referredColumn="3C586B66-B481-E81D-0C42-CA20E438617F"/>
+</associations>
+</Column>
+<Column name="Poslodavac_poslodavac_id" id="5A52E859-C3C5-058F-EFEB-96F8D9FEF1A7">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 15:44:59 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6362164D-0CAF-CCFD-A646-DF24FCFBEC37" referredColumn="02534F60-87E5-9CBE-016B-457266351F6F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1CEFDD6-120F-FE21-9DE6-44750B17EE43" name="Zaposlenje_PK">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 15:44:59 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D62C3C51-1D34-CF12-EC7B-A8D504870AB8"/>
+<colUsage columnID="5A52E859-C3C5-058F-EFEB-96F8D9FEF1A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81154227-3782-0B8B-13BB-09D7EB4FE610" name="Zaposlenje_Kllijent_FK">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 15:44:59 UTC</createdTime>
+<generatorID>F694E616-0298-90F7-6B42-60E25C26AE98</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D62C3C51-1D34-CF12-EC7B-A8D504870AB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F726FC6C-1671-8361-D3FD-C5E1D193F96D" name="Zaposlenje_Poslodavac_FK">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 15:44:59 UTC</createdTime>
+<generatorID>F694E616-0298-90F7-6B42-60E25C26AE98</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A52E859-C3C5-058F-EFEB-96F8D9FEF1A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

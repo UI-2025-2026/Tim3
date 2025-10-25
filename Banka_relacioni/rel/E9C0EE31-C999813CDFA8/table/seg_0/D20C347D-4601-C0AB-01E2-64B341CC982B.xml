@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D20C347D-4601-C0AB-01E2-64B341CC982B" name="Podaci_o_pravnom_licu">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 15:44:59 UTC</createdTime>
+<generatorID>0645C563-9100-7CDC-FA9D-D4908C840077</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pravno_lice_id" id="3EACDCCF-C474-382F-6FE4-FBDCD0D3A9F4">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 15:44:59 UTC</createdTime>
+<generatorID>533AEEE1-4B25-29CF-A631-7CA8DA629D46</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pib" id="12761422-F7E7-D121-95AD-E6258CB4DBBF">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 15:44:59 UTC</createdTime>
+<generatorID>FEFDA288-4D32-3D9D-8124-5FEE6574ED7F</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="maticni_broj" id="88181548-EC27-018A-F3B8-0F8176B55312">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 15:44:59 UTC</createdTime>
+<generatorID>64C796B8-806A-A6D7-DB1D-951AEE01148B</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pravna_lica_pravno_lice_id" id="4AB50770-D755-D33A-43FB-082FE04457BD">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 15:44:59 UTC</createdTime>
+<generatorID>5FB04633-A25A-17A9-05E5-BDBFF6C1EC75</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F1207371-E240-4EDB-B1C4-A68F0E925F21" referredColumn="807482DB-7A22-AFDD-0905-FDFF2815EBBA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D5AD4EAC-8FB3-0132-6750-841ED89406E5" name="Podaci_o_pravnom_licu_PK">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 15:44:59 UTC</createdTime>
+<generatorID>D90A0768-5047-41F1-CD90-1A3851DA9BBC</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EACDCCF-C474-382F-6FE4-FBDCD0D3A9F4"/>
+<colUsage columnID="88181548-EC27-018A-F3B8-0F8176B55312"/>
+<colUsage columnID="12761422-F7E7-D121-95AD-E6258CB4DBBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31A97BF7-5C7C-B58A-FB60-F86B7F7F6681" name="Podaci_o_pravnom_licu__IDX">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 15:44:59 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>63BCE981-0F80-2D76-0E13-33420C619451</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4AB50770-D755-D33A-43FB-082FE04457BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E117B97D-8E5E-7E63-B48F-AB0C79850509" name="Podaci_o_pravnom_licu_Pravna_lica_FK">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 15:44:59 UTC</createdTime>
+<generatorID>63BCE981-0F80-2D76-0E13-33420C619451</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AB50770-D755-D33A-43FB-082FE04457BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

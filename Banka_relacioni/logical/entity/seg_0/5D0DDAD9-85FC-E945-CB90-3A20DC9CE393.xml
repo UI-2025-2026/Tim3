@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5D0DDAD9-85FC-E945-CB90-3A20DC9CE393" name="Tip_dokumenata">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 18:12:11 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tip_id" id="1CC5C089-C9DF-2DB6-4E11-461E1C195BEA">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 18:12:27 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv" id="8F74F7BC-925C-2202-7AB7-D94231F3ADF0">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 18:12:53 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="licni_dokument_id" id="EB22EA38-9A4F-0A1B-6C24-93D2454D366D">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 18:15:22 UTC</createdTime>
+<generatorID>0422CDCE-ED50-2C4C-D68E-912FA23FCA8C</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+</engineerTo>
+<referedAttribute>274BE574-06D3-0D66-7E43-22FE3A9B35E8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="70A4CC9F-EFBE-1356-A49C-9F794A93B25D" name="Tip_dokumenata PK">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 18:12:51 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1CC5C089-C9DF-2DB6-4E11-461E1C195BEA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

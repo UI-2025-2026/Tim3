@@ -4,7 +4,7 @@
 <createdTime>2025-10-11 12:19:57 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
-<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2025-10-11 12:20:04 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
-<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2025-10-11 12:20:20 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
-<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -44,7 +44,7 @@
 <createdTime>2025-10-11 12:20:45 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
-<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -56,7 +56,7 @@
 <createdTime>2025-10-16 16:34:39 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
-<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -68,7 +68,7 @@
 <createdTime>2025-10-16 16:35:16 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
-<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -76,12 +76,12 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tip_dokumenta" id="B7557D1D-8F9C-3A28-855F-16B2EE30E49F">
+<Attribute name="tip_id" id="B7557D1D-8F9C-3A28-855F-16B2EE30E49F">
 <createdBy>srnam</createdBy>
 <createdTime>2025-10-16 16:35:45 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
-<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -94,7 +94,7 @@
 <generatorID>AF7A5DD5-1D10-E808-5070-AAA58687BE51</generatorID>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
-<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="true"/>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
 </engineerTo>
 <referedAttribute>BE732D9B-8DA7-A294-FA9B-DB9331A0ADF2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -110,7 +110,7 @@
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="B7BCFD7F-C186-61F0-E559-AB68B4750E0A" value="false"/>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

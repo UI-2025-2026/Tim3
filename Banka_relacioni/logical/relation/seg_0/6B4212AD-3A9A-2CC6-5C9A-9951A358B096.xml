@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="kartica_transakcije" directorySegmentName="seg_0" id="54ADF184-B238-146B-4802-7E5F206EE33D">
-<createdBy>mihai</createdBy>
-<createdTime>2025-10-19 10:24:23 UTC</createdTime>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_32" directorySegmentName="seg_0" id="6B4212AD-3A9A-2CC6-5C9A-9951A358B096">
+<createdBy>Krki</createdBy>
+<createdTime>2025-10-25 17:51:49 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
-<item key="15ED95F5-CF78-FDCC-DC58-39C044E433F1" value="true"/>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
 </engineerTo>
-<sourcePk>A062A68C-A5E4-C7CE-B62D-19092C4FBB4C</sourcePk>
+<sourcePk>F998BD1E-CA52-C9FE-F486-77145FA730C7</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>7A1C2FDC-903A-B832-23AA-AF13E6A6852B</sourceEntity>
+<sourceEntity>E4BCDAD3-6E4D-3390-7B26-F82FB14DC406</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>7C2037E0-FB10-11DB-345D-D15FE9E0B93E</targetEntity>
 <transferable>true</transferable>
