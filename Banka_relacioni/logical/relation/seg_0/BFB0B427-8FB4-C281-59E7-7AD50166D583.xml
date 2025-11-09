@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Edukator_Obuke" directorySegmentName="seg_0" id="BFB0B427-8FB4-C281-59E7-7AD50166D583">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 09:37:52 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+</engineerTo>
+<sourcePk>F1BA537B-C6A5-81F7-A47C-E11226C14443</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>70FEB765-3FAC-ED66-1763-B0CD3F6D76B0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9D38ABF8-B8AF-ABA6-FF64-BE29CD11F563</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

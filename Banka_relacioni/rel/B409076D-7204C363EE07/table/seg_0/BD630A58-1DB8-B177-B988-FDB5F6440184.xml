@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD630A58-1DB8-B177-B988-FDB5F6440184" name="Edukator">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>70FEB765-3FAC-ED66-1763-B0CD3F6D76B0</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="edukator_id" id="5D6889BD-AD96-ABC3-0C61-08C3DC314724">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>0A828135-3272-87B5-A52C-9BC9ABCABFEC</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="21FA15CB-C121-A6AF-0862-C8FDC227F23B">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>565DE3AE-2FA6-450E-6E4E-ADC7C6DBFC84</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pib" id="B920DB1D-0E03-0C7A-E999-4A3AB37D1C1D">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>C44FD1A8-2A59-864A-C3AF-579384994B5B</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="maticni_broj" id="EBB05D57-9904-7EF7-4162-13B28AC4E95A">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>BE48E8FE-6A6A-80C2-849C-8040F0B24A8A</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email_adresa" id="1EBF9D99-6073-4524-BB2E-C7B7D1F62E00">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>3C5AD98E-0423-570E-30FF-C0D850958EE5</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D608A46C-F015-10AC-A023-F9E5E847F64F" name="Edukator_PK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>F1BA537B-C6A5-81F7-A47C-E11226C14443</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D6889BD-AD96-ABC3-0C61-08C3DC314724"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

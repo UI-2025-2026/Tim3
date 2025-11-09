@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="437FAE93-548B-5FED-1AC0-45E30A80DF57" name="Pravna_lica">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>48AC375B-9BAE-B1E3-0AB6-A4884FF9DCB4</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pravno_lice_id" id="D6C3B47C-68E7-01E2-ABB7-F124EC3AC907">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>420BBDD8-A2B8-C959-5023-976E3DA222F4</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="klijent_id" id="F208226E-5AFC-BAD1-0763-95D7CCB59FA8">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>447B534B-DF0B-6A8D-65CF-517DEA8141E3</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A60E65CE-6126-0EDB-24F4-75FAEF5792CA" name="Pravna_lica_PK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>4CAD0B92-8649-8D8D-0E16-97C23A3600E7</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6C3B47C-68E7-01E2-ABB7-F124EC3AC907"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

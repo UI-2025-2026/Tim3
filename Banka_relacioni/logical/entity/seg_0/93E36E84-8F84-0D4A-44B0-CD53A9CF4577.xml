@@ -70,8 +70,9 @@
 <createdBy>Krki</createdBy>
 <createdTime>2025-10-25 18:39:51 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

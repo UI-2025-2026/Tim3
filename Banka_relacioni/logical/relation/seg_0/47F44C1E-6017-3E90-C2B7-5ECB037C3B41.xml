@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RegionFilijale" directorySegmentName="seg_0" id="47F44C1E-6017-3E90-C2B7-5ECB037C3B41">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 09:29:04 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+</engineerTo>
+<sourcePk>735D2638-C4C2-5599-929D-3D07327828F1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BC89D2EF-ABF2-D917-A359-FE758D5336B1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8019DEF9-F29C-A11B-A5F2-008C42864017</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

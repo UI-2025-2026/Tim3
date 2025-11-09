@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91774821-C194-16DA-4C7D-F03395C4F58A" name="Greska">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>B8EF73A9-A4DB-38C4-177B-D15CEF69FA2E</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="greska_id" id="26667925-62F7-B53C-B501-8EB35680294A">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>47B3FE20-706E-5443-1FB9-E179B1B75F60</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="24AF2EDA-C898-A0AB-B2DE-245CB1E53ED1">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>4E7AB18A-09D2-87E5-CE99-583F11D311C4</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="poruka" id="C493FBF4-7B31-6F0C-C305-16EC6BD9F44C">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>71EF081B-DEF8-0FAF-F1C0-E3902249B73E</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status_transakcije_id_statusa" id="68B925AC-DC5C-C459-1B6E-1563CD997E7A">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>0F40AEE7-1386-B76D-4C3B-CFD198E470CB</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4161219A-01EC-D6B0-D513-E79A7E0687BF" referredColumn="12BB37DD-1DB3-4166-03A5-455D462263B5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C204402F-1FA7-0CC5-E14C-02DFD0A2A705" name="Greska_PK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>328A0AEE-E001-759D-66BC-AD02AC8199C0</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26667925-62F7-B53C-B501-8EB35680294A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E159CADB-2A33-F4A7-F58D-295A43837438" name="Greska__IDX">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C6CD6993-BE53-2C67-E26E-5B4675F3CF7B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="68B925AC-DC5C-C459-1B6E-1563CD997E7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BBC09E23-974A-CC36-EF87-C87B022191BA" name="Greska_Status_transakcije_FK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>C6CD6993-BE53-2C67-E26E-5B4675F3CF7B</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68B925AC-DC5C-C459-1B6E-1563CD997E7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

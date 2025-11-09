@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A002B964-A654-516C-B3C9-5CFAEDE8B7C5" containerWithKeyObject="4A3C5EC2-6B09-50CC-238D-EFFA25488E72" localFKIndex="30DDBCCF-FBDC-443F-4DDF-09F6564181A1" name="Stalno_prebivalište_Kllijent_FK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>BB64424B-AC67-9561-6C23-C9541E2A4B37</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<referredTableLongName>Kllijent</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4D2E7EF4-7F29-3F43-D7CE-5DCA623646C3</referredTableID>
+<keyObject>11155CDE-B146-B122-9684-8411F0F7D472</keyObject>
+<referredKeyID>11155CDE-B146-B122-9684-8411F0F7D472</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>klijent_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

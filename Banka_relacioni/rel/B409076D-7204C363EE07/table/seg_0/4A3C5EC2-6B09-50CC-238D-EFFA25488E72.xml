@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4A3C5EC2-6B09-50CC-238D-EFFA25488E72" name="Stalno_prebivalište">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Adresa_adresa_id" id="7A8F51F9-02AC-4086-7CAB-796EE70DE16F">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D8DEB8D-5BE4-DBF1-F75A-E68932D95BEA" referredColumn="5E784813-087E-6940-C62B-F99EE5ED17CC"/>
+</associations>
+</Column>
+<Column name="Kllijent_klijent_id" id="CF2FEAB1-5183-EAF3-D3FD-DC118018F97A">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A002B964-A654-516C-B3C9-5CFAEDE8B7C5" referredColumn="408316BD-766C-A591-E203-6F224B423CAC"/>
+</associations>
+</Column>
+<Column name="datum_od" id="FE59C565-42EC-3DA0-C340-D4945025B0A5">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>B7A538E8-0A5F-CB65-693F-5360BC41EC19</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+<Column name="datum_do" id="315B100A-2FE4-FC0F-D832-5889F8FF5135">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>43EF0FB5-E37C-4235-9DC1-06374444F555</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="970642BA-6A15-C231-F10A-57F70CC3331B" name="Stalno_prebivalište_PK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A8F51F9-02AC-4086-7CAB-796EE70DE16F"/>
+<colUsage columnID="CF2FEAB1-5183-EAF3-D3FD-DC118018F97A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="758825D9-B5F2-9F72-8CC2-C8573F467841" name="Stalno_prebivalište_Adresa_FK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>BB64424B-AC67-9561-6C23-C9541E2A4B37</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A8F51F9-02AC-4086-7CAB-796EE70DE16F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30DDBCCF-FBDC-443F-4DDF-09F6564181A1" name="Stalno_prebivalište_Kllijent_FK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>BB64424B-AC67-9561-6C23-C9541E2A4B37</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF2FEAB1-5183-EAF3-D3FD-DC118018F97A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

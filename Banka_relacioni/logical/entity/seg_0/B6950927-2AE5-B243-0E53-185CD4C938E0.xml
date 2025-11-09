@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B6950927-2AE5-B243-0E53-185CD4C938E0" name="Zaposleni_Obuke">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 09:34:34 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="A50B8B76-3DD3-6163-31CE-C988A9ECF3E9">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 09:34:41 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zaposleni_id" id="AA87001D-DCFC-92CF-24E7-B5016E8A763C">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 09:34:47 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="obuka_id" id="3FAAF1BC-9FF2-DBC4-710E-9CFFCBFB78F8">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 09:34:54 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zaposleni_id1" id="681E2479-C627-47B3-8202-F7E19B293CE1">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 09:35:12 UTC</createdTime>
+<generatorID>40B33635-7C29-E6E2-667B-CC72B0FD82ED</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+</engineerTo>
+<referedAttribute>D978A5EE-B45A-0453-1D20-742435E6DB2D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="obuka_id1" id="F5F50816-2363-6CD7-72E9-92F417651B1C">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 09:35:36 UTC</createdTime>
+<generatorID>423AB665-29B2-2D65-6E85-B93317CA70B7</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+</engineerTo>
+<referedAttribute>77523CAA-CA1E-D141-FBB6-13F71A92FF0A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="35980A8A-3116-A389-FEFE-551F9FE1FFDE" name="Zaposleni_Obuke PK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 09:34:46 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A50B8B76-3DD3-6163-31CE-C988A9ECF3E9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

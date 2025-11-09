@@ -127,6 +127,20 @@
 <logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="valuta_id1" id="0FFEFC6C-1B3D-1E34-1A0B-23D0A5B34060">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 09:10:21 UTC</createdTime>
+<generatorID>D39205DA-1662-73AD-73FF-C2B5F8A31B97</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+</engineerTo>
+<referedAttribute>817C6903-BFAC-497F-E8EB-8C57DB763566</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="F998BD1E-CA52-C9FE-F486-77145FA730C7" name="Bankovni_racun PK">

@@ -53,49 +53,6 @@
 <dataTypeSize>100 CHAR</dataTypeSize>
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="transakcija_id" id="FDCA5F3E-78CC-E444-6C09-CCBFD649B332">
-<createdBy>mihai</createdBy>
-<createdTime>2025-10-19 10:24:13 UTC</createdTime>
-<generatorID>60ECAA2A-5AD8-8765-201D-145E968260B1</generatorID>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<engineerTo>
-<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
-</engineerTo>
-<referedAttribute>F66602BE-67E3-3FAA-CF96-413BFB0B80BD</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="racun_id" id="19AB8569-AAEA-2644-4D45-0FE12B3670EF">
-<createdBy>Krki</createdBy>
-<createdTime>2025-10-25 17:46:11 UTC</createdTime>
-<generatorID>7006FA67-7D3C-13B4-1E78-0C45CF732210</generatorID>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<engineerTo>
-<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
-</engineerTo>
-<referedAttribute>1FE62877-4BEB-FB38-02D2-9200349996D8</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="broj_racuna" id="E0886818-0D7E-A380-B035-DC1A05924F6E">
-<createdBy>Krki</createdBy>
-<createdTime>2025-10-25 17:46:11 UTC</createdTime>
-<generatorID>7006FA67-7D3C-13B4-1E78-0C45CF732210</generatorID>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<engineerTo>
-<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
-</engineerTo>
-<referedAttribute>7B590606-33EE-BED1-0DDD-EC4429262667</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>200 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="15EEF941-2D7F-2EEE-5896-083C101693BE" name="Valute PK">
@@ -108,8 +65,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>817C6903-BFAC-497F-E8EB-8C57DB763566</attributeRef>
-<attributeRef>19AB8569-AAEA-2644-4D45-0FE12B3670EF</attributeRef>
-<attributeRef>E0886818-0D7E-A380-B035-DC1A05924F6E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="KlijentKreditniZahtevi" directorySegmentName="seg_0" id="D5FFD919-F1F2-ED4F-5500-D66BF9CC7575">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 09:16:57 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+</engineerTo>
+<sourcePk>D03F7A4E-B923-D233-00E1-81B2D959AF30</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>506C83C4-3068-E3BA-273C-2F6925D5F77C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2D3A5C36-3305-71D9-32F4-BBFB30E05DDC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="705C2048-7635-859B-83E0-E4CCEA1D4451" name="Tipovi_racuna">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>73A09D68-9149-AE35-C725-02D21A7669C3</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tip_id" id="FC651CC7-EF4B-96B4-B45C-62587E782FBE">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>CEB5F262-009E-1105-CD3A-3ECE80AFFF15</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="5B1679CB-A92A-0398-4C96-E4C2187F7263">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>6F645992-0E59-433F-3328-3DE8AD33EFB4</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis" id="D2132470-F0C4-5407-ABB6-32487BC7D20F">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>1C6FDB11-7437-7D09-7CBC-F6A8E75F0E6A</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bankovni_racun_racun_id" id="2C03AEDE-02D1-B012-978F-AD3F8759916E">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>91ED2DCE-49C6-F1B1-B4C8-EA79D5CCECC0</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CBE07D1C-75E3-FCC5-147F-CEFE647AD83A" referredColumn="60988877-404B-7031-E5C1-1928208464C3"/>
+</associations>
+</Column>
+<Column name="Bankovni_racun_broj_racuna" id="C3186A94-201F-7CB4-7CA9-52E4EFFE7EC6">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>61CA7CA6-BFBD-6749-7D0D-DA99719B7081</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CBE07D1C-75E3-FCC5-147F-CEFE647AD83A" referredColumn="D1BDDE52-4A32-BBFB-2949-7AE480D58FBD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F9AFBA0-C8D2-874A-09CA-3348A657BD18" name="Tipovi_racuna_PK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>DCDEAC9B-B072-1EF0-AC51-413107659664</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC651CC7-EF4B-96B4-B45C-62587E782FBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81E632E8-1B35-19EE-2D94-D5D9024B4250" name="Tipovi_racuna_Bankovni_racun_FK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>758C25A6-3E15-1BB7-ED13-AF487B28A3EE</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C03AEDE-02D1-B012-978F-AD3F8759916E"/>
+<colUsage columnID="C3186A94-201F-7CB4-7CA9-52E4EFFE7EC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

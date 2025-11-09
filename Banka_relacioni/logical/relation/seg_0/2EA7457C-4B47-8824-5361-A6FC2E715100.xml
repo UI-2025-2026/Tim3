@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FilijalaZaposleni" directorySegmentName="seg_0" id="2EA7457C-4B47-8824-5361-A6FC2E715100">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 09:22:27 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+</engineerTo>
+<sourcePk>AB303CE0-ED22-1007-CAC0-54539EC44D55</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8019DEF9-F29C-A11B-A5F2-008C42864017</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CCF5E118-E68D-C70E-BAD0-7B763142EBFE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

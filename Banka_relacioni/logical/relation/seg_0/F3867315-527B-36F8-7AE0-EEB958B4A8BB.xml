@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Smena_PlanoviSmena" directorySegmentName="seg_0" id="F3867315-527B-36F8-7AE0-EEB958B4A8BB">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 09:50:46 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+</engineerTo>
+<sourcePk>B8BD26CB-0E4C-A933-D8CE-C34471935F62</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7B8A96B7-8DC9-4484-3E6B-BAA977204E20</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>605918B9-1B16-9DD4-A296-2B00FA465557</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5D50266E-39C7-B82A-343A-10DD9F706F60" name="Relation_39">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pin_id_pina" id="08E09E8E-EC1D-0801-3766-77851A437F41">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF8EF830-52BF-D988-B877-31022C4D7C61" referredColumn="2D25A349-C432-A351-89C0-8B1B18597C24"/>
+</associations>
+</Column>
+<Column name="Kartica_kartica_id" id="47AB3D95-C8A4-E182-19DC-495830DB3150">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4093068-F16D-175C-334E-4C0B36DD57B0" referredColumn="79F4B58F-03BC-E28A-D384-707D8B02F134"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C10758FD-9A38-11A5-C1FE-5F128D8466FE" name="Relation_39_PK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08E09E8E-EC1D-0801-3766-77851A437F41"/>
+<colUsage columnID="47AB3D95-C8A4-E182-19DC-495830DB3150"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8BF00B66-CBBD-96EC-5BC6-5C0CE537ADEA" name="Relation_39_Pin_FK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>575B4DE9-51C1-E1B6-C3F5-D49234F10B85</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08E09E8E-EC1D-0801-3766-77851A437F41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D06ABDA9-63EE-E3C9-CB35-92BE97263A55" name="Relation_39_Kartica_FK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>575B4DE9-51C1-E1B6-C3F5-D49234F10B85</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47AB3D95-C8A4-E182-19DC-495830DB3150"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

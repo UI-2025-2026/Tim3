@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="605918B9-1B16-9DD4-A296-2B00FA465557" name="PlanSmena">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 09:47:08 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="plan_id" id="092A9131-9FC5-C5FC-A696-395C720E44A7">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 09:47:16 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zaposleni_id" id="3F308AF0-A298-2DF5-7850-36D1D3138A09">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 09:47:23 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="filijala_id" id="91F1CFA0-585D-D7C2-78F9-1D2CB5648F32">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 09:48:15 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum" id="C0FC44B9-23CF-FB23-29D8-D6F744DB2ACE">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 09:48:26 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="smena_id" id="D6FD30B0-097F-044F-70F7-B0503BCB01E8">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 09:48:44 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="filijala_id1" id="208CDD9D-3DA5-9456-3773-74C73C67B2E7">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 09:49:30 UTC</createdTime>
+<generatorID>4CA85FDB-18FA-DFB4-7937-DD2CAABE97FB</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+</engineerTo>
+<referedAttribute>A0283751-652A-8C33-9887-23D36C7F777A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zaposleni_id1" id="97667A49-E4F0-3F75-895E-2AAA53C4E7FB">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 09:49:42 UTC</createdTime>
+<generatorID>41849F46-22AA-2CA6-11B2-AFB543BD4B7A</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+</engineerTo>
+<referedAttribute>D978A5EE-B45A-0453-1D20-742435E6DB2D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="smena_id1" id="A712EF49-7301-7F3B-640E-AA7DFD3D91FE">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 09:50:46 UTC</createdTime>
+<generatorID>F3867315-527B-36F8-7AE0-EEB958B4A8BB</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+</engineerTo>
+<referedAttribute>256E730D-D358-5F6C-4BE7-D48329BDF376</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4A82E8F8-D8F6-F0A1-9EBD-01794256B764" name="PlanSmena PK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 09:47:22 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>092A9131-9FC5-C5FC-A696-395C720E44A7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

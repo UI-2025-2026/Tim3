@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C9DBBCFB-922A-3964-EEDD-30CF80CDFD83" containerWithKeyObject="CFA95BA4-BFC6-E581-AF3A-42FABF74BB09" localFKIndex="2820883B-DF97-CEC1-FF74-AE0E49EECBA3" name="PlanSmena_Smena_FK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>F3867315-527B-36F8-7AE0-EEB958B4A8BB</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<referredTableLongName>Smena</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D28A5EDD-5590-ED75-89B9-1E75655E054E</referredTableID>
+<keyObject>399376D6-300E-9E98-748E-10ECCFD52271</keyObject>
+<referredKeyID>399376D6-300E-9E98-748E-10ECCFD52271</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>smena_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

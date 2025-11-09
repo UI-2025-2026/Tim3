@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TipZaposleni" directorySegmentName="seg_0" id="0C6884FB-6168-93DF-2AF0-75157017A897">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 09:24:32 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+</engineerTo>
+<sourcePk>5886CC06-300B-2D36-4968-B04BAB3D3CBB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DDEA2D35-98D3-7F9D-8B68-DEA5204BE905</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>13606205-2FE3-CDF0-0CD7-000B31F7ECC9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

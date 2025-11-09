@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ZahtevZaKreditDokumenta" directorySegmentName="seg_0" id="46BB7F68-B380-B5D9-DA97-7070612C588E">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 09:16:34 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+</engineerTo>
+<sourcePk>6A2B5074-3DE6-9611-672D-77ECE5AC97DB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2D3A5C36-3305-71D9-32F4-BBFB30E05DDC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EB56B538-F14B-9B48-BAE3-67298F80813B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

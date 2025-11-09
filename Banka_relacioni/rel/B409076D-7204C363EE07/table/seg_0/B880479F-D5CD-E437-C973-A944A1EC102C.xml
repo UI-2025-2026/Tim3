@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B880479F-D5CD-E437-C973-A944A1EC102C" name="Relation_38">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Kllijent_klijent_id" id="ACAB1FD2-BBF4-9F44-514A-5D1B7AC64332">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A80AB3F-CB66-926C-46CC-D1CA4948652A" referredColumn="408316BD-766C-A591-E203-6F224B423CAC"/>
+</associations>
+</Column>
+<Column name="Bankovni_racun_racun_id" id="650B363D-5235-7A32-1E7F-84576907196A">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7021C42F-0F46-19D8-0E21-709B965CFE1B" referredColumn="60988877-404B-7031-E5C1-1928208464C3"/>
+</associations>
+</Column>
+<Column name="Bankovni_racun_broj_racuna" id="97647BAE-967E-DB5B-152F-535F3FB70EAF">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7021C42F-0F46-19D8-0E21-709B965CFE1B" referredColumn="D1BDDE52-4A32-BBFB-2949-7AE480D58FBD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D6C0560-1BD1-4EA3-E973-ADDDCE233C09" name="Relation_38_PK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACAB1FD2-BBF4-9F44-514A-5D1B7AC64332"/>
+<colUsage columnID="650B363D-5235-7A32-1E7F-84576907196A"/>
+<colUsage columnID="97647BAE-967E-DB5B-152F-535F3FB70EAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99DA0EAE-679E-003E-0D35-328453FAF2F3" name="Relation_38_Kllijent_FK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>6D36C9E2-5034-747B-EF80-A66D39338693</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACAB1FD2-BBF4-9F44-514A-5D1B7AC64332"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48599649-75BE-511A-D63C-C955DC83A41B" name="Relation_38_Bankovni_racun_FK">
+<createdBy>mihai</createdBy>
+<createdTime>2025-11-09 10:14:20 UTC</createdTime>
+<generatorID>6D36C9E2-5034-747B-EF80-A66D39338693</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="650B363D-5235-7A32-1E7F-84576907196A"/>
+<colUsage columnID="97647BAE-967E-DB5B-152F-535F3FB70EAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
