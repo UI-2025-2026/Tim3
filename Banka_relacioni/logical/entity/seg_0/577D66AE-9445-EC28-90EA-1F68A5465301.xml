@@ -4,7 +4,7 @@
 <createdTime>2025-10-19 10:17:49 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
-<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2025-10-19 10:17:55 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
-<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2025-10-19 10:17:55 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
-<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,27 +45,13 @@
 <createdTime>2025-10-19 10:17:55 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
-<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100 CHAR</dataTypeSize>
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="kartica_id" id="FD27A271-D767-BC2B-1CD3-35963A48F9A0">
-<createdBy>mihai</createdBy>
-<createdTime>2025-10-19 10:19:18 UTC</createdTime>
-<generatorID>72FCBFF1-78CB-E3FB-D66A-46402CA6E889</generatorID>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<engineerTo>
-<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
-</engineerTo>
-<referedAttribute>B6A73DE5-524C-CCD3-FD67-16572A67EFF4</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -75,7 +61,7 @@
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="false"/>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

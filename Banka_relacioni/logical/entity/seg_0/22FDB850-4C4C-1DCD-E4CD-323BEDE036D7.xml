@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="22FDB850-4C4C-1DCD-E4CD-323BEDE036D7" name="Provizija">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="22FDB850-4C4C-1DCD-E4CD-323BEDE036D7" name="Naknada_transakcije">
 <createdBy>Krki</createdBy>
 <createdTime>2025-10-25 18:47:27 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
-<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2025-10-25 18:47:34 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
-<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,25 +32,51 @@
 <createdTime>2025-10-25 18:48:52 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
-<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tip_transakcije1" id="919BF0AD-C0C3-07F2-2275-EAB1006F6FDF">
-<createdBy>Krki</createdBy>
-<createdTime>2025-10-25 18:51:57 UTC</createdTime>
-<generatorID>311971FD-C2C8-EA8C-6036-CEBCFA90F8F6</generatorID>
+<Attribute name="tip_naknade" id="D3E42E58-B4CA-2843-A143-7D8FA383CB0E">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:24:36 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
-<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
 </engineerTo>
-<referedAttribute>D8CF238A-4B61-4216-C3B3-B5C17AA79156</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="transakcija_id" id="9DC651D0-0233-D4CD-C13D-1BE1FEC1EC61">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:25:25 UTC</createdTime>
+<generatorID>463A8EAB-E657-268B-A5F3-405D3B3A39C1</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F66602BE-67E3-3FAA-CF96-413BFB0B80BD</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="procenat" id="C5E57845-8B6E-578A-615B-FC5DB67D6940">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:36:08 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

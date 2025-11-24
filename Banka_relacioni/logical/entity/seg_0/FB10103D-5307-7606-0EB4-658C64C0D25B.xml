@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FB10103D-5307-7606-0EB4-658C64C0D25B" name="Autorizacija_kartice">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:41:19 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="autorizacija_id" id="3E5058B1-D583-C178-D063-C0D634858F80">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:41:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="iznos" id="1CF7DF7D-714B-3441-D51C-E2CADF528158">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:41:45 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_vreme" id="1E755301-CF41-2517-3F2C-E7DDEFBFA7AA">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:42:49 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="C25263B3-35FC-BFA0-B76D-E89BB8436F8B">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:43:05 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="auth_kod" id="11DC919C-59DC-40AC-9A3C-C3E0983AB233">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:43:47 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kartica_id" id="3E79B6F5-BE77-3AB7-4904-6C8BF520D8C0">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:44:36 UTC</createdTime>
+<generatorID>13C40566-48FD-E76D-DA74-71F31AF91E6C</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<referedAttribute>B6A73DE5-524C-CCD3-FD67-16572A67EFF4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="transakcija_id" id="E8A2500D-0BA4-ECC2-86F2-79F1A82D6263">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:44:44 UTC</createdTime>
+<generatorID>46CB8589-A27B-9595-2A5A-96B9C0DEC083</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<referedAttribute>F66602BE-67E3-3FAA-CF96-413BFB0B80BD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0847A009-E90C-84F6-7654-B79B6D20B045" name="Autorizacija_kartice PK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:41:43 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3E5058B1-D583-C178-D063-C0D634858F80</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

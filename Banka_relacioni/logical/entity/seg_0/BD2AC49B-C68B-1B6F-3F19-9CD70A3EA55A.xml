@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BD2AC49B-C68B-1B6F-3F19-9CD70A3EA55A" name="Kanal_transakcije">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:31:49 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="kanal_id" id="92C836A2-E396-B55F-4FD9-C46C17DF8B62">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:31:59 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv" id="81752207-A1A3-98C7-0DF8-E2CAE2CFA567">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:32:10 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F2BEB3F1-9D07-D0E7-FB0A-2E3EFB2FAE38" name="Kanal_transakcije PK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:32:07 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>92C836A2-E396-B55F-4FD9-C46C17DF8B62</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

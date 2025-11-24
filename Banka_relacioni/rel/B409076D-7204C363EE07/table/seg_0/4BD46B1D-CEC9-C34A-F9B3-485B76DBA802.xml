@@ -66,6 +66,21 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Kllijent_klijent_id" id="CD329915-4C66-1B02-3A11-75E51A9BE690">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:56:46 UTC</createdTime>
+<generatorID>50EF1C98-9A88-2421-988F-898A1346D131</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6DF72B43-7CB1-EDD4-5A60-A13F24A2D7B4" referredColumn="408316BD-766C-A591-E203-6F224B423CAC"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="E7DC50A9-84DD-44CF-10BE-90226A45FB93" name="Kontakt_PK">
@@ -78,6 +93,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="FEDAAFA4-D1E1-1A3B-C8BC-80E66AD13B31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CEA70E73-D065-5E60-BF07-8B54C4B44475" name="Kontakt_Kllijent_FK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:56:46 UTC</createdTime>
+<generatorID>B2C6F0C8-E916-FA08-09F1-E44D1FBDDC20</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD329915-4C66-1B02-3A11-75E51A9BE690"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -30,6 +30,28 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="kontakt" id="96DE5EC6-BC58-55C0-A4E8-AC1B44E50E6D">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:56:46 UTC</createdTime>
+<generatorID>734931F1-85ED-E274-1F64-C40333F475E6</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefon" id="F95F5B4D-3F95-8DAE-D6A1-2810454ADB33">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:56:46 UTC</createdTime>
+<generatorID>5513E13D-1CC3-8B96-1EBA-2DB6BFD9ED5C</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="A60E65CE-6126-0EDB-24F4-75FAEF5792CA" name="Pravna_lica_PK">

@@ -4,7 +4,7 @@
 <createdTime>2025-10-16 16:56:29 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
-<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2025-10-16 16:56:36 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
-<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,31 @@
 <createdTime>2025-10-19 09:47:13 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
-<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kontakt" id="734931F1-85ED-E274-1F64-C40333F475E6">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 22:28:16 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefon" id="5513E13D-1CC3-8B96-1EBA-2DB6BFD9ED5C">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 22:28:25 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,7 +71,7 @@
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="false"/>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

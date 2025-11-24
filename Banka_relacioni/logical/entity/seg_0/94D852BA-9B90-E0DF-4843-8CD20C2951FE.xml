@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="94D852BA-9B90-E0DF-4843-8CD20C2951FE" name="Transakcijska_stavka">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:04:58 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="stavka_id" id="527C4EF7-5E76-7A0C-6DAC-F2B6C8E8320D">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:05:07 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="debit" id="0D5A0F70-767B-6670-C80F-5488C40DF072">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:05:21 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="credit" id="324C4C43-408B-5AE5-B0DF-C508EE3CA3E6">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:05:45 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="iznos_stavke" id="D64C6B32-BB1B-0E28-3FEE-FBA64FE81996">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:05:53 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="racun_id" id="85786CB9-073F-14D6-E141-DC6BC1FC8DDD">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:06:50 UTC</createdTime>
+<generatorID>7AFAB1FF-2355-4AB1-7CC3-1A9FB83ECFDA</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<referedAttribute>1FE62877-4BEB-FB38-02D2-9200349996D8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="broj_racuna" id="A665EEF6-EBBD-314E-BC30-49DE4BCBACD3">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:06:50 UTC</createdTime>
+<generatorID>7AFAB1FF-2355-4AB1-7CC3-1A9FB83ECFDA</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<referedAttribute>7B590606-33EE-BED1-0DDD-EC4429262667</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="transakcija_id" id="940E5949-6C83-EC5F-BF5C-7F04068AF9F0">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:06:58 UTC</createdTime>
+<generatorID>61DBADCC-356F-20FA-59F6-78A333A574A4</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<referedAttribute>F66602BE-67E3-3FAA-CF96-413BFB0B80BD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="00BB605E-A9FA-B05F-0849-8B12737E29B2" name="Transakcijska_stavka PK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:05:20 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>527C4EF7-5E76-7A0C-6DAC-F2B6C8E8320D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

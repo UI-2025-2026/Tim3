@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8AC71570-4236-7E56-D338-0CEBFDED20CB" name="Banka">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8AC71570-4236-7E56-D338-0CEBFDED20CB" name="Korespondentna_Banka">
 <createdBy>mihai</createdBy>
 <createdTime>2025-11-09 10:14:20 UTC</createdTime>
 <generatorID>234BF1FC-76E5-9B8F-BF03-479683ADEAAA</generatorID>
@@ -101,9 +101,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="8DC4DDF6-14A6-844F-E08E-CA75F6F197FE" referredColumn="9015CBC9-6B93-2C52-F647-916DE17AA32E"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -126,17 +123,6 @@
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <relationGeneratorID>9202FAFE-07C1-FC85-954C-8C52ACFB6C6F</relationGeneratorID>
-<indexColumnUsage>
-<colUsage columnID="35985E9E-D406-98F5-CAA7-091A59E7D946"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="BCFA992D-ABE0-BF7D-23EC-282303B28D26" name="Banka_Tipovi_prenosa_FK">
-<createdBy>mihai</createdBy>
-<createdTime>2025-11-09 10:14:20 UTC</createdTime>
-<generatorID>9202FAFE-07C1-FC85-954C-8C52ACFB6C6F</generatorID>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="35985E9E-D406-98F5-CAA7-091A59E7D946"/>
 </indexColumnUsage>

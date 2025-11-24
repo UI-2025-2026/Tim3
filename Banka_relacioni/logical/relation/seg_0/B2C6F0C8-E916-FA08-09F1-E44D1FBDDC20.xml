@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Korisnikovi_kontakti" directorySegmentName="seg_0" id="B2C6F0C8-E916-FA08-09F1-E44D1FBDDC20">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 22:34:33 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<sourcePk>D03F7A4E-B923-D233-00E1-81B2D959AF30</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>506C83C4-3068-E3BA-273C-2F6925D5F77C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>35944156-AC8E-13E9-ED7B-3B3EB74E0328</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

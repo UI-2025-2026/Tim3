@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2B3CA2E-A0EF-E852-0B8A-BF32289114C4" name="Pin">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2B3CA2E-A0EF-E852-0B8A-BF32289114C4" name="Promena_pina">
 <createdBy>mihai</createdBy>
 <createdTime>2025-11-09 10:14:20 UTC</createdTime>
 <generatorID>93E36E84-8F84-0D4A-44B0-CD53A9CF4577</generatorID>
@@ -19,7 +19,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="pin" id="A02745D0-017B-0094-FD13-1B23894E5F8E">
+<Column name="hash_pin" id="A02745D0-017B-0094-FD13-1B23894E5F8E">
 <createdBy>mihai</createdBy>
 <createdTime>2025-11-09 10:14:20 UTC</createdTime>
 <generatorID>4E883F2F-6336-3401-4134-155FA84F516C</generatorID>
@@ -30,7 +30,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="datum_od" id="1A1E649E-8BBA-A665-A5B9-EC84442E0566">
+<Column name="datum_promene" id="1A1E649E-8BBA-A665-A5B9-EC84442E0566">
 <createdBy>mihai</createdBy>
 <createdTime>2025-11-09 10:14:20 UTC</createdTime>
 <generatorID>86A380DA-659C-D1F8-6962-611DEF8948C5</generatorID>
@@ -41,7 +41,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="datum_do" id="E7B44669-A48F-0EE6-59B0-1DDA6E6764ED">
+<Column name="nacin_promene" id="E7B44669-A48F-0EE6-59B0-1DDA6E6764ED">
 <createdBy>mihai</createdBy>
 <createdTime>2025-11-09 10:14:20 UTC</createdTime>
 <generatorID>016B512B-97F1-85B4-66B7-A170D87719F6</generatorID>
@@ -49,8 +49,37 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kartica_kartica_id" id="BAA48CD4-FD27-3467-796A-395B2D512558">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:56:46 UTC</createdTime>
+<generatorID>6C6E5796-9F59-CD89-38E9-C1F30B5DE923</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12299058-ED47-096A-12E4-C1DE3D152FAB" referredColumn="79F4B58F-03BC-E28A-D384-707D8B02F134"/>
+</associations>
+</Column>
+<Column name="vazeci" id="FB6BAF5B-76E0-F895-A973-1E43C8856459">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:56:46 UTC</createdTime>
+<generatorID>14857BB4-23F2-7BC1-4140-E217F16A0FD4</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
@@ -65,6 +94,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="2D25A349-C432-A351-89C0-8B1B18597C24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71026733-5554-3781-A5F5-D8A3817FAD53" name="Promena_pina_Kartica_FK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:56:46 UTC</createdTime>
+<generatorID>BC9E1AF3-C01C-B8E0-F240-E651803770D1</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAA48CD4-FD27-3467-796A-395B2D512558"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

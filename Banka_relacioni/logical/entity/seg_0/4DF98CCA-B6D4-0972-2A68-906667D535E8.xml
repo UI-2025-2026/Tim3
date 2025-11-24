@@ -4,7 +4,7 @@
 <createdTime>2025-10-25 18:25:47 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
-<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2025-10-25 18:25:59 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
-<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2025-10-25 18:26:12 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
-<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -40,26 +40,12 @@
 <dataTypeSize>100 CHAR</dataTypeSize>
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="transakcija_id" id="CB9B8A7D-DFAC-5110-9AFF-C98D9FA02A1C">
-<createdBy>Krki</createdBy>
-<createdTime>2025-10-25 18:26:30 UTC</createdTime>
-<generatorID>9E29BCB2-8B94-BE53-4D3E-1685E73F0A3B</generatorID>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<engineerTo>
-<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
-</engineerTo>
-<referedAttribute>F66602BE-67E3-3FAA-CF96-413BFB0B80BD</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="greska_id" id="62DAD071-B917-CD9C-A160-5C19A5313905">
 <createdBy>Krki</createdBy>
 <createdTime>2025-10-25 19:03:51 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
-<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="true"/>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -75,7 +61,7 @@
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="E9C0EE31-0B98-2724-799E-C999813CDFA8" value="false"/>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

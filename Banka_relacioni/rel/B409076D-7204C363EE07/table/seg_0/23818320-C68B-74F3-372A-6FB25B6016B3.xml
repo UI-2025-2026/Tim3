@@ -122,8 +122,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>200 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -145,6 +145,36 @@
 <colAssociation fkAssociation="E1ED4597-EE36-CEDF-5355-A7918365F709" referredColumn="08332DC1-6DBE-4355-85DD-4992C6E390D3"/>
 </associations>
 </Column>
+<Column name="Status_transakcije_id_statusa" id="13030A4F-4766-7642-59CC-65D070C2DED3">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:56:46 UTC</createdTime>
+<generatorID>FDEDCD91-B979-4F85-4AAD-08DA9E52FBB9</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA1925D9-D858-D1A8-4BD3-823FD3F32C7E" referredColumn="12BB37DD-1DB3-4166-03A5-455D462263B5"/>
+</associations>
+</Column>
+<Column name="Kanal_transakcije_kanal_id" id="B39792E4-35FA-C793-0D2A-D10AC7C54DD9">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:56:46 UTC</createdTime>
+<generatorID>4135E0BA-4600-BCDB-5B37-F47BBAA2988E</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F68B53C-EF5A-D3C2-F63C-5BD81B51EE4D" referredColumn="5C41C1F5-6CB1-2E6E-FB11-BEC6E33C6BA5"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="32BD6F20-0A8F-6B47-0CF2-426411D49D06" name="Transakcija_PK">
@@ -158,6 +188,14 @@
 <indexColumnUsage>
 <colUsage columnID="1467070D-FB9B-A5DC-888B-BA15AA965947"/>
 </indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9EC33578-8EC2-A2BF-2690-135C3F75D25C" name="Transakcija__IDX">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:56:46 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F24EF45F-D01D-8286-5DC1-EE6554D83F2B</relationGeneratorID>
 </ind_PK_UK>
 <ind_PK_UK id="E84239EF-32E3-331E-03A7-0EBEA95C3610" name="Transakcija_Bankovni_racun_FK">
 <createdBy>mihai</createdBy>
@@ -180,6 +218,28 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="D3A1A661-6025-A38F-0880-8FB6D225DFDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B8C6034-F48F-ACF2-A4DB-10D430201316" name="Transakcija_Status_transakcije_FK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:56:46 UTC</createdTime>
+<generatorID>0D36EC95-45A7-85BF-C508-A8F3D99E5910</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13030A4F-4766-7642-59CC-65D070C2DED3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40BE4C90-EEB6-B89E-D498-7A18F85A452E" name="Transakcija_Kanal_transakcije_FK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:56:46 UTC</createdTime>
+<generatorID>23236EFB-0DF8-8DB8-31DA-0F040D92D982</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B39792E4-35FA-C793-0D2A-D10AC7C54DD9"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

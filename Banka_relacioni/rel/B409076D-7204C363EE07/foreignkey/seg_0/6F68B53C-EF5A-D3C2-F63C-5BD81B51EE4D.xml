@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6F68B53C-EF5A-D3C2-F63C-5BD81B51EE4D" containerWithKeyObject="23818320-C68B-74F3-372A-6FB25B6016B3" localFKIndex="40BE4C90-EEB6-B89E-D498-7A18F85A452E" name="Transakcija_Kanal_transakcije_FK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:56:46 UTC</createdTime>
+<generatorID>23236EFB-0DF8-8DB8-31DA-0F040D92D982</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<referredTableLongName>Kanal_transakcije</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>758564FF-687C-ECF7-5025-B4826A46241B</referredTableID>
+<keyObject>62CE55B3-3F51-99E1-0FED-44FB323B0859</keyObject>
+<referredKeyID>62CE55B3-3F51-99E1-0FED-44FB323B0859</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>kanal_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

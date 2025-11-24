@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FA1925D9-D858-D1A8-4BD3-823FD3F32C7E" containerWithKeyObject="23818320-C68B-74F3-372A-6FB25B6016B3" localFKIndex="3B8C6034-F48F-ACF2-A4DB-10D430201316" name="Transakcija_Status_transakcije_FK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:56:46 UTC</createdTime>
+<generatorID>0D36EC95-45A7-85BF-C508-A8F3D99E5910</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<referredTableLongName>Status_transakcije</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4C903291-3CE4-744C-D98B-C19E229EAE2E</referredTableID>
+<keyObject>B44BBBC9-BF97-9A32-B76F-AF44608EB0D5</keyObject>
+<referredKeyID>B44BBBC9-BF97-9A32-B76F-AF44608EB0D5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_statusa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

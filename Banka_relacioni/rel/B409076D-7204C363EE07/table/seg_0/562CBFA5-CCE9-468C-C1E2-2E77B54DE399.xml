@@ -143,11 +143,26 @@
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>200 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="6D63F722-D4B6-79F0-8DAF-4E12309445A8" referredColumn="D1BDDE52-4A32-BBFB-2949-7AE480D58FBD"/>
+</associations>
+</Column>
+<Column name="Tip_kartice_tip_id" id="2B33E552-B178-5FAD-8F13-8EA1B9AE93B2">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:56:46 UTC</createdTime>
+<generatorID>9CD1F3CC-A318-8AAB-C3ED-9B2F5537D44D</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B794153B-27EC-2F6A-5752-610EE8E1B255" referredColumn="F691232D-83A2-B415-8FDC-EF3C84D2D76D"/>
 </associations>
 </Column>
 </columns>
@@ -174,6 +189,17 @@
 <indexColumnUsage>
 <colUsage columnID="71B1EDEB-5CE4-1794-1995-CEDE49CE47E5"/>
 <colUsage columnID="6813D411-B30D-390C-581F-D88B23FDC9A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B01B04A9-6329-2D67-8EE7-FFBF4211A724" name="Kartica_Tip_kartice_FK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:56:46 UTC</createdTime>
+<generatorID>7D9A26A8-B8EB-B1C1-E993-0A9BA4F41432</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B33E552-B178-5FAD-8F13-8EA1B9AE93B2"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

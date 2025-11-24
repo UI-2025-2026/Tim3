@@ -126,6 +126,21 @@
 <colAssociation fkAssociation="B58F431C-F657-A2FA-E6C6-984970AC43A0" referredColumn="08332DC1-6DBE-4355-85DD-4992C6E390D3"/>
 </associations>
 </Column>
+<Column name="Tipovi_racuna_tip_id" id="6D11A1BC-87C3-58D3-5AA5-CAD16386ED1A">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:56:46 UTC</createdTime>
+<generatorID>B610C1A2-053B-2CF9-04B7-284F5A7151C5</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68D4831B-D319-66E2-5220-98C39E42C741" referredColumn="FC651CC7-EF4B-96B4-B45C-62587E782FBE"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="5BCB47EB-9D42-24D6-E85D-8F41A06AB7C9" name="Bankovni_racun_PK">
@@ -150,6 +165,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="7BE54BF2-6ABF-C445-2209-54D7FD55952F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19D8FA88-4064-B0A8-C7A2-47349B13F1D1" name="Bankovni_racun_Tipovi_racuna_FK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-23 23:56:46 UTC</createdTime>
+<generatorID>9DD25BEC-D928-2A51-9869-051A31B00046</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D11A1BC-87C3-58D3-5AA5-CAD16386ED1A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
