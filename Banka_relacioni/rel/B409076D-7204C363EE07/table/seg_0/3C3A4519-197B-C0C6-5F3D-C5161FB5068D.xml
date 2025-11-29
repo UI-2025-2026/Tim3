@@ -1,0 +1,197 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C3A4519-197B-C0C6-5F3D-C5161FB5068D" name="Medjunarodni_transfer">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<generatorID>F0BEE864-5C5E-94FE-31F4-5081B44AF397</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="7FFF974B-9E14-D813-5DBF-811E5047E799">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<generatorID>33A63E3A-BD6A-863F-A2BD-88E979F5E06B</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="smer" id="C197D83C-E212-81BE-62B4-884861ECE052">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<generatorID>4925BE1A-006C-B247-B571-5E871C658331</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip_transfera" id="79966862-A609-FB38-ECF6-A2232255F168">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<generatorID>3D6DB0C3-8AD0-16F7-DF01-E8B6B9746087</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="8AF51DEC-F520-E36A-A2D9-49723F8FA957">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<generatorID>6104B958-4FD8-CC7A-39CB-18311C89B1AD</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="iban_primaoca" id="6A901805-1B11-17E7-FAF1-D1C838484E69">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<generatorID>B5EEDF5C-2443-7408-90D0-FCFEC615ECD3</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv_primaoca" id="AD84E330-8F53-5B3D-D7F8-A34D62E27BFD">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<generatorID>506E0D5F-5130-DD19-3995-6494D6E92F05</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresa_primaoca" id="DE90BF36-03C7-CC21-87EB-3AEEA317CF5B">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<generatorID>405A251E-97A9-44B3-A2B2-5C422A58D09C</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="iznos" id="1D43778A-8BE6-D391-66CC-DDCC3535AF73">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<generatorID>EF144D46-B02F-2634-69E1-52BEE223E067</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="drzava_primaoca" id="EF6A1947-0F40-6B5C-74D6-D94D13BBFF0F">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<generatorID>6B5EE562-6A09-7D01-1755-5C57F5CDD05D</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Valute_valuta_id" id="FAE66D80-DDD7-BFAD-84FE-DDFC9C349BFF">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<generatorID>16142D8D-8208-96D0-6D4C-10785104E601</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FAA6ED2-686C-972A-E594-86827F13F7BF" referredColumn="08332DC1-6DBE-4355-85DD-4992C6E390D3"/>
+</associations>
+</Column>
+<Column name="swift_kod" id="DC7F16BF-8207-9774-77CF-0902F5F013B0">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<generatorID>F2CCE8E2-8CFB-B60E-D893-6FF9DC3E2CD8</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Strana_banka_id" id="89A34B9F-A786-0192-AC2A-BAC5AB404F4B">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<generatorID>63ECA936-1ED0-87FC-4C7E-942CD307B795</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4B6AF05-D3D4-A95B-EBB1-D3BD1C424FD9" referredColumn="7C878663-4726-294B-B60E-7E0383981A73"/>
+</associations>
+</Column>
+<Column name="Medjunarodni_transfer_ID" id="14305442-3525-5B4A-AF38-3E2364ECDDD0">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="692C6423-E83A-6955-C952-562E389587C3" name="Medjunarodni_transfer_PK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="14305442-3525-5B4A-AF38-3E2364ECDDD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55721418-39DB-8F20-C34C-EA64B4A1CF73" name="Medjunarodni_transfer_Valute_FK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<generatorID>35212F32-93A0-3FBF-0526-B8C4A86D033F</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAE66D80-DDD7-BFAD-84FE-DDFC9C349BFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03333312-812B-7E76-96F3-C86DFFD7D3A5" name="Medjunarodni_transfer_Strana_banka_FK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<generatorID>C471987E-5C12-B397-5311-9B0B722A6EE7</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89A34B9F-A786-0192-AC2A-BAC5AB404F4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

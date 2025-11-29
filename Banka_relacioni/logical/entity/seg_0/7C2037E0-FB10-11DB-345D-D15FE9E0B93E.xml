@@ -185,15 +185,43 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="kanal_id" id="4135E0BA-4600-BCDB-5B37-F47BBAA2988E">
+<Attribute name="id" id="FC368994-7118-A82B-E0E7-0228AE9F5D30">
 <createdBy>srnam</createdBy>
-<createdTime>2025-11-23 23:32:48 UTC</createdTime>
-<generatorID>23236EFB-0DF8-8DB8-31DA-0F040D92D982</generatorID>
+<createdTime>2025-11-29 00:01:15 UTC</createdTime>
+<generatorID>647FD3B5-387D-126D-7164-85C0F3553A71</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<referedAttribute>33A63E3A-BD6A-863F-A2BD-88E979F5E06B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kanal_id" id="8D9B1D5B-4BC6-9C49-B68D-BE7EBEAD2C97">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 00:14:13 UTC</createdTime>
+<generatorID>FFF812D8-E57E-93CF-CF09-184E4D48AEB3</generatorID>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
 <item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
 </engineerTo>
 <referedAttribute>92C836A2-E396-B55F-4FD9-C46C17DF8B62</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vrsta_id" id="3D0B233C-AA91-2DE3-0F23-0D7028828EFD">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 18:54:26 UTC</createdTime>
+<generatorID>7FD19B9F-ED22-3047-058E-16BC66CB9DFF</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<referedAttribute>4A8BFD54-8679-FB69-61E4-B2F1FD58F457</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35E47A69-1375-289E-81C4-8D25F55B12BE" name="Medjunarodni_transfer_korespodent">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Korespondentna_Banka_banka_id" id="69D2D6BF-307F-D288-363A-B3720980E748">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C372E5C5-9662-1625-7C90-62E688B9948B" referredColumn="A5BA4392-1CA7-0B6C-9BD3-CD9EFC9299AC"/>
+</associations>
+</Column>
+<Column name="Medjunarodni_transfer_Medjunarodni_transfer_ID" id="18FD24D1-7056-6D65-A611-FB62BD227FB7">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9ED2669-113F-6E1D-8606-F1197BED1E10" referredColumn="14305442-3525-5B4A-AF38-3E2364ECDDD0"/>
+</associations>
+</Column>
+<Column name="uloga" id="DBE58AD2-FBBA-9071-89FB-E2232BC97912">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<generatorID>D178665A-26FB-7569-351F-2B25C21D6962</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="redosled" id="19DBF11E-6891-8F22-CEA4-01B1C6185DBF">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<generatorID>BB111466-A412-DC6B-9FB7-EBAD47D83FA1</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="91DCEDC4-23D5-DD08-4D15-086D7A9B6BA6" name="Medjunarodni_transfer_korespodent_PK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69D2D6BF-307F-D288-363A-B3720980E748"/>
+<colUsage columnID="18FD24D1-7056-6D65-A611-FB62BD227FB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A9A3645-9476-E6F3-952F-028A01E5A16F" name="Medjunarodni_transfer_korespodent_Korespondentna_Banka_FK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<generatorID>966C5827-CE36-15A5-F287-972F1BE41C0A</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69D2D6BF-307F-D288-363A-B3720980E748"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1CDBD24-1FB3-5FEA-C030-39385D3B391D" name="Medjunarodni_transfer_korespodent_Medjunarodni_transfer_FK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<generatorID>966C5827-CE36-15A5-F287-972F1BE41C0A</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18FD24D1-7056-6D65-A611-FB62BD227FB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

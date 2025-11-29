@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="94D852BA-9B90-E0DF-4843-8CD20C2951FE" name="Transakcijski_Log">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F0BEE864-5C5E-94FE-31F4-5081B44AF397" name="Medjunarodni_transfer">
 <createdBy>srnam</createdBy>
-<createdTime>2025-11-23 23:04:58 UTC</createdTime>
+<createdTime>2025-11-28 23:37:42 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
 <item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="log_id" id="527C4EF7-5E76-7A0C-6DAC-F2B6C8E8320D">
+<Attribute name="id" id="33A63E3A-BD6A-863F-A2BD-88E979F5E06B">
 <createdBy>srnam</createdBy>
-<createdTime>2025-11-23 23:05:07 UTC</createdTime>
+<createdTime>2025-11-28 23:37:50 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
 <item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
@@ -27,112 +27,82 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="iznos" id="D64C6B32-BB1B-0E28-3FEE-FBA64FE81996">
+<Attribute name="smer" id="4925BE1A-006C-B247-B571-5E871C658331">
 <createdBy>srnam</createdBy>
-<createdTime>2025-11-23 23:05:53 UTC</createdTime>
+<createdTime>2025-11-28 23:38:00 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
 <item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT026</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="racun_id" id="85786CB9-073F-14D6-E141-DC6BC1FC8DDD">
+<Attribute name="tip_transfera" id="3D6DB0C3-8AD0-16F7-DF01-E8B6B9746087">
 <createdBy>srnam</createdBy>
-<createdTime>2025-11-23 23:06:50 UTC</createdTime>
-<generatorID>7AFAB1FF-2355-4AB1-7CC3-1A9FB83ECFDA</generatorID>
+<createdTime>2025-11-28 23:38:13 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
 <item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
 </engineerTo>
-<referedAttribute>1FE62877-4BEB-FB38-02D2-9200349996D8</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="broj_racuna" id="A665EEF6-EBBD-314E-BC30-49DE4BCBACD3">
-<createdBy>srnam</createdBy>
-<createdTime>2025-11-23 23:06:50 UTC</createdTime>
-<generatorID>7AFAB1FF-2355-4AB1-7CC3-1A9FB83ECFDA</generatorID>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<engineerTo>
-<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
-</engineerTo>
-<referedAttribute>7B590606-33EE-BED1-0DDD-EC4429262667</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>200 CHAR</dataTypeSize>
-<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="transakcija_id" id="940E5949-6C83-EC5F-BF5C-7F04068AF9F0">
-<createdBy>srnam</createdBy>
-<createdTime>2025-11-23 23:06:58 UTC</createdTime>
-<generatorID>61DBADCC-356F-20FA-59F6-78A333A574A4</generatorID>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<engineerTo>
-<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
-</engineerTo>
-<referedAttribute>F66602BE-67E3-3FAA-CF96-413BFB0B80BD</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="saldo" id="BC8A1351-636F-96D6-692A-81BA402DA332">
-<createdBy>srnam</createdBy>
-<createdTime>2025-11-28 21:23:50 UTC</createdTime>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<engineerTo>
-<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>69230305-AB6A-99EB-35A1-CC306D543604</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="datumvreme" id="14E95C1B-4D6F-186B-B0B6-0D0E4FCBC045">
-<createdBy>srnam</createdBy>
-<createdTime>2025-11-28 23:23:39 UTC</createdTime>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<engineerTo>
-<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="opis" id="14DC8869-21AB-F86B-A0B3-7B2CFF5D7040">
-<createdBy>srnam</createdBy>
-<createdTime>2025-11-28 23:23:57 UTC</createdTime>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<engineerTo>
-<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="debit_iznos" id="196A12D8-18EE-405F-0AAD-43DC42FBDCB5">
+<Attribute name="status" id="6104B958-4FD8-CC7A-39CB-18311C89B1AD">
 <createdBy>srnam</createdBy>
-<createdTime>2025-11-29 19:48:40 UTC</createdTime>
+<createdTime>2025-11-28 23:38:30 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
 <item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="kredit_iznos1" id="5352176A-DB36-CE10-B531-E44690039F09">
+<Attribute name="iban_primaoca" id="B5EEDF5C-2443-7408-90D0-FCFEC615ECD3">
 <createdBy>srnam</createdBy>
-<createdTime>2025-11-29 20:02:10 UTC</createdTime>
+<createdTime>2025-11-28 23:38:40 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv_primaoca" id="506E0D5F-5130-DD19-3995-6494D6E92F05">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-28 23:39:03 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adresa_primaoca" id="405A251E-97A9-44B3-A2B2-5C422A58D09C">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-28 23:39:13 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="iznos" id="EF144D46-B02F-2634-69E1-52BEE223E067">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-28 23:39:24 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
 <item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
@@ -142,34 +112,54 @@
 <logicalDatatype>LOGDT026</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id" id="F98D0DBF-BF89-B79F-101B-44C196F2CC44">
+<Attribute name="drzava_primaoca" id="6B5EE562-6A09-7D01-1755-5C57F5CDD05D">
 <createdBy>srnam</createdBy>
-<createdTime>2025-11-29 20:24:59 UTC</createdTime>
-<generatorID>74B6FCC0-3E4A-E134-209B-82F5D64FB9B4</generatorID>
+<createdTime>2025-11-28 23:44:58 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
 <item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
 </engineerTo>
-<referedAttribute>5FE3C48A-8779-8B39-DAE2-E63246C55E3C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valuta_id" id="16142D8D-8208-96D0-6D4C-10785104E601">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-28 23:45:34 UTC</createdTime>
+<generatorID>35212F32-93A0-3FBF-0526-B8C4A86D033F</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<referedAttribute>817C6903-BFAC-497F-E8EB-8C57DB763566</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="swift_kod" id="F2CCE8E2-8CFB-B60E-D893-6FF9DC3E2CD8">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-28 23:47:57 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="63ECA936-1ED0-87FC-4C7E-942CD307B795">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 00:09:38 UTC</createdTime>
+<generatorID>C471987E-5C12-B397-5311-9B0B722A6EE7</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<referedAttribute>9C3F2217-E6AA-376C-DABA-36C5DE38EA07</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="00BB605E-A9FA-B05F-0849-8B12737E29B2" name="Transakcijska_stavka PK">
-<createdBy>srnam</createdBy>
-<createdTime>2025-11-23 23:05:20 UTC</createdTime>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<engineerTo>
-<item key="B409076D-3911-9546-8088-7204C363EE07" value="false"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>527C4EF7-5E76-7A0C-6DAC-F2B6C8E8320D</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>

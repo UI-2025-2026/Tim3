@@ -51,21 +51,6 @@
 <logicalDatatype>LOGDT025</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="transakcija_id" id="9DC651D0-0233-D4CD-C13D-1BE1FEC1EC61">
-<createdBy>srnam</createdBy>
-<createdTime>2025-11-23 23:25:25 UTC</createdTime>
-<generatorID>463A8EAB-E657-268B-A5F3-405D3B3A39C1</generatorID>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<engineerTo>
-<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>F66602BE-67E3-3FAA-CF96-413BFB0B80BD</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="procenat" id="C5E57845-8B6E-578A-615B-FC5DB67D6940">
 <createdBy>srnam</createdBy>
 <createdTime>2025-11-23 23:36:08 UTC</createdTime>
@@ -73,10 +58,21 @@
 <engineerTo>
 <item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum" id="903644D9-1255-8DC9-31C0-C97D69724163">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 18:59:05 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<engineerTo>
+<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

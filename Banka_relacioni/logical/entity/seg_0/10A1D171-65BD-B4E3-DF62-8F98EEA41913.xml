@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BD2AC49B-C68B-1B6F-3F19-9CD70A3EA55A" name="Platni_protokol">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="10A1D171-65BD-B4E3-DF62-8F98EEA41913" name="Strana_banka">
 <createdBy>srnam</createdBy>
-<createdTime>2025-11-23 23:31:49 UTC</createdTime>
+<createdTime>2025-11-29 00:08:29 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
 <item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="kanal_id" id="92C836A2-E396-B55F-4FD9-C46C17DF8B62">
+<Attribute name="id" id="9C3F2217-E6AA-376C-DABA-36C5DE38EA07">
 <createdBy>srnam</createdBy>
-<createdTime>2025-11-23 23:31:59 UTC</createdTime>
+<createdTime>2025-11-29 00:08:38 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
 <item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="naziv" id="81752207-A1A3-98C7-0DF8-E2CAE2CFA567">
+<Attribute name="naziv" id="1206B2E6-4DC7-E890-8A73-B50371A8B356">
 <createdBy>srnam</createdBy>
-<createdTime>2025-11-23 23:32:10 UTC</createdTime>
+<createdTime>2025-11-29 00:08:51 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
 <item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
@@ -39,9 +39,9 @@
 <logicalDatatype>LOGDT025</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="kod" id="A72DE515-C934-AC57-1716-C6BA0939BAFF">
+<Attribute name="drzava" id="604F831B-6072-5A2D-305B-CC9BD4C55CE3">
 <createdBy>srnam</createdBy>
-<createdTime>2025-11-29 00:11:17 UTC</createdTime>
+<createdTime>2025-11-29 00:08:59 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
 <item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
@@ -51,42 +51,30 @@
 <logicalDatatype>LOGDT025</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="opis" id="5752B477-352E-72F1-F36C-774581FA93FB">
+<Attribute name="racun_primaoca" id="1B4554BF-F08D-9BF0-14B8-E1D12BE1B72D">
 <createdBy>srnam</createdBy>
-<createdTime>2025-11-29 00:11:27 UTC</createdTime>
+<createdTime>2025-11-29 00:09:14 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
 <item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="poruka" id="9379B729-99AE-DEA0-68A8-1DD9E443014F">
-<createdBy>srnam</createdBy>
-<createdTime>2025-11-29 00:11:36 UTC</createdTime>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<engineerTo>
-<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="F2BEB3F1-9D07-D0E7-FB0A-2E3EFB2FAE38" name="Kanal_transakcije PK">
+<identifier id="BCD6A2B6-8755-03A3-F2B3-37B5E679E8AF" name="Strana_banka PK">
 <createdBy>srnam</createdBy>
-<createdTime>2025-11-23 23:32:07 UTC</createdTime>
+<createdTime>2025-11-29 00:08:49 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
 <item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>92C836A2-E396-B55F-4FD9-C46C17DF8B62</attributeRef>
+<attributeRef>9C3F2217-E6AA-376C-DABA-36C5DE38EA07</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E50890F7-F884-B2EC-1E0B-88949255D35D" name="Transakcijska_stavka">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E50890F7-F884-B2EC-1E0B-88949255D35D" name="Transakcijski_Log">
 <createdBy>srnam</createdBy>
 <createdTime>2025-11-23 23:56:46 UTC</createdTime>
 <generatorID>94D852BA-9B90-E0DF-4843-8CD20C2951FE</generatorID>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="stavka_id" id="BF8B0746-4964-5375-4007-F157A8A4B10A">
+<Column name="log_id" id="BF8B0746-4964-5375-4007-F157A8A4B10A">
 <createdBy>srnam</createdBy>
 <createdTime>2025-11-23 23:56:46 UTC</createdTime>
 <generatorID>527C4EF7-5E76-7A0C-6DAC-F2B6C8E8320D</generatorID>
@@ -43,7 +43,7 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="iznos_stavke" id="E9ADB495-D76B-2B24-21C2-D4A9CCCF638A">
+<Column name="iznos" id="E9ADB495-D76B-2B24-21C2-D4A9CCCF638A">
 <createdBy>srnam</createdBy>
 <createdTime>2025-11-23 23:56:46 UTC</createdTime>
 <generatorID>D64C6B32-BB1B-0E28-3FEE-FBA64FE81996</generatorID>
@@ -78,7 +78,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>200 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -100,6 +100,86 @@
 <colAssociation fkAssociation="D590B4D5-A3E6-673A-E383-E4BD7152FF9C" referredColumn="1467070D-FB9B-A5DC-888B-BA15AA965947"/>
 </associations>
 </Column>
+<Column name="saldo" id="56C939AB-0B4F-053B-FD3A-C1500D862ECE">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-28 21:22:22 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="saldo" id="A8F1FDB3-ACF6-B68D-4C5B-44049B02666D">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<generatorID>BC8A1351-636F-96D6-692A-81BA402DA332</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>69230305-AB6A-99EB-35A1-CC306D543604</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datumvreme" id="1404EB56-0867-F5CC-6400-1E4EDFC4DC9B">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<generatorID>14E95C1B-4D6F-186B-B0B6-0D0E4FCBC045</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis" id="B08F8A50-5DE9-C13D-EA4A-28CADC6CE977">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<generatorID>14DC8869-21AB-F86B-A0B3-7B2CFF5D7040</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="debit_iznos" id="1B7D338C-EBDE-7D94-37BF-AFF315402EC9">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<generatorID>196A12D8-18EE-405F-0AAD-43DC42FBDCB5</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kredit_iznos1" id="A2C4EE0A-9471-7A88-A58D-00AFF5FC823E">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<generatorID>5352176A-DB36-CE10-B531-E44690039F09</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dnevnik_Log_id" id="7DAB63CF-20D5-5659-AA8E-5A72E302F510">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<generatorID>F98D0DBF-BF89-B79F-101B-44C196F2CC44</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="528A9963-3DA2-0BFC-AA14-C3EAF9F3776A" referredColumn="E0D5ABF6-069B-6263-2EF1-8FDD3DD474E7"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="53C9EA33-710F-1A58-F02A-7BCA8365A2EE" name="Transakcijska_stavka_PK">
@@ -112,6 +192,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="BF8B0746-4964-5375-4007-F157A8A4B10A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C399E4F4-6CBC-FBF1-C419-53D7E3CA16F1" name="Transakcijski_Log__IDX">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>74B6FCC0-3E4A-E134-209B-82F5D64FB9B4</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="7DAB63CF-20D5-5659-AA8E-5A72E302F510"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="9236E896-9C61-DA6E-D42B-2454FE4D26E4" name="Transakcijska_stavka_Bankovni_racun_FK">
@@ -135,6 +226,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="DFF2A42F-EF4F-C591-12A0-F6CB0E561D08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F2E5A8D-5F47-B61F-A9F2-F3C347C7CE02" name="Transakcijski_Log_Dnevnik_Log_FK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<generatorID>74B6FCC0-3E4A-E134-209B-82F5D64FB9B4</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DAB63CF-20D5-5659-AA8E-5A72E302F510"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

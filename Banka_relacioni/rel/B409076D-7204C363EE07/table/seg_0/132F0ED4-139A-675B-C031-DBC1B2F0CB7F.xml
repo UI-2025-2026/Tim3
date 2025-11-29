@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="758564FF-687C-ECF7-5025-B4826A46241B" name="Platni_protokol">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="132F0ED4-139A-675B-C031-DBC1B2F0CB7F" name="Strana_banka">
 <createdBy>srnam</createdBy>
-<createdTime>2025-11-23 23:56:46 UTC</createdTime>
-<generatorID>BD2AC49B-C68B-1B6F-3F19-9CD70A3EA55A</generatorID>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<generatorID>10A1D171-65BD-B4E3-DF62-8F98EEA41913</generatorID>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="kanal_id" id="5C41C1F5-6CB1-2E6E-FB11-BEC6E33C6BA5">
+<Column name="id" id="7C878663-4726-294B-B60E-7E0383981A73">
 <createdBy>srnam</createdBy>
-<createdTime>2025-11-23 23:56:46 UTC</createdTime>
-<generatorID>92C836A2-E396-B55F-4FD9-C46C17DF8B62</generatorID>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<generatorID>9C3F2217-E6AA-376C-DABA-36C5DE38EA07</generatorID>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,10 +19,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="naziv" id="1FE578E2-200E-7735-1AA6-B8A4C285DBB2">
+<Column name="naziv" id="57008550-4BFD-F84E-C02B-75D43F102B97">
 <createdBy>srnam</createdBy>
-<createdTime>2025-11-23 23:56:46 UTC</createdTime>
-<generatorID>81752207-A1A3-98C7-0DF8-E2CAE2CFA567</generatorID>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<generatorID>1206B2E6-4DC7-E890-8A73-B50371A8B356</generatorID>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -30,10 +30,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="kod" id="BC804B22-765F-1A3C-6B9A-0789F68E9141">
+<Column name="drzava" id="449B363B-EE8E-6792-5621-2E9C1BF1C2D4">
 <createdBy>srnam</createdBy>
 <createdTime>2025-11-29 20:25:10 UTC</createdTime>
-<generatorID>A72DE515-C934-AC57-1716-C6BA0939BAFF</generatorID>
+<generatorID>604F831B-6072-5A2D-305B-CC9BD4C55CE3</generatorID>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -41,40 +41,29 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="opis" id="0FB74F91-253E-6DE0-E2AC-40C920AD2CF6">
+<Column name="racun_primaoca" id="A7CF298C-638F-591D-6B6F-19E317F434DE">
 <createdBy>srnam</createdBy>
 <createdTime>2025-11-29 20:25:10 UTC</createdTime>
-<generatorID>5752B477-352E-72F1-F36C-774581FA93FB</generatorID>
+<generatorID>1B4554BF-F08D-9BF0-14B8-E1D12BE1B72D</generatorID>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="poruka" id="3B89A26B-92E8-7612-734A-FF4EC23DD963">
-<createdBy>srnam</createdBy>
-<createdTime>2025-11-29 20:25:10 UTC</createdTime>
-<generatorID>9379B729-99AE-DEA0-68A8-1DD9E443014F</generatorID>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="62CE55B3-3F51-99E1-0FED-44FB323B0859" name="Kanal_transakcije_PK">
+<ind_PK_UK id="1ED07F25-BED6-73DF-4F1F-83BBEC433755" name="Strana_banka_PK">
 <createdBy>srnam</createdBy>
-<createdTime>2025-11-23 23:56:46 UTC</createdTime>
-<generatorID>F2BEB3F1-9D07-D0E7-FB0A-2E3EFB2FAE38</generatorID>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<generatorID>BCD6A2B6-8755-03A3-F2B3-37B5E679E8AF</generatorID>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5C41C1F5-6CB1-2E6E-FB11-BEC6E33C6BA5"/>
+<colUsage columnID="7C878663-4726-294B-B60E-7E0383981A73"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

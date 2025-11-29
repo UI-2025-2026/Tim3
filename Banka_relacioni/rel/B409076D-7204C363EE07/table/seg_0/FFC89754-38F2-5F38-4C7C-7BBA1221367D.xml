@@ -8,6 +8,19 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Naknada_transakcije_ID" id="20B72138-2B88-0C8B-4630-9831FAD14CEC">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
 <Column name="tip_transakcije" id="FA358EC2-0D73-F864-4E54-87925C3DAF2B">
 <createdBy>mihai</createdBy>
 <createdTime>2025-11-09 10:14:20 UTC</createdTime>
@@ -74,15 +87,35 @@
 <createdTime>2025-11-23 23:56:46 UTC</createdTime>
 <generatorID>C5E57845-8B6E-578A-615B-FC5DB67D6940</generatorID>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="datum" id="4C5979D1-2949-2C03-7090-677DB574F6BC">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<generatorID>903644D9-1255-8DC9-31C0-C97D69724163</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3170D2AC-0747-83DF-4AD9-533E9A92DD95" name="Naknada_transakcije_PK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="20B72138-2B88-0C8B-4630-9831FAD14CEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="6AD133F5-AD91-92D1-7E2B-D88689A17B27" name="Provizija__IDX">
 <createdBy>mihai</createdBy>
 <createdTime>2025-11-09 10:14:20 UTC</createdTime>

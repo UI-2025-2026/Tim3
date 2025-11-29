@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ECAA4989-F471-791A-A189-67158D7DFD4B" containerWithKeyObject="08D7C434-5573-24FE-1DCD-0E603E6805C4" localFKIndex="BD944A37-8394-76AD-9C6E-4CE10661ECB3" name="Dnevnik_Log_Potkonto_FK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 20:25:10 UTC</createdTime>
+<generatorID>EFD2053B-DB56-C531-C85F-9FA70F44A592</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<referredTableLongName>Potkonto</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C9158AF5-0803-8831-1950-F8FC096BDD46</referredTableID>
+<keyObject>8BE58DD6-BE45-A0CF-A719-13AAEDBED63D</keyObject>
+<referredKeyID>8BE58DD6-BE45-A0CF-A719-13AAEDBED63D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id,Kontni_okvir_konto_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

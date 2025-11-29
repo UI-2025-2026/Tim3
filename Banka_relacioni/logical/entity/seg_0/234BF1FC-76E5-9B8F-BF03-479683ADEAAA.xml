@@ -78,19 +78,6 @@
 <dataTypeSize>100 CHAR</dataTypeSize>
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="drzava" id="9C85FAC3-A5E7-AD68-A771-97BB6D8BA67C">
-<createdBy>Krki</createdBy>
-<createdTime>2025-10-25 18:55:14 UTC</createdTime>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<engineerTo>
-<item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="swift_kod" id="9FE00481-5A03-5861-41F8-E473611FE770">
 <createdBy>Krki</createdBy>
 <createdTime>2025-10-25 18:55:36 UTC</createdTime>

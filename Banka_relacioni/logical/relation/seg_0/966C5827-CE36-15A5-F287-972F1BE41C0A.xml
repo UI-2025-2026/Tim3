@@ -1,44 +1,43 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Racun_Klijent" directorySegmentName="seg_0" id="6D36C9E2-5034-747B-EF80-A66D39338693">
-<createdBy>Krki</createdBy>
-<createdTime>2025-10-25 18:36:15 UTC</createdTime>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Medjunarodni_transfer_korespodent" directorySegmentName="seg_0" id="966C5827-CE36-15A5-F287-972F1BE41C0A">
+<createdBy>srnam</createdBy>
+<createdTime>2025-11-29 00:03:29 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
 <item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
 </engineerTo>
 <identifying>false</identifying>
-<optionalSource>true</optionalSource>
+<optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
-<sourceEntity>506C83C4-3068-E3BA-273C-2F6925D5F77C</sourceEntity>
+<sourceEntity>234BF1FC-76E5-9B8F-BF03-479683ADEAAA</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>E4BCDAD3-6E4D-3390-7B26-F82FB14DC406</targetEntity>
+<targetEntity>F0BEE864-5C5E-94FE-31F4-5081B44AF397</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<attribute name="datum_od" id="27E8E954-6D7F-37FD-D9DC-3ED3C2E63D08">
+<attribute name="uloga" id="D178665A-26FB-7569-351F-2B25C21D6962">
 <createdBy>srnam</createdBy>
-<createdTime>2025-11-29 00:21:29 UTC</createdTime>
+<createdTime>2025-11-29 00:03:45 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
 <item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
+<logicalDatatype>LOGDT025</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </attribute>
-<attribute name="datum_do" id="94556618-F22A-A192-C87B-56110B86D6B9">
+<attribute name="redosled" id="BB111466-A412-DC6B-9FB7-EBAD47D83FA1">
 <createdBy>srnam</createdBy>
-<createdTime>2025-11-29 00:21:41 UTC</createdTime>
+<createdTime>2025-11-29 00:04:09 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <engineerTo>
 <item key="B409076D-3911-9546-8088-7204C363EE07" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
+<logicalDatatype>LOGDT025</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </attribute>
 </attributes>
