@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4AA40C70-7C88-EFA0-773B-E0271AB2801C" name="Lična_dokumenta">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>02F645D5-6EA6-9B42-0D57-DCE7985FF253</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="licni_dokument_id" id="C32E7DD7-AD85-B911-CA98-E9AE15A6A109">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>274BE574-06D3-0D66-7E43-22FE3A9B35E8</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="url_dokumenta" id="DDCA7878-C4EF-3F54-CA86-47EACA147870">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>AC38D3BE-43AF-F557-E4FD-9E73C7C0FD26</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vreme_kreiranja" id="BBF81C7A-C56E-4067-0BC4-84389C8D0C2D">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>9C3CA7E4-9B37-2531-6694-1A2EA4111EF6</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_isteka" id="E134CE53-F261-698F-FE27-D9D13E2121DA">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>5271B331-9FA2-FAE8-652C-74EC21AFBA67</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status_vazenja" id="4DE88DC3-4CD1-7974-BC7F-3668890C3B61">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>5CF18F05-56D4-83A5-417F-676EB32C9B9E</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tip_id" id="1D1FE7FA-A52A-8E9A-71A2-40CADAB85F28">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>B7557D1D-8F9C-3A28-855F-16B2EE30E49F</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="klijent_id" id="8FE820B5-0F92-7ACC-98B7-943FEB4CB73C">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>E039072F-FD19-E452-F1E6-D72D28970230</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>D43CA0E2-1D8F-FF3A-AFDF-D6CEAFA3B3EE</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<referedAttribute>E3A742D9-62A8-2F8E-73B9-47E6DF54796D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AA7DEF3D-85FA-F375-4158-BE1B9D1DE336" name="Dokumenta PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>D6344F07-DE45-A427-4CA7-DBDD3D3FC615</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C32E7DD7-AD85-B911-CA98-E9AE15A6A109</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

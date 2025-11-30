@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CFEC54CA-2607-C5E6-F471-C13E95DA00E7" name="Kreditni_zahtev">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>D5CD01AD-0F81-F28F-14CF-F703A1352E5A</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>39068AE1-F3A6-106A-210F-F7D65D5EDB0F</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="kreditni_zahtev_id" id="CA028486-0F90-CEFB-A0E7-291E6F61D511">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>7EF1375F-3DBA-4978-715E-24062FAD9720</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>5B69663C-4621-1838-7B53-9E8C3EF4590C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="klijent_id" id="74B0CCD4-CB32-F1D3-4A8C-B35753208F3C">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>2F4D5CF0-C50A-9D75-386B-F833FACE87EE</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>38B397F0-57F3-2F35-C115-D5405B995A9A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_zahteva" id="A2B9C54D-B1CD-E82D-508E-1656707504EA">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>12E3425C-BB49-6996-3A02-70DA2448BF03</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>7DFBAE34-52E6-250E-30D6-665BBC4A1145</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_podnosenja_zahteva" id="F03265A4-DC93-BCF0-AA27-502BF3F99418">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>0CDFDCFC-34B0-C9D0-156F-977A758A0947</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>A00503E9-EEAA-321F-D489-C284A80DD7B0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zaposleni_id" id="A7392FA9-7EDD-C779-77E7-D4FFB00369E8">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>EBB04D8A-ECC4-9D46-B485-611E93E9338E</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>BA9F0CED-9A69-0AD4-5549-E7D531B22800</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="filijala_id" id="A2C70C25-B44E-351F-F405-A54D15AC4A37">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>ED4F8CC3-2FD7-6BE4-61B2-E06C6A5AAFB5</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>E48B28BC-9D52-28E1-C9AB-45193C3AED40</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kllijent_klijent_id" id="2D521EC0-760D-AC42-62AA-A68DEEE01B79">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>A1E58849-4313-2CBC-37BE-D08EB67D324D</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>5C590F10-8FBD-C565-DDEA-78771E7619AD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B98350A4-FCF0-20BC-702C-B3BBAB1690E7" referredColumn="8AAFB894-B857-F8BB-BA28-06E161D12E22"/>
+</associations>
+</Column>
+<Column name="Filijala_filijala_id" id="216CAE7E-9D36-0649-8521-D20DACBBD54A">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>88BE58B3-699A-5000-7DBF-4C0950BA617E</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>EFE6434A-D3C1-A176-92BA-38F58F5C5148</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A228F7E7-451E-A400-E993-A30CFA238B4D" referredColumn="68A2CD69-B386-D27A-E51A-F69621C8CC65"/>
+</associations>
+</Column>
+<Column name="Zaposleni_zaposleni_id" id="E1E8A12B-B279-52D5-60FB-79D8552527AD">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>303915CE-A5F3-F436-B444-C29697B94DD4</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>D3A3046B-0B42-C466-BF29-9356EE839FF7</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70960044-DB05-01EB-3083-364C296714BD" referredColumn="ECABB1C9-38E2-6AA3-34E6-85185E9BF3F2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="482D5934-2712-1D08-BB8D-E2558AF64EC3" name="Kreditni_zahtev_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>BDA6B42B-4D8D-6FAC-5061-10C0BB2DD282</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>79F48E74-F89B-BDF3-55D4-C047D668E095</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA028486-0F90-CEFB-A0E7-291E6F61D511"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA1B8B69-1834-374E-EDD2-A8EF80BAC62C" name="Kreditni_zahtev_Filijala_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>2D3F1085-BEE3-5326-F04C-5108551D73F8</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="216CAE7E-9D36-0649-8521-D20DACBBD54A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BA44370-AFDB-CA45-3D3D-92CA8B45DBF1" name="Kreditni_zahtev_Kllijent_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>493F0AD9-1AFC-2303-A29C-A95171CCA18A</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D521EC0-760D-AC42-62AA-A68DEEE01B79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C88816B-B85B-8F03-3557-DCDBD4F056A6" name="Kreditni_zahtev_Zaposleni_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>C2DED40A-12DC-DD83-B025-90110F07241E</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1E8A12B-B279-52D5-60FB-79D8552527AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

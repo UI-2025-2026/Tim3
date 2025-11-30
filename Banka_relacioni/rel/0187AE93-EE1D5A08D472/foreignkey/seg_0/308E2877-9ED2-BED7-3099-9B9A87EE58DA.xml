@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="308E2877-9ED2-BED7-3099-9B9A87EE58DA" containerWithKeyObject="07F21658-980F-24EB-93D4-A8AE693B1801" localFKIndex="8720D6B9-272C-3CAA-42E2-DC0184FFB564" name="PlanSmena_Filijala_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>7A7E354B-AD4B-E589-169B-F77BBBD366CE</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>C91F178A-D4DD-74CD-0EBF-FCD83C9646C0</importedID>
+<referredTableLongName>Filijala</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>00A15EC1-6203-2CD7-EFF3-66B090A8473B</referredTableID>
+<keyObject>7B1EE739-E71A-4B2B-1347-BBA6597349C3</keyObject>
+<referredKeyID>7B1EE739-E71A-4B2B-1347-BBA6597349C3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>filijala_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

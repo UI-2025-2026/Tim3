@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="55DBD086-8E19-C6F6-67F4-CFAA858517EC" name="Vrsta_transakcije">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>E8BF69A1-DE8B-071A-0FF2-C486C240F529</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>103A4885-78DC-E820-708F-3665AEA279A4</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vrsta_id" id="7F80DC93-774E-BA65-5938-2CA8DCB90A2A">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>BCAF1616-A1BA-74DC-DC6F-52D003BB53F4</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>2F94751E-63A0-F9D7-76A8-AD5944623A11</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="B03964AA-E725-BA67-16C0-AC72AE0B0602">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>99B54AFC-9C40-9DC6-00EE-7B12296714AA</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>83AD786A-B6C5-61E1-AB0F-F016BCC74899</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="šifra" id="5B6A2959-3CAD-684B-35AD-3A4F414FC207">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>A78D0857-9A45-86F0-3DD6-6D12563BC02F</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>2B7573E2-4645-6B46-72D9-6A702EAF43F6</importedID>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D743BF5-3C18-4618-16AC-6930D7A69567" name="Vrsta_transakcije_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>96AE7E85-C976-DF0A-AC58-3E519F89E603</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>C0A5C0FA-D212-19D0-9CE8-1A45987F23CE</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F80DC93-774E-BA65-5938-2CA8DCB90A2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

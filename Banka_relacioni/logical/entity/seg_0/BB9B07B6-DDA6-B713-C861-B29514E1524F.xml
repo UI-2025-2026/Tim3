@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB9B07B6-DDA6-B713-C861-B29514E1524F" name="Prisustvo">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>01720F55-877B-7743-CF2A-7E9AB46FB269</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="prisustvo_id" id="D5CF550F-8327-18AC-4F24-B8A9C3B70D6E">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>A9173FC7-52DE-0118-B5D9-DBE077A651A4</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zaposleni_id" id="714AC9F3-9D3B-C0FF-52F3-088130B00D57">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>F9ED4687-0935-1EEE-8414-0C975E13DF4F</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum" id="CA023344-74B4-58DC-F335-8CE0C70646A2">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>5C85D09C-66CA-FF7F-DE37-B8B3BF55E1D9</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="92F6DB00-0171-A14B-3CC4-6C28011E000C">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>AC1DD647-31B0-5792-2E7A-8C36B769AC0E</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zaposleni_id1" id="25756388-8367-D5A4-DA54-AEED4D811146">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>E598220C-8CC4-D8E7-BB32-05B71114D91B</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>E0CF7262-B941-75A0-71DA-F290F89FE459</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<referedAttribute>696B68EB-4665-4B68-3CCF-430D31B997A2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6BAECCC8-1BC1-2F7A-8A55-300513CA6D42" name="Prisustvo PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>CD9084E0-4B5E-818E-EB51-157C4E9EA856</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D5CF550F-8327-18AC-4F24-B8A9C3B70D6E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

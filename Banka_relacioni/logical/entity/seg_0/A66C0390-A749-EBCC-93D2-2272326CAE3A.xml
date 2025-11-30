@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A66C0390-A749-EBCC-93D2-2272326CAE3A" name="RadnaVremena_Filijale">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>037ADBF4-211C-7C36-BF82-59CC1E094BFD</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="9308B3D2-156C-1CEC-C3C3-9D21DB0EB278">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>6210DE1E-42FB-B688-E091-07FC27E8382C</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="filijala_id" id="A1729C2D-B2BA-761F-A64D-242477829ED1">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>7E1A8024-3D11-27A7-E7A6-0CF2E771C238</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="radno_vreme_id" id="3A1C61B4-4F2C-A301-B246-DF03C0546D10">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>77F0FB0D-22C6-8064-63DD-D0A68387DD4A</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="filijala_id1" id="3678C557-4100-98CC-CE94-B7D106A181C9">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>4AE635E3-8468-2FB3-19FB-8A8A50F605B0</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>F6723ECC-03B6-3A11-CE71-EB835BEC1281</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<referedAttribute>BC093889-36AD-5312-78DA-CAB9DF9BF8DA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7AF101F1-4308-E308-F2A0-A5DD604335D2" name="RadnaVremena_Filijale PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>7DF50328-628F-8E79-5D43-89CA0FD9BB29</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9308B3D2-156C-1CEC-C3C3-9D21DB0EB278</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

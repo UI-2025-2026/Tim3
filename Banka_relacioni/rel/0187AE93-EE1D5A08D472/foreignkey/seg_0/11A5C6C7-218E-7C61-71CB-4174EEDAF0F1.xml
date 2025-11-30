@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="11A5C6C7-218E-7C61-71CB-4174EEDAF0F1" containerWithKeyObject="6FEA334D-0F1B-11D3-BB7E-26FFC238F23E" localFKIndex="CEFA6021-2A36-F2AB-E6B8-C15755C102B3" name="RadnaVremena_Filijale_RadnoVreme_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>A70DC0F2-089D-1DB6-5D7E-10ED96336AC2</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>5452F962-E999-35CE-C414-817686D2DCE0</importedID>
+<referredTableLongName>RadnoVreme</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E67125AF-CBAB-22A9-3B88-AECB4F383E54</referredTableID>
+<keyObject>3F9F35EB-76EF-B7DF-C673-B7C7FEB4AF2F</keyObject>
+<referredKeyID>3F9F35EB-76EF-B7DF-C673-B7C7FEB4AF2F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>RadnoVreme_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

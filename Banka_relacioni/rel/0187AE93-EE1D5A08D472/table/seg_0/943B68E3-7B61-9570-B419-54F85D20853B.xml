@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="943B68E3-7B61-9570-B419-54F85D20853B" name="Reklamacija">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:37:35 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<ordsAlias>table_62</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="reklamacija_id" id="A4A1AC21-22A7-31AD-3120-D0C6E4EEFAE4">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:39:42 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_podnosenjada" id="0CA0A5C7-E755-487A-F213-C3F1559B23E3">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:39:42 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis" id="89908F4B-F87B-759F-2863-9ABA71ACA5BB">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:39:42 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kllijent_klijent_id" id="9F872D8B-3A94-A9D9-0F37-5EE66BEFA12F">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:41:33 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43CE3558-1F6B-5D1A-4F5D-8ECB4DBE3742" referredColumn="8AAFB894-B857-F8BB-BA28-06E161D12E22"/>
+</associations>
+</Column>
+<Column name="Transakcija_transakcija_id" id="76BA47D1-0A80-C033-87AB-FD2DECB5A67A">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:42:04 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1CD0112-32D8-8906-4569-D1B83BF12B5D" referredColumn="921D6EB6-EF85-BC49-15C5-4FB8F2834E6B"/>
+</associations>
+</Column>
+<Column name="Status_Reklamacije_status_reklamacije_id" id="A9755EC1-52EE-9742-7B68-839E521FE6D7">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:45:22 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F3FF0EEC-F882-F97C-B910-A404006C2EDB" referredColumn="42DB8DF6-039E-401F-654A-E78EA6DF8E2B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E2E54AA-C755-2F1C-1999-F14C0E978F50" name="Reklamacija_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:39:42 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4A1AC21-22A7-31AD-3120-D0C6E4EEFAE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="412D17B6-E863-DCFB-89C4-733F29F2C434" name="Klijent">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:41:33 UTC</createdTime>
+<generatorID>A10D6DCC-8D7E-CF69-32A9-D6C870A78A88</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F872D8B-3A94-A9D9-0F37-5EE66BEFA12F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33B8E261-B029-4974-781E-23A03F8127A3" name="Transakcija">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:42:04 UTC</createdTime>
+<generatorID>2420B9F2-8989-26A1-CBBF-8B1B24472244</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76BA47D1-0A80-C033-87AB-FD2DECB5A67A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DBCBF9D0-146E-AC37-EC02-E75F53EE4616" name="Status_reklamacije">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:45:22 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9755EC1-52EE-9742-7B68-839E521FE6D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

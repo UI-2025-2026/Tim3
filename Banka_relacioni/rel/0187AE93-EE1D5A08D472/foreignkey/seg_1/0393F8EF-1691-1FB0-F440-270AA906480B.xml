@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="0393F8EF-1691-1FB0-F440-270AA906480B" containerWithKeyObject="0EB745F4-9D89-643C-E289-2A3607C46236" localFKIndex="4D5EDE0E-D3A0-F665-03F1-ABFE15307404" name="Transakcija_Status_transakcije_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>1CAEC1C6-CE19-EA0A-3119-50D34B5D652E</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>FA1925D9-D858-D1A8-4BD3-823FD3F32C7E</importedID>
+<referredTableLongName>Status_transakcije</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>90684E34-58D4-4A1E-3490-84A3B838C368</referredTableID>
+<keyObject>488C07DA-8CBE-A7DE-EDA7-377804DCF747</keyObject>
+<referredKeyID>488C07DA-8CBE-A7DE-EDA7-377804DCF747</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_statusa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

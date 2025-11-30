@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="11E5A401-8544-47BE-4E94-0032D8D1E150" name="Blokada_Racuna">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:15:10 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<ordsAlias>table_70</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="blokada_id" id="E6B1902B-C26E-50EA-057D-2C926F698A12">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:16:30 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="razlog" id="2FF6A257-3855-ED24-E1D9-9F4C3D16B72C">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:16:30 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_od" id="7077F229-980A-E0AD-C000-181960811F5B">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:16:30 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_do" id="4B62A242-9739-2914-9CD2-7D5B32FCBF35">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:16:30 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aktivna" id="99CFDA82-EE8D-B18A-FBD1-905CF2660F5B">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:16:30 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bankovni_racun_racun_id" id="BC38227E-EA10-BD8E-D901-394E0F73FC54">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:18:07 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8B749167-9604-F1A6-58D9-2A9E1277A1C9" referredColumn="A7225EE2-4D60-ABA3-B777-E77B3C332C7C"/>
+</associations>
+</Column>
+<Column name="Bankovni_racun_broj_racuna" id="961F53AD-FC1C-2C7E-93C9-C7E7EA12A454">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:18:07 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8B749167-9604-F1A6-58D9-2A9E1277A1C9" referredColumn="A74867E3-0FFD-1286-1B3A-C2D0AE7EA02B"/>
+</associations>
+</Column>
+<Column name="Tip_Blokade_tip_blokade_id" id="26FD1702-BD80-2EEC-3744-A4CA35171673">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:18:35 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A08F9E7-BE82-2099-5F8E-597FA8327F2B" referredColumn="CDA03C93-F656-667F-84DE-DB1C21522EF8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="156F00F4-11FD-CDF0-8C57-75B67A889E70" name="Blokada_Racuna_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:16:30 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6B1902B-C26E-50EA-057D-2C926F698A12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C521A640-4227-8FE9-C3F6-B53935FD597D" name="Racun">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:18:07 UTC</createdTime>
+<generatorID>4B19BA45-099E-8611-9EE1-B407F7C914AF</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC38227E-EA10-BD8E-D901-394E0F73FC54"/>
+<colUsage columnID="961F53AD-FC1C-2C7E-93C9-C7E7EA12A454"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71F5834F-AA79-BFFD-B246-679B2189CE42" name="Blokada_Racuna_Tip_Blokade_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:18:35 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26FD1702-BD80-2EEC-3744-A4CA35171673"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

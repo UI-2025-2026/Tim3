@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="708655E1-A4E0-A445-CA6B-D2CBAE85330D" name="Tip_Ovlascenja">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:07:38 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<ordsAlias>table_69</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tip_ovlascenja_id" id="DFA282D0-3D96-2689-5B26-C9B4B4E37A4F">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:08:18 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="419355D9-656F-D0A9-946F-884A49F8AAE0">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:08:18 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ovlascenje_klijenta_ovlascenje_id" id="2C41F240-3152-ACB5-0188-77586BF3020B">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:08:55 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E145956-60D2-035A-38CD-2E99382B19DF" referredColumn="19E71A85-E024-AD75-E4DE-8F14DEC13D56"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E6EC90F-2866-5EF6-5FAE-C911FD66A17D" name="Tip_Ovlascenja_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:08:18 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFA282D0-3D96-2689-5B26-C9B4B4E37A4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8252CD5B-C32A-D9E1-7CDC-91AEBBC6A8D8" name="Tip_Ovlascenja_Ovlascenje_klijenta_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:08:55 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C41F240-3152-ACB5-0188-77586BF3020B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

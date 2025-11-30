@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="racun_kamate" directorySegmentName="seg_0" id="DCC4762E-C923-A32B-0FFD-9A2941878F41">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>33523D67-042A-A36B-EB44-5B8ADC77CB70</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<sourcePk>4B19BA45-099E-8611-9EE1-B407F7C914AF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9263B726-608C-E0DD-B090-2167782010D0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D66EF36C-45BE-76EB-BEA0-D4EC49DDD7A5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

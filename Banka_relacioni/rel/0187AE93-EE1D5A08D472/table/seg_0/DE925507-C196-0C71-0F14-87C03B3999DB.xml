@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE925507-C196-0C71-0F14-87C03B3999DB" name="Zaposleni_Obuke">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>691823B2-C182-8D9D-5317-D21734178014</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>070EE900-9696-7ECC-EC1A-00C93EEE3587</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="DE4825AA-905E-A3D6-318F-E252CA8B43EE">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>BA58E99D-1661-37E5-9F5A-FC9448CB085E</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>E0AE15DD-7941-7130-CC72-27905FFE5313</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zaposleni_id" id="F848080F-2614-7B32-D4AC-6A612CB3C1AE">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>4F63E277-826C-2A70-CAB0-DEF84F05EF0C</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>B9D4365C-42EA-E3C4-29E5-7E30123B17DA</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="obuka_id" id="35B799CA-AF7A-EDC2-1E8F-D383F9789BE8">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>D1F7B916-AF36-7A09-31CD-434B0122AB89</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>37C137F8-8D75-A10A-2BF5-5E681666F9C1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zaposleni_zaposleni_id" id="EE88BB0E-D736-F6E9-E2CF-9B02E5C54293">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>1314B4C5-888C-9E3A-2BD2-E1AF873D77EB</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>3DFC1CE0-98BF-DC27-CC6C-FA0E154A6425</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8463589-1D1B-4C5B-4C71-AAB2E6B1A1B1" referredColumn="ECABB1C9-38E2-6AA3-34E6-85185E9BF3F2"/>
+</associations>
+</Column>
+<Column name="Obuke_obuka_id" id="69FF9319-76C3-D503-3774-CC5046B963F5">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>4BBB9313-5AF2-30FC-556A-8B412CDC593E</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>F2ABD924-D311-59BE-47FD-80E6D8E85865</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3702D6BE-A392-5742-61B6-1C9B608699C3" referredColumn="7203AC3B-5986-53B3-6465-BD994BA604F5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9FB137DF-AB0B-186A-DAAF-F62B3FB54767" name="Zaposleni_Obuke_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>154305C4-5545-5C3B-59D7-6C29E2AE149F</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>59FB5368-CA81-BB7D-FB70-3D741055C328</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE4825AA-905E-A3D6-318F-E252CA8B43EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4575B0B1-88BC-DEC9-7744-AA81ED0B3769" name="Zaposleni_Obuke_Zaposleni_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>81943124-E301-F76E-557A-2660E2AC462B</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE88BB0E-D736-F6E9-E2CF-9B02E5C54293"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BE4751A-90EC-1CD5-D9F0-69E88AEC53A8" name="Zaposleni_Obuke_Obuke_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>AC8D5D77-2F29-6489-AB63-EF1A01B9A362</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69FF9319-76C3-D503-3774-CC5046B963F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

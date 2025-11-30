@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="379E1B18-167F-BBD2-55D4-2A9B7BDA862A" name="Greska">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>6A31457E-2121-C936-472A-CE039B6A2032</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>91774821-C194-16DA-4C7D-F03395C4F58A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="greska_id" id="E051B003-AD59-EEF7-6EA3-81E86B3F8751">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>1FC8EB20-E284-17DC-060D-B832377B4723</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>26667925-62F7-B53C-B501-8EB35680294A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="5E75A618-FA16-57F2-CAC8-8C4C813B98AC">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>5F9226CC-05C4-7419-5C33-0941A7CE9A05</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>24AF2EDA-C898-A0AB-B2DE-245CB1E53ED1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="poruka" id="D40369D9-3022-CDF4-3878-467BD58E021F">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>8442BA21-9922-119F-CAF7-D75C7BBCB408</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>C493FBF4-7B31-6F0C-C305-16EC6BD9F44C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status_transakcije_id_statusa" id="5988FE29-BDDD-DE80-EB9B-28F44830C736">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>96C05ABC-077F-C06F-B88F-F57EEE50F1E1</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>68B925AC-DC5C-C459-1B6E-1563CD997E7A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4F063C9-1ECE-7486-2DA0-DBC2DBE04B47" referredColumn="E3E7889F-2B1B-F377-32B1-7D96A34CEA99"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95905DDA-DE21-23CA-952E-01BAE5DCAEF2" name="Greska_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>FE454681-4AEF-BB8C-1C48-B30BC0191EC9</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>C204402F-1FA7-0CC5-E14C-02DFD0A2A705</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E051B003-AD59-EEF7-6EA3-81E86B3F8751"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E524B41-BFD5-BA1A-1B1C-EBA276C7D053" name="Greska__IDX">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>E159CADB-2A33-F4A7-F58D-295A43837438</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5988FE29-BDDD-DE80-EB9B-28F44830C736"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CFE6275B-7D1F-49ED-CB87-EE252EB03E2D" name="Greska_Status_transakcije_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>C04EDEF4-6FF8-5B6F-44E7-AD1D61E5E0C2</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5988FE29-BDDD-DE80-EB9B-28F44830C736"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

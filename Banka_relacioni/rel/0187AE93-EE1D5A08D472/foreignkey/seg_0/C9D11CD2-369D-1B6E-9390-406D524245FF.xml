@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C9D11CD2-369D-1B6E-9390-406D524245FF" containerWithKeyObject="6AA8159B-7EE4-92C9-CAF0-973F1C322F4E" localFKIndex="42A73A75-51E8-2C7A-2934-EDE4A5859AB5" name="Bezbednosna_pitanja_Nalog_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>C8F18DDA-ED6C-6AE2-04B1-D6BD331D5543</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>9A0B7C7F-E980-09DF-E44A-2A28D9E26F30</importedID>
+<referredTableLongName>Nalog</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AF8B8C8E-92A3-BB72-8E45-CEF4543E4C07</referredTableID>
+<keyObject>97F5692C-903E-04C0-D58E-2AAFB2682965</keyObject>
+<referredKeyID>97F5692C-903E-04C0-D58E-2AAFB2682965</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nalog_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

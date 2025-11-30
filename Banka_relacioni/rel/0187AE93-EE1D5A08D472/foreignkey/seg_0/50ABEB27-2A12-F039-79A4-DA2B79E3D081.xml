@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="50ABEB27-2A12-F039-79A4-DA2B79E3D081" containerWithKeyObject="8D3D4204-D941-C71B-3F88-F0308AA87A1E" localFKIndex="05114C0F-0542-4A22-03FD-262357BEB336" name="Obuke_Edukator_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>B106FCA1-1CE5-CF7F-20EC-588A53626935</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>23EA3BB4-B7F6-0D16-6E68-FC7BA2B797CC</importedID>
+<referredTableLongName>Edukator</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>50BB9491-9CC9-7F9B-43AE-48E108C08165</referredTableID>
+<keyObject>0759A71E-F9B2-B483-E566-08408ECF50D2</keyObject>
+<referredKeyID>0759A71E-F9B2-B483-E566-08408ECF50D2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>edukator_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31AF09B2-AFE9-BA06-BB2E-19468D7C568F" name="Fizička_lica">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>A89B2126-2837-62E1-5DA8-903924FA59E8</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>56526434-1266-D347-FB54-DEA3C609ED8E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fizicko_lice_id" id="4B61CD75-7646-8CD1-DCC3-5F8354A5BB68">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>C342D0ED-01D2-97FE-B3EE-AA8062CBB564</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>1C87CA63-D92B-5E67-174A-8E585E859B5C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="klijent_id" id="B636F9AE-D195-8A73-FAAB-5E8EFD917675">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>BA1857E2-8F01-5328-1631-914579EC94FD</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>629A7739-C90E-2549-F1CE-377E32ECFC08</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96460DBF-6167-F3DD-B9C8-54E4654B2C2B" name="Fizička_lica_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>C88750E7-3483-FFA0-9ED3-5F226F82F115</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>032AF3DD-08A4-F6EF-F335-FCC9B191462D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B61CD75-7646-8CD1-DCC3-5F8354A5BB68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

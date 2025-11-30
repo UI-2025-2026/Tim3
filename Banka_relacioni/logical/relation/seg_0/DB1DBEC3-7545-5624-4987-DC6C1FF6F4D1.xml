@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_80" directorySegmentName="seg_0" id="DB1DBEC3-7545-5624-4987-DC6C1FF6F4D1">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>F755BCA9-A509-EEAB-79E4-19DD77515A91</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<sourcePk>A10D6DCC-8D7E-CF69-32A9-D6C870A78A88</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>65DA988A-92CA-D06A-3F44-11B91F1FF16F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FE090FDF-E878-5B5D-434E-AA4B0075CA57</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

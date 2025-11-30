@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="535125C5-8247-38C0-DA2A-783931D849E0" name="Lojalti_bodovi_klijenta">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:59:50 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<ordsAlias>table_67</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="bodovi_id" id="756D8A9C-317C-3456-A8C2-5A54273BEABA">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:01:02 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj_bodova" id="B0631FA9-AE4E-A206-A16F-863E9B88163C">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:01:02 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_azuriranja" id="2A006C55-F995-4A26-6781-C49D5D8CB3C6">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:01:02 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOJALTI_PROGRAM_program_id" id="50F1F210-62A0-146C-A8C5-62677FB157EB">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:01:47 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2CB9D616-1718-9315-6B61-7841D3EEC8C2" referredColumn="67A47228-0E72-52E6-5842-E8ECED8FA394"/>
+</associations>
+</Column>
+<Column name="Kllijent_klijent_id" id="F2A9D88D-FC62-DC32-0775-F323B6400CFE">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:02:12 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1FA9CEE-11B1-789A-1EAA-47500E1FC8D4" referredColumn="8AAFB894-B857-F8BB-BA28-06E161D12E22"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="48149641-503B-6867-E458-411DE6E04CA9" name="Lojalti_bodovi_klijenta_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:01:02 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="756D8A9C-317C-3456-A8C2-5A54273BEABA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82F56E2E-FF2E-41F7-39D6-1CFA2B4782B6" name="Lojalti_program">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:01:47 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50F1F210-62A0-146C-A8C5-62677FB157EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00BF4DE6-2808-6187-74D4-04AF7D186D92" name="Klijentv2">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:02:12 UTC</createdTime>
+<generatorID>A10D6DCC-8D7E-CF69-32A9-D6C870A78A88</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2A9D88D-FC62-DC32-0775-F323B6400CFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="10BEBDD2-6420-CE0E-ECE7-CE30356EA0D9" containerWithKeyObject="87070DEB-2B23-E33D-5239-309354276429" localFKIndex="4C5C0012-75B4-179F-442C-B5E691245DDA" name="Status_klijenta_Kategorija_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>E6B3D9F9-91A0-4529-E219-4D3783610814</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>78666BBE-BBC1-9002-EE21-7B885236B101</importedID>
+<referredTableLongName>Kategorija</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D521BB01-6F42-1D85-99C7-52EDBBF59A5B</referredTableID>
+<keyObject>B264CA49-1484-BD35-7C58-02C422FC14E7</keyObject>
+<referredKeyID>B264CA49-1484-BD35-7C58-02C422FC14E7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>kategorija_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

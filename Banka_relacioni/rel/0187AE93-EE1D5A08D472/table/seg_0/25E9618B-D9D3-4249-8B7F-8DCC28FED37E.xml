@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="25E9618B-D9D3-4249-8B7F-8DCC28FED37E" name="Dokumentacija_zahtev_za_kredit">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>926C58F2-A01B-EDFD-3A5B-66D84DC99CB8</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>C05B11D5-4D5E-C73C-5186-BB4AF39F9AD6</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dokumentacija_id" id="34E71021-8431-2EE9-85E4-7240A1C93DA5">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>C695761A-8E78-7DF1-66F9-C9C521712204</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>8706E3AB-49CC-111F-46A9-CAAB1D0A57E0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zahtev_id" id="36E18FC7-F2D8-ADF1-DFA1-92E64CDC4E3E">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>85555052-F59E-9A5A-C4A8-CF9AE642CCF5</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>9C35761E-A2DA-8E5F-AF21-EF400277A070</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip_dokumenta" id="0A11352F-422E-2369-EBBC-AF7019463606">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>BCF4E921-544D-8D13-D1C7-31619FA14786</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>4F4FFA5A-B423-9F11-3A66-5E176CDCBD95</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_prihvatanja_dokumenta" id="2C5594B3-1CFE-D037-9CE1-6C027AD6D4BC">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>A2241624-623F-A99A-296C-5FE87B5533B2</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>5F3439C0-11F1-DA74-65E1-379B9EC2042E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kreditni_zahtev_kreditni_zahtev_id" id="CCB0592C-BE21-DC0F-1AEA-10DE01D49094">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>04BEFB26-46BF-D6A5-4808-C9DCD9029FB7</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>5EBCAB6A-93B4-A10A-BFA6-A3BBA6D7E9DC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71DAFCCB-9A24-480B-A696-5D747934342C" referredColumn="CA028486-0F90-CEFB-A0E7-291E6F61D511"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C633A48-C8B2-C00B-F511-F592455354C5" name="Dokumentacija_zahtev_za_kredit_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>13D0936E-D3F2-305F-471E-40F208BF2403</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>480901AF-1248-E2D7-B7FB-C6BC14FCFCAC</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34E71021-8431-2EE9-85E4-7240A1C93DA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D64D267-9E14-0CE6-C2D2-08B7BEDB6BF0" name="Dokumentacija_zahtev_za_kredit_Kreditni_zahtev_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>B3FC5B96-D5DC-4F2B-B7BC-9278ED32F509</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCB0592C-BE21-DC0F-1AEA-10DE01D49094"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

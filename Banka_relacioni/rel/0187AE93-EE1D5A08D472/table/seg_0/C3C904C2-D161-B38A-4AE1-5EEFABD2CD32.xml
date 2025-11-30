@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3C904C2-D161-B38A-4AE1-5EEFABD2CD32" name="Blagajna">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>9AF2AC8B-82F8-E244-00DA-7B73C514E8EA</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>405DF4D9-5634-F6E2-C6CE-9B7F5600A9ED</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="blagajna_id" id="FAA9E2F0-ADB3-0691-0A2C-5D7043FB3268">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>3FD316E1-61FC-6A45-948E-46D78E0BC085</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>C6229113-D4C7-25A7-6217-F176B7FC6899</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stanje_blagajne" id="FEA5433E-B13F-4F15-5BE5-931C2A286E6C">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>ECBA3737-BCB5-6430-DD92-997B3D2E8C15</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>731794F2-50A7-2B7A-E24F-EF663734E572</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="filijala_id" id="E31564D5-1BDE-3B03-151D-4E037AC33159">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>94125C85-9F4D-B3DC-2EAE-F7B008F7A96D</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>E54C0214-4E89-BC7F-1F2A-ABA3C8CF0500</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Filijala_filijala_id" id="39831BF0-5D34-0717-613D-65907C3CFC58">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>9AB348F9-2283-9051-329D-AFAD125121FC</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>247A9B0F-5D84-0B6B-307C-F4DE59EA2344</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C3D570F-40A3-E2FE-E8C6-A2DED2A85CD5" referredColumn="68A2CD69-B386-D27A-E51A-F69621C8CC65"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="750B4B00-E3B4-D668-1147-7DD165966D4A" name="Blagajna_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>A76C72A1-B0F5-CEE9-2EED-A98125E7AD43</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>1920D965-50DF-8F04-D32F-626276DA79CB</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAA9E2F0-ADB3-0691-0A2C-5D7043FB3268"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB5FD1D5-F2A5-C239-E848-868264B3B1B9" name="Blagajna_Filijala_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>A17F8EB1-AD86-D99B-D3F1-1FA0C40D201D</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39831BF0-5D34-0717-613D-65907C3CFC58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

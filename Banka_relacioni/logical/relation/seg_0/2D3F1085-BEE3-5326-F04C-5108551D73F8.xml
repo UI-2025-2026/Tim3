@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FilijalaKreditniZahtevi" directorySegmentName="seg_0" id="2D3F1085-BEE3-5326-F04C-5108551D73F8">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>F93C7591-B729-0D44-8DEB-ED1BBC73091D</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<sourcePk>F4E79B6B-9B3A-CDD6-8F10-F8A39B38F055</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C5F49B16-F3C7-932E-366B-E57DDFA165B7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D5CD01AD-0F81-F28F-14CF-F703A1352E5A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

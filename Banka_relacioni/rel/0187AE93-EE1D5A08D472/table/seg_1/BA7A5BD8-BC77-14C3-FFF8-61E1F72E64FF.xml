@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="BA7A5BD8-BC77-14C3-FFF8-61E1F72E64FF" name="Ocena_Usluge">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:24:06 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<ordsAlias>table_73</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ocena_id" id="AF233489-F165-8AEE-4732-1DC307873454">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:25:21 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip_usluge" id="4711E436-3A23-125A-35F0-0429E318CEC4">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:25:21 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ocena" id="6FDFAC17-0178-22E4-E10F-09C0E00C32BB">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:25:21 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="komentar" id="3539D708-A58B-85F6-572E-07BCC5E0685D">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:25:21 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum" id="77CC0A5B-12E2-395B-6FE8-6B4D714DB06E">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:25:21 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kllijent_klijent_id" id="35C75F54-C502-B7CF-840B-40A12B4A4591">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:25:29 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8AF24B6-3CA7-1ABB-BBA2-4D65D024F0A3" referredColumn="8AAFB894-B857-F8BB-BA28-06E161D12E22"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D8FFAD2A-A65C-37A5-423E-2095FD669E69" name="Ocena_Usluge_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:25:21 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF233489-F165-8AEE-4732-1DC307873454"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71497A0E-FE36-7053-9D7A-AB79EF754C0A" name="Ocena_Usluge_Kllijent_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:25:29 UTC</createdTime>
+<generatorID>A10D6DCC-8D7E-CF69-32A9-D6C870A78A88</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35C75F54-C502-B7CF-840B-40A12B4A4591"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

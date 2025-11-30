@@ -1,8 +1,13 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Banka_relacioni" id="5E4CCD8A-8BDC-CC8E-CC57-E9C80C0EA297" version="3.5">
-<createdBy>srnam</createdBy>
-<createdTime>2025-10-11 12:11:45 UTC</createdTime>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Tim3 " id="CD3CAB39-E7F4-04F0-7EA9-331FE98D970C" version="3.5">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:33:31 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
 <capitalNames>false</capitalNames>
-<designId>5E4CCD8A-8BDC-CC8E-CC57-E9C80C0EA297</designId>
+<designId>CD3CAB39-E7F4-04F0-7EA9-331FE98D970C</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="5E4CCD8A-8BDC-CC8E-CC57-E9C80C0EA297">
+<designStoragePath>C:\Users\milos\OneDrive\Desktop\Tim3-main\Banka_relacioni</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
 </OSDM_Design>

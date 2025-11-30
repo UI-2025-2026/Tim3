@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Smena_PlanoviSmena" directorySegmentName="seg_0" id="980AACF1-737F-EDE2-34D1-8756D0332DF5">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>F3867315-527B-36F8-7AE0-EEB958B4A8BB</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<sourcePk>6B9EC772-0693-43DE-B238-71A6F89113DA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>064EAA5E-C46C-2EA5-AF99-DDD6A0236935</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2C211A0D-631A-06C0-2314-0E881DDD09B9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

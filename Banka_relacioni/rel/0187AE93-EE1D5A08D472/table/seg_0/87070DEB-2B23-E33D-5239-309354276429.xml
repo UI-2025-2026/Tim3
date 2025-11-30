@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="87070DEB-2B23-E33D-5239-309354276429" name="Status_klijenta">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>56E574AB-C10C-5B43-C8E6-310089478133</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Kategorija_kategorija_id" id="8CF300B6-3AAA-650E-2137-6A303C3EB975">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>B8C10426-3E19-1D2C-8830-566DBBF894D1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10BEBDD2-6420-CE0E-ECE7-CE30356EA0D9" referredColumn="A7D86388-3206-FE71-A8B9-936F3D0FA254"/>
+</associations>
+</Column>
+<Column name="Kllijent_klijent_id" id="3452DACC-DEE8-561A-EE22-332F7150371B">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>7FB77405-DB06-C626-5952-B7CA92C5926F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A43534E4-9C72-0DDC-F04A-1C631CABB994" referredColumn="8AAFB894-B857-F8BB-BA28-06E161D12E22"/>
+</associations>
+</Column>
+<Column name="datum_od" id="FE82BEAD-8223-854C-04F9-388CB2AD223B">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>2BC46ED9-5619-0229-5BB2-5025447D475A</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>6494965E-1339-7CCF-1462-3949F9665F4D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_do" id="3A78EDB7-1C3D-FF44-0500-FC8AF2538B59">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>FF4F7BEA-E4C1-8E73-0039-0E4DFA9FC308</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>2E33EFC6-EF46-1FEB-0A1D-CD0AD308ABF4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58F4BC31-84ED-5F37-2FF3-FC0AD351D47C" name="Status_klijenta_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>D90AE40C-2D53-C96A-F8BB-B5608624D769</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CF300B6-3AAA-650E-2137-6A303C3EB975"/>
+<colUsage columnID="3452DACC-DEE8-561A-EE22-332F7150371B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F542DE82-40FD-88B7-91C2-6CAA9C5244C4" name="Status_klijenta_Kllijent_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>E6B3D9F9-91A0-4529-E219-4D3783610814</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3452DACC-DEE8-561A-EE22-332F7150371B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C5C0012-75B4-179F-442C-B5E691245DDA" name="Status_klijenta_Kategorija_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>E6B3D9F9-91A0-4529-E219-4D3783610814</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CF300B6-3AAA-650E-2137-6A303C3EB975"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

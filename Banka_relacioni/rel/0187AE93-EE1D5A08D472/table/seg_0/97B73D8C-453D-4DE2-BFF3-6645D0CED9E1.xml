@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="97B73D8C-453D-4DE2-BFF3-6645D0CED9E1" name="Promena_pina">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>0991F186-E68E-A984-C044-78BB9DF3CD40</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>B2B3CA2E-A0EF-E852-0B8A-BF32289114C4</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pina" id="E71CCAB7-0971-6F45-D4E3-DECDCFC4CBD3">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>4B4C5ACD-32D8-C076-E0F5-C92058081FA1</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>2D25A349-C432-A351-89C0-8B1B18597C24</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hash_pin" id="35296B89-28D0-BDB9-8609-C8A1A413D401">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>F1F2E486-17F1-5FBE-F226-961A7D56F810</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>A02745D0-017B-0094-FD13-1B23894E5F8E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_promene" id="ACE4E46D-9FD2-C7DC-25B7-432829F4648B">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>1C9B8349-5E51-A9D2-B737-D814B9C6186E</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>1A1E649E-8BBA-A665-A5B9-EC84442E0566</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nacin_promene" id="A7C7B78E-BFF4-E261-D014-6886C6927F65">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>A2676F69-9177-D4B4-8706-E52F15E8C633</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>E7B44669-A48F-0EE6-59B0-1DDA6E6764ED</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kartica_kartica_id" id="22E46773-4892-3ECB-EE26-5968ABF45375">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>79504E16-14EE-32F9-4769-5580C8D2C989</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>BAA48CD4-FD27-3467-796A-395B2D512558</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16B7E4EA-E258-46F6-9C79-7E8DA2C9CF6E" referredColumn="D2BC2679-66F2-1C5D-0910-03A24AC30342"/>
+</associations>
+</Column>
+<Column name="vazeci" id="2DC19628-E1FF-6182-A38B-5424D2649142">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>FF2A5CE2-5B08-C918-DEF1-641CAA78A318</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>FB6BAF5B-76E0-F895-A973-1E43C8856459</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="35E566C5-BD0F-C2DD-7748-B8765310BB3B" name="Pin_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>8E6318C3-9F94-A409-0690-08A8333165DB</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>F89025E3-AF15-D916-856F-FC1A9C3C4917</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E71CCAB7-0971-6F45-D4E3-DECDCFC4CBD3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9DEE9753-666E-F284-5041-F2C63E517914" name="Promena_pina_Kartica_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>FA3E5D8F-B520-1EE5-7ED4-D3CE74207C11</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22E46773-4892-3ECB-EE26-5968ABF45375"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

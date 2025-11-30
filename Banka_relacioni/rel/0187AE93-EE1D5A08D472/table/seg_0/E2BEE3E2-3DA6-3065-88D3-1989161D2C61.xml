@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E2BEE3E2-3DA6-3065-88D3-1989161D2C61" name="Poslodavac">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>918DF67B-21B3-3B89-F83C-26446F54C1BF</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>5465CB9A-FEA0-857B-3F8B-B0BB37218CFC</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="poslodavac_id" id="A0023424-D396-1D16-2024-A35AE8C34E93">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>3DEA33A5-5485-6AB2-4EDE-63A33BAF3F26</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>82B67FB2-903E-538D-9C40-5DFC4293C24A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv_poslodavca" id="115119CE-4B9E-4CD4-92AA-1A012047164B">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>9B7FF48A-662E-841E-B6C7-1D7AA9BA70EE</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>1B74F0B3-C7B7-B781-32D1-2CDE57238D78</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_od" id="C090F246-ED5A-4DAD-B34D-D54B817C1553">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>6912B3DA-B52E-282B-7530-6A188511AF77</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>BBC744A2-6852-1B27-5068-6008E1BDC6FE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_do" id="6DC552C2-BA2F-C91F-30F9-BFC5FF19244C">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>A0A5E883-437A-0AF0-00F1-472B6024CE47</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>156CAA9F-18DC-F68C-471F-5FD4CE9C036E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="37011E80-6399-64B8-3C50-67E5621A1EE5" name="Poslodavac_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>2917A2C8-6A2D-0B0E-1D5D-DA6DAA8F8B2F</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>547CFAC7-54C3-D9E7-B5F1-A50073BFAF2A</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0023424-D396-1D16-2024-A35AE8C34E93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

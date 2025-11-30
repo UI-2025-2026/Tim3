@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1079C96-E116-4D66-E24C-860AE4604258" name="Podaci_o_pravnom_licu">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>AA1605FA-1733-AFB1-6597-76EF9483C641</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>951625D8-6217-23E4-D109-B48C0F6226AF</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pravno_lice_id" id="93C84B09-F026-EF8E-F903-4C85A10BB529">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>13C8C92C-31C9-E883-FE45-DB29CEBBAFB9</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>5C563817-AE61-6568-0A89-2892BD87D751</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pib" id="1969FDDD-BB28-DB9B-B253-A8263EE47E5A">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>538EC1AC-C208-179D-9983-B311697E9362</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>C53B47BC-C01B-3FC8-6478-A7F40C243090</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="maticni_broj" id="414C5331-BDA3-4710-2AD5-5A38D0B4F4BF">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>CEEB393F-94A1-A396-408F-63A5942D3837</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>1B242B65-E14B-3BAB-05C9-A9A0D8AB8F4F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pravna_lica_pravno_lice_id" id="02508BAC-2A63-232C-67DB-912B5A0B5B78">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>D15C8AA4-5D57-6D6D-D7EB-1BD188D523AD</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>0AE866EA-3B29-5935-F69D-4EDE7E20D803</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9C903A6-B982-45F2-4D11-86CE63CDC5A2" referredColumn="45BDBB44-93B2-2C28-A985-5ABE1C8B4ABA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7FA343DC-C959-A440-068C-1E1CFA74FCF1" name="Podaci_o_pravnom_licu_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>46001D4C-B93E-0965-24D3-C75896C39695</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>8E973612-B2BD-E274-21E6-34C6A454494E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93C84B09-F026-EF8E-F903-4C85A10BB529"/>
+<colUsage columnID="414C5331-BDA3-4710-2AD5-5A38D0B4F4BF"/>
+<colUsage columnID="1969FDDD-BB28-DB9B-B253-A8263EE47E5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C44EA386-878C-CC51-5869-E48570E2FF57" name="Podaci_o_pravnom_licu__IDX">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>1ECBFC2B-5A94-3222-89C2-78DAE15E182A</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02508BAC-2A63-232C-67DB-912B5A0B5B78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9958A86C-B50B-2B26-58BE-83B4529E8F95" name="Podaci_o_pravnom_licu_Pravna_lica_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>4B6732E8-5FFD-E248-BF4F-E009CD2730DC</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02508BAC-2A63-232C-67DB-912B5A0B5B78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

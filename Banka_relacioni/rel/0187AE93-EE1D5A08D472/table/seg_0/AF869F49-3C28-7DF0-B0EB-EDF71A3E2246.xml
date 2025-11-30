@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF869F49-3C28-7DF0-B0EB-EDF71A3E2246" name="Tip_dokumenata">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>8AA61A43-C542-EE6F-CB3E-A07441F3119D</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>F4B8BF61-4542-C172-4B61-0225AF175636</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tip_id" id="4BE37354-E6E9-4D5F-ADC0-1FC077E63F41">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>1F007597-C422-B05C-6B94-1F9D39250235</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>7860C9BE-BBB5-14F6-2C95-32704287E1D5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="4C8C4C27-A5CA-25D1-2E11-09FA9B6EE754">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>283F5989-FC3D-8148-53B5-B0C4CAB0DA88</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>920CF3C2-06B9-10F7-C809-A37DFC02BEBF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lična_dokumenta_licni_dokument_id" id="3A05C286-4EEB-6187-9C92-12085340705E">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>EF2B27CE-9D8C-253B-E021-8D46DD747B0A</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>E8028515-9C47-FC74-45E0-A8FAE6D7A152</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5342360-5FD9-0FEA-37BD-13E483D23247" referredColumn="4E00993C-BBBD-1765-2535-02F77B6F4CC2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F921EB8-3496-4295-3145-DAFA10C59074" name="Tip_dokumenata_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>CBEA117C-DE26-C56A-D0B5-AF1DC5A4173D</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>8F50312D-A909-5553-A7F3-A85C3C362FAF</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BE37354-E6E9-4D5F-ADC0-1FC077E63F41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC9F826F-6336-7A01-FF7E-19D7F391E72B" name="Tip_dokumenata__IDX">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>730FA9F5-3031-A1C6-3F21-976DF02BEAC8</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A05C286-4EEB-6187-9C92-12085340705E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4E23351-DA8F-C888-C335-5280D87214D7" name="Tip_dokumenata_Lična_dokumenta_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>5BE6CA27-49F9-88B0-543D-765DF6DD3E11</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A05C286-4EEB-6187-9C92-12085340705E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

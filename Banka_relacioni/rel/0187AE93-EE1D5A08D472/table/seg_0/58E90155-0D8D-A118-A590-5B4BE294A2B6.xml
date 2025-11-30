@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58E90155-0D8D-A118-A590-5B4BE294A2B6" name="Tipovi_racuna">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>721C1A57-C36F-5B16-4967-5922E4A92974</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>705C2048-7635-859B-83E0-E4CCEA1D4451</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tip_id" id="32912B52-827F-D320-9B6D-7C0F7D9A7632">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>054BFF83-F8AB-377F-8C6D-BD130749E7B5</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>FC651CC7-EF4B-96B4-B45C-62587E782FBE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="D2858AE2-F0DF-B461-1279-C34812BB3750">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>73273BDA-D381-5DD9-6263-6739016820D0</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>5B1679CB-A92A-0398-4C96-E4C2187F7263</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis" id="03BA7245-408A-5AF3-AEBC-89D00793919C">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>A44B2630-CB0A-173F-ACB3-7F72B7CE27FD</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>D2132470-F0C4-5407-ABB6-32487BC7D20F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1F9C4F51-C250-1875-66EF-555CB9A4B44A" name="Tipovi_racuna_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>95EC9A42-40FA-255D-00C9-C7AD403B828F</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>6F9AFBA0-C8D2-874A-09CA-3348A657BD18</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32912B52-827F-D320-9B6D-7C0F7D9A7632"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

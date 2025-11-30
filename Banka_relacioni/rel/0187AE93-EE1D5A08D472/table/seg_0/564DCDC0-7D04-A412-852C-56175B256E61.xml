@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="564DCDC0-7D04-A412-852C-56175B256E61" name="Naknada_transakcije">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>D727E634-8438-261E-D580-6B2608EE1EEF</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>FFC89754-38F2-5F38-4C7C-7BBA1221367D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Naknada_transakcije_ID" id="1FA57CF8-946C-3671-FF3B-B45329B5E340">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>20B72138-2B88-0C8B-4630-9831FAD14CEC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip_transakcije" id="B4AB66E6-D527-A9ED-6372-7A56075CE158">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>C1E2F997-B1E2-2B28-EE6C-4E36B00607D0</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>FA358EC2-0D73-F864-4E54-87925C3DAF2B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="iznos" id="BC18C4DF-2FEF-45E6-B49E-DCDADB92085D">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>FD42ABD3-F6EB-23DC-7AD3-C69BDDED07C2</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>7F32AD4B-8AA0-BD66-F5B9-B7FF72B1C58B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipovi_transakcije_tip_transakcije" id="EFE5DEE0-A824-C027-DE86-B4C485419B22">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>1551EB0C-8DF3-6840-451F-1203B0926598</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip_naknade" id="7448912E-CB90-BD4D-4D21-75F2FC792CA7">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>B1FD5041-436D-D94C-B0C1-B7854731A647</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>1F387073-1C02-BEFD-305F-BFB23D84CAB9</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Transakcija_transakcija_id" id="CD9D8320-8074-95D5-59A9-BE50B7BBDA10">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>B9BABBB1-AB61-C8FB-2BAA-67AC806A534B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88372542-0539-0924-E046-262CC5643897" referredColumn="921D6EB6-EF85-BC49-15C5-4FB8F2834E6B"/>
+</associations>
+</Column>
+<Column name="procenat" id="D25290FA-49BA-4CE1-A6D8-4CDB0FBBE43E">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>1DA68F77-0E79-9E32-F4ED-1F88CEC6EF25</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>2943C746-4CAC-F75B-3299-73BBDA01B17D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum" id="9A8BE11D-B011-3358-72E2-9DC1FDB4F0CE">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>17B7EE8A-7A7D-55F1-860C-266EE637132A</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>4C5979D1-2949-2C03-7090-677DB574F6BC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6064A4F-7F5A-1393-A851-1E477290D97A" name="Naknada_transakcije_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>3170D2AC-0747-83DF-4AD9-533E9A92DD95</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FA57CF8-946C-3671-FF3B-B45329B5E340"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2437521-2372-33FC-6036-105DB25DD8DA" name="Provizija__IDX">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>6AD133F5-AD91-92D1-7E2B-D88689A17B27</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFE5DEE0-A824-C027-DE86-B4C485419B22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D819EA3-B781-EB60-44FB-78B35BC46B6B" name="Naknada_transakcije_Transakcija_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>463A8EAB-E657-268B-A5F3-405D3B3A39C1</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD9D8320-8074-95D5-59A9-BE50B7BBDA10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

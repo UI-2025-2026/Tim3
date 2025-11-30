@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7A08F9E7-BE82-2099-5F8E-597FA8327F2B" containerWithKeyObject="11E5A401-8544-47BE-4E94-0032D8D1E150" localFKIndex="71F5834F-AA79-BFFD-B246-679B2189CE42" name="Blokada_Racuna_Tip_Blokade_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:18:35 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<referredTableLongName>Tip_Blokade</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>23272734-4DAF-C4F9-9C67-250E9C11896B</referredTableID>
+<keyObject>C56DFB79-4345-8393-B51C-C6C1DFEDD7DD</keyObject>
+<referredKeyID>C56DFB79-4345-8393-B51C-C6C1DFEDD7DD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>tip_blokade_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

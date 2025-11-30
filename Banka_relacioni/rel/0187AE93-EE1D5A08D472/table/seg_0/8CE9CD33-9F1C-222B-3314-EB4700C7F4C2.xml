@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8CE9CD33-9F1C-222B-3314-EB4700C7F4C2" name="Zaposleni">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>648425EB-C9C8-F3A9-FE64-9890A7E08614</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>96ABC826-10BB-E2B8-6C78-2BD3D8B9DCB6</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="zaposleni_id" id="ECABB1C9-38E2-6AA3-34E6-85185E9BF3F2">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>696B68EB-4665-4B68-3CCF-430D31B997A2</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>29D8C941-2CAB-3EA3-1D0F-92B682CB393C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime" id="43C29DF1-48B2-F7F3-D35E-B8163498D2BC">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>448BC148-D526-17A0-C4A9-86EC4BDD2104</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>3520AA01-C1C1-A775-EB82-C37720322135</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prezime" id="2F717BFB-C0EB-EACF-1023-57D64F8E9D1A">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>8E60DF53-85F2-6AA0-C88E-12A66368B441</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>4F7BA856-3772-B2EF-1E8D-444BEF8A4F94</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="946448DD-E384-6D4B-C3F5-164C80CF5C3E">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>F8CF4009-D5B3-1F93-7B5F-2A6623EB2CBE</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>C90DE8CD-82F6-E1A7-247D-29329E8A6577</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip_id" id="479532F0-382B-9C5D-52F0-A0586E243CEE">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>205533F3-3037-4BF0-C5FE-397ACA939DBA</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>8588AF83-CF44-30D5-A274-3468488AB1A3</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipZaposlenog_tip_id" id="CFB0DC83-5D04-CBD3-EE18-6E6E1B859D1B">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>C26BB4D7-0CB3-CDB6-94B1-0F77B23C78FC</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>85FD5E0D-9149-7F2A-AB76-2D87EC179C0A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9ABBCEC-8B39-384A-F883-44E39A7EAC48" referredColumn="7A80A60D-FEAD-C058-D040-90B36903DF41"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA13DDE8-5097-7A91-BE52-3FF64FE64F13" name="Zaposleni_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>8DECE910-558F-2C4B-EB8D-7A9C273A9D7C</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>ACA7A2CD-B6F4-1FA0-C527-C32AA3C4D16D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECABB1C9-38E2-6AA3-34E6-85185E9BF3F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AAECB11B-CD9F-E26C-3C65-57A1AE41C911" name="Zaposleni_TipZaposlenog_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>E10FD894-FBD4-8E2E-DCE4-A0C72826AE12</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFB0DC83-5D04-CBD3-EE18-6E6E1B859D1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

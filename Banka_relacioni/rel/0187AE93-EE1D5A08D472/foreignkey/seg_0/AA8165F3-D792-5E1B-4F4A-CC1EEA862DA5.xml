@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AA8165F3-D792-5E1B-4F4A-CC1EEA862DA5" containerWithKeyObject="52A64D68-0A18-32E5-C610-24521B898BE3" localFKIndex="00D4F749-050C-D471-25E7-F00615C9D22A" name="Dnevnik_Log_Transakcijski_Log_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>C73BA127-E9AF-AFCB-918C-D43FBA32C4C5</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>CD926065-3B43-74B2-2D67-C4D5CD7294E6</importedID>
+<referredTableLongName>Transakcijski_Log</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6FC5BD48-7BE5-F07F-1DCC-5DC1D1A2E23C</referredTableID>
+<keyObject>42202870-8006-CD48-CA56-54056D1548E3</keyObject>
+<referredKeyID>42202870-8006-CD48-CA56-54056D1548E3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>log_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

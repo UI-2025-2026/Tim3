@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DD9255AE-88BB-70FD-0800-CE3823D548B2" containerWithKeyObject="5FEB6891-9ECA-31C5-5B42-2ACBAAA3C1A0" localFKIndex="AE65ADF3-C6BC-2510-1B62-3BC53C36AD95" name="Podrska_Tiket_Zaposleni_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 23:27:51 UTC</createdTime>
+<generatorID>8DECE910-558F-2C4B-EB8D-7A9C273A9D7C</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<referredTableLongName>Zaposleni</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8CE9CD33-9F1C-222B-3314-EB4700C7F4C2</referredTableID>
+<keyObject>AA13DDE8-5097-7A91-BE52-3FF64FE64F13</keyObject>
+<referredKeyID>AA13DDE8-5097-7A91-BE52-3FF64FE64F13</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>zaposleni_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

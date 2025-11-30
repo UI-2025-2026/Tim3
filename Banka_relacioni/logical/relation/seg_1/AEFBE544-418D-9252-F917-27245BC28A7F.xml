@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ZahtevKredit" directorySegmentName="seg_1" id="AEFBE544-418D-9252-F917-27245BC28A7F">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>7BDB84C0-4775-0F46-963C-0BD05CDDA353</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<sourcePk>BDA6B42B-4D8D-6FAC-5061-10C0BB2DD282</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D5CD01AD-0F81-F28F-14CF-F703A1352E5A</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>1DE08442-D060-4EDB-A934-9CA8A7FF30BF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

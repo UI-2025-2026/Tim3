@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="896B8BF1-F553-584B-7982-B42ABF9F82CF" name="Zaposlenje">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>67E06B4B-955F-1BA7-BD06-5C6DE90FBA05</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Kllijent_klijent_id" id="BE483E92-1395-7B84-2C83-99C262723DF2">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>28BD5E81-32FA-5B24-5F7E-0D46B65F17EC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AFFCC7FB-D755-485F-0931-A7AA917C7389" referredColumn="8AAFB894-B857-F8BB-BA28-06E161D12E22"/>
+</associations>
+</Column>
+<Column name="Poslodavac_poslodavac_id" id="B3E8A189-6E4C-33E4-6AF0-0638A80B439A">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>1A91012B-0604-DB66-9EE8-848730035BFD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE77329D-08A0-8E46-FB7D-06A4C27EEA29" referredColumn="A0023424-D396-1D16-2024-A35AE8C34E93"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE40EEEB-8DD5-68BD-3A8C-95D076FEC094" name="Zaposlenje_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>BD42CC8A-5317-D4B1-BA35-40A60DBFE838</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE483E92-1395-7B84-2C83-99C262723DF2"/>
+<colUsage columnID="B3E8A189-6E4C-33E4-6AF0-0638A80B439A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0595A8E2-E91D-2DD1-9DDB-FBFDBAB50364" name="Zaposlenje_Poslodavac_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>E18EC0CB-BE8A-C349-8B05-DF9348168933</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3E8A189-6E4C-33E4-6AF0-0638A80B439A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9BC5D54-D521-8893-DF0A-DDB815933F1B" name="Zaposlenje_Kllijent_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>E18EC0CB-BE8A-C349-8B05-DF9348168933</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE483E92-1395-7B84-2C83-99C262723DF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

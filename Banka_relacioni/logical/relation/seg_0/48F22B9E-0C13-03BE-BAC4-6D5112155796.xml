@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="kartica_limiti" directorySegmentName="seg_0" id="48F22B9E-0C13-03BE-BAC4-6D5112155796">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>D43E8220-54EC-FFEE-2E3B-527FDABF4653</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<sourcePk>5EF55782-8042-A40C-169B-FDFA697D312A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F1AE92EE-CA57-7BFD-91A8-4597A0FE2D80</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E02E2393-9723-2554-1190-42F2167B6E7B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

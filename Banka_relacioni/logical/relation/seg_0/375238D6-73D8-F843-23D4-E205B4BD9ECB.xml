@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ValutaBankovniRacuni" directorySegmentName="seg_0" id="375238D6-73D8-F843-23D4-E205B4BD9ECB">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>D39205DA-1662-73AD-73FF-C2B5F8A31B97</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<sourcePk>F5A37A7A-C3D1-929F-09BF-2A051E40E23E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5896CD07-BCF7-F308-5C2B-86BBF009B177</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9263B726-608C-E0DD-B090-2167782010D0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

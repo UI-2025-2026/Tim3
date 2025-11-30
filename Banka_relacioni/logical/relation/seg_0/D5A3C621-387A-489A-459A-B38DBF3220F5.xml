@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="kartica_promene_pina" directorySegmentName="seg_0" id="D5A3C621-387A-489A-459A-B38DBF3220F5">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>F571A6D8-0682-5843-1230-8FF96D986816</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<sourcePk>5EF55782-8042-A40C-169B-FDFA697D312A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F1AE92EE-CA57-7BFD-91A8-4597A0FE2D80</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1E1EBAE9-C64E-1E85-621B-906FE477A96C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

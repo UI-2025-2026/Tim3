@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="kartica_naknade_kartice" directorySegmentName="seg_0" id="529B8CEC-7690-CA3B-A0D4-30BE5CDD8758">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>99A7E8C8-60B2-0704-FAD2-F1CE2D143499</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<sourcePk>5EF55782-8042-A40C-169B-FDFA697D312A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F1AE92EE-CA57-7BFD-91A8-4597A0FE2D80</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8DDEDF4E-5A9A-E877-8C68-E1079587CD92</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

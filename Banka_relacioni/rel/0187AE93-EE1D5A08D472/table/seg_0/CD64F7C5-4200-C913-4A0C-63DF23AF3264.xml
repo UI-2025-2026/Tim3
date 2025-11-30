@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD64F7C5-4200-C913-4A0C-63DF23AF3264" name="Stalno_prebivalište">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>4A3C5EC2-6B09-50CC-238D-EFFA25488E72</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Adresa_adresa_id" id="1B3A623B-29AF-E78F-2B74-FD33BD025984">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>7A8F51F9-02AC-4086-7CAB-796EE70DE16F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE138C0C-7A2E-32CE-36B4-7B5F03387DCC" referredColumn="F7BDA5D0-51F5-62B2-54E6-C03BED92A7C4"/>
+</associations>
+</Column>
+<Column name="Kllijent_klijent_id" id="FAB4763D-0EDD-2B8F-10CC-A64115309A14">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>CF2FEAB1-5183-EAF3-D3FD-DC118018F97A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C620637-36E7-60E4-3E4E-C70DF1A97C19" referredColumn="8AAFB894-B857-F8BB-BA28-06E161D12E22"/>
+</associations>
+</Column>
+<Column name="datum_od" id="55AB04F1-9DE6-AF12-09B5-35720C8CA890">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>A94966B8-2019-D971-713E-1EB03A96A980</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>FE59C565-42EC-3DA0-C340-D4945025B0A5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_do" id="536170AD-8288-E769-DA25-2544B72DB3A6">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>C2C25625-135C-E2BB-375F-16567CB9259D</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>315B100A-2FE4-FC0F-D832-5889F8FF5135</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="64B8D289-72CB-35A7-6AA3-7F49F9F5C84E" name="Stalno_prebivalište_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>970642BA-6A15-C231-F10A-57F70CC3331B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B3A623B-29AF-E78F-2B74-FD33BD025984"/>
+<colUsage columnID="FAB4763D-0EDD-2B8F-10CC-A64115309A14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E1DF3D0-AC2F-DE4E-8EBB-436379DFBB6D" name="Stalno_prebivalište_Adresa_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>DEA21474-3C0E-25D7-3359-C521C8DF5EBC</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B3A623B-29AF-E78F-2B74-FD33BD025984"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B576DF9-1A73-CD03-8DFD-4C75A9D5D6B4" name="Stalno_prebivalište_Kllijent_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>DEA21474-3C0E-25D7-3359-C521C8DF5EBC</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAB4763D-0EDD-2B8F-10CC-A64115309A14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

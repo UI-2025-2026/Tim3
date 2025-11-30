@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C7B5A829-CFF2-92A4-460A-BCC48A029AAA" name="Pravna_lica">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>0F7B3C7A-E5CB-F453-6AAD-98D6E8B3F35A</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>437FAE93-548B-5FED-1AC0-45E30A80DF57</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pravno_lice_id" id="45BDBB44-93B2-2C28-A985-5ABE1C8B4ABA">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>B44753A7-633E-92D9-81C8-2B3ECE8D7E5F</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>D6C3B47C-68E7-01E2-ABB7-F124EC3AC907</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="klijent_id" id="D622FB42-F685-9466-56F7-F6F19CF2C51A">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>B3A91BC7-50E5-43EA-8375-3AB4D4C061F8</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>F208226E-5AFC-BAD1-0763-95D7CCB59FA8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kontakt" id="43E5E824-AACD-B6BC-E89A-B67603FC4196">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>9B12D996-602B-09D0-D443-811D7885F16A</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>96DE5EC6-BC58-55C0-A4E8-AC1B44E50E6D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefon" id="F82096C0-5141-8B73-D1D3-2A116FD36F1B">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>511D4F9F-FFD4-8E2D-45A3-56FE0BE62EE1</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>F95F5B4D-3F95-8DAE-D6A1-2810454ADB33</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4426FFE7-1767-03AD-B2DE-F247E0A89401" name="Pravna_lica_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>1D2A5236-56B9-B427-E050-F90D97974AC8</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>A60E65CE-6126-0EDB-24F4-75FAEF5792CA</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45BDBB44-93B2-2C28-A985-5ABE1C8B4ABA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

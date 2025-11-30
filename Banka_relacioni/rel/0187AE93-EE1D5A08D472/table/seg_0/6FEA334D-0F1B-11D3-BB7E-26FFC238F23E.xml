@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6FEA334D-0F1B-11D3-BB7E-26FFC238F23E" name="RadnaVremena_Filijale">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>A66C0390-A749-EBCC-93D2-2272326CAE3A</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>C1CDD544-9E64-086B-5EAA-F7FF7EDA96DE</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="52C99732-A5DA-92F5-9EF7-ABE05281F085">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>9308B3D2-156C-1CEC-C3C3-9D21DB0EB278</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>415C2880-D2C3-BBDA-0EB3-BD98AF2CBFEF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="filijala_id" id="EA5E3AE8-8835-6794-DA47-28740A56C2B8">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>A1729C2D-B2BA-761F-A64D-242477829ED1</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>EAA95CE1-C0E8-E6DC-A61B-8F8455806ADD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="radno_vreme_id" id="8183CA13-2ED1-E84B-5F45-31D3E3F4BD8F">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>3A1C61B4-4F2C-A301-B246-DF03C0546D10</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>3FDA167B-8116-7679-0364-809E23176B5E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Filijala_filijala_id" id="9F13F5A3-0C93-848D-C74F-66388E2D8798">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>3678C557-4100-98CC-CE94-B7D106A181C9</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>D64A2327-F616-AAF9-D160-4C939553DDA8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A19CA99-F4EA-24DD-C885-C196BD2F0E8E" referredColumn="68A2CD69-B386-D27A-E51A-F69621C8CC65"/>
+</associations>
+</Column>
+<Column name="RadnoVreme_RadnoVreme_ID" id="C485E0D3-A4E6-994D-5C6C-E2405A60BDB9">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>703362B1-2C24-4B51-834B-4A8B41DE963A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11A5C6C7-218E-7C61-71CB-4174EEDAF0F1" referredColumn="01DBD63D-8F62-0176-B57C-7525AE51032F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6EFA5CD5-8E15-DCCE-0D47-3F64FAC257C3" name="RadnaVremena_Filijale_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>7AF101F1-4308-E308-F2A0-A5DD604335D2</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>D169E147-DA84-BD60-BB68-558626F254FD</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52C99732-A5DA-92F5-9EF7-ABE05281F085"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CEFA6021-2A36-F2AB-E6B8-C15755C102B3" name="RadnaVremena_Filijale_RadnoVreme_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>A70DC0F2-089D-1DB6-5D7E-10ED96336AC2</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C485E0D3-A4E6-994D-5C6C-E2405A60BDB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3EECE73-CC86-F85E-93F6-804226199FAF" name="RadnaVremena_Filijale_Filijala_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>4AE635E3-8468-2FB3-19FB-8A8A50F605B0</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F13F5A3-0C93-848D-C74F-66388E2D8798"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

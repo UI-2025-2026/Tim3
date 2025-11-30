@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE9013BE-978F-9A08-DE46-FB661E966958" name="Status_Reklamacije">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:43:04 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<ordsAlias>table_63</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="status_reklamacije_id" id="42DB8DF6-039E-401F-654A-E78EA6DF8E2B">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:44:39 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="923BFF6A-E0C3-8205-75D7-2B8AE2F8C5ED">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:44:39 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis" id="F5B47C88-D5D1-0B5B-BFD1-78E4F79F7554">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:44:39 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF434B4D-5C28-D908-A6B9-263EAFEDD924" name="Status_Reklamacije_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:44:39 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42DB8DF6-039E-401F-654A-E78EA6DF8E2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

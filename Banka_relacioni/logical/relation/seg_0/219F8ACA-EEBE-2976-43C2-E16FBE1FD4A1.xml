@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pravno_lice_klijent" directorySegmentName="seg_0" id="219F8ACA-EEBE-2976-43C2-E16FBE1FD4A1">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>EFBF2EA4-9998-A821-559B-3AC0EE57CDEB</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<sourcePk>1D2A5236-56B9-B427-E050-F90D97974AC8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0F7B3C7A-E5CB-F453-6AAD-98D6E8B3F35A</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>65DA988A-92CA-D06A-3F44-11B91F1FF16F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

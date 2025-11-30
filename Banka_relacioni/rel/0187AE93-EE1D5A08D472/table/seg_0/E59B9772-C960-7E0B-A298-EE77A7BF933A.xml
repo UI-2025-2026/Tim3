@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E59B9772-C960-7E0B-A298-EE77A7BF933A" name="Smena">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>064EAA5E-C46C-2EA5-AF99-DDD6A0236935</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>D28A5EDD-5590-ED75-89B9-1E75655E054E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="smena_id" id="EC2452CF-BBBF-E4EB-7FBC-BA8B3B236411">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>57855F9C-6EBE-A495-2354-3987F367F71E</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>F25570D2-3EAA-1AAA-8E2F-6BC2C3122B21</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="redni_broj" id="E5F5D97E-4DA5-4125-3A33-DB412F9E2F70">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>26AC9BB8-B601-AA33-2D6F-C1241E94DF51</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>9D2ED48C-DE39-2C38-A0EE-91C8CB69B64C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vreme_pocetak" id="876EFDDA-CA0A-A09E-91AD-E29E6BC46CC1">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>0B6A6AD7-4F6C-81B6-56FC-EAC850E814CB</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>C2CD1288-0A62-78EF-D28F-D9AEAB1414AF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vreme_zavrsetak" id="799602C6-45D7-FA66-F7B5-8E597D58F9F6">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>49E5261D-51CD-C1E3-A1C9-02C3345FC018</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>00A52A9A-3701-CAA9-9270-9B719A463BBB</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B7177F0-50AE-D4A1-A0D7-AA8EF7238134" name="Smena_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>6B9EC772-0693-43DE-B238-71A6F89113DA</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>399376D6-300E-9E98-748E-10ECCFD52271</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC2452CF-BBBF-E4EB-7FBC-BA8B3B236411"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

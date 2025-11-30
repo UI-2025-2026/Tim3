@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Zaposleni_PlanoviSmena" directorySegmentName="seg_1" id="C6C82A39-10C1-1183-C7BC-9F70B11EFF5B">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>41849F46-22AA-2CA6-11B2-AFB543BD4B7A</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<sourcePk>8DECE910-558F-2C4B-EB8D-7A9C273A9D7C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>648425EB-C9C8-F3A9-FE64-9890A7E08614</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2C211A0D-631A-06C0-2314-0E881DDD09B9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

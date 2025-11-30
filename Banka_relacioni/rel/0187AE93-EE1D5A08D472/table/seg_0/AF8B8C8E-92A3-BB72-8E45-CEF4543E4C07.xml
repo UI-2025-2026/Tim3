@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF8B8C8E-92A3-BB72-8E45-CEF4543E4C07" name="Nalog">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>FF0A301F-6894-ADCD-F899-E4BD52C75FDF</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>08DD2BD1-3CE1-ABE0-8A93-7A21E9D68708</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nalog_id" id="62FA229D-B8F4-C256-BD7F-85ED2BA0DFEB">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>6090E013-7C9B-97A0-77CF-17445C4A7973</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>EA57DDEE-E769-5839-C30D-468A94FCF621</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="B5AB3B68-4710-72AC-79C9-E65A2AF75105">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>6F94C3A9-AD2E-A83D-7BBE-6FD5C98BA766</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>4B3245E5-E013-9408-7E6F-31FEC6B54A34</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="korisnicko_ime" id="B20F3306-4788-4405-C2D7-A565EFEFF143">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>0E4BA8E8-CA9E-EB66-27C6-D655A5E4F343</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>23F5EC15-F2B9-DB9A-BB4A-2913EA816D0F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hash_sifra" id="8555591B-5718-B2C9-82F6-89C4FE8FECF3">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>E938A4D4-C333-4A4F-B2EC-554400FF05DF</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>CBEF5DC5-C688-8B0B-CBA6-A80FBA6F2C3D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_kreiranja" id="C9FFBC8F-84AB-68F7-030B-555C75E597E8">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>F0392E2A-6E2C-D342-6B21-4F173E65D0E1</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>D843DBB0-0FFD-81DA-10F8-15950D1FC13B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_naloga" id="41F092F7-4F01-8E2B-4DDA-E66A40C513EE">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>BEC7E5DD-3387-87BC-621D-7C648E174BEF</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>D3F09BC3-3318-FA2F-04AB-66DFD92E135F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kllijent_klijent_id" id="3A613045-9478-42FD-6BB9-A17CB4E03FBE">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>02ADF7D5-6D08-0E99-C6A6-0FEFA0247181</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>56F7C756-33E8-7AD2-3824-4EE3CD2D379D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53540A96-00D2-D351-B91E-02770D21A1AA" referredColumn="8AAFB894-B857-F8BB-BA28-06E161D12E22"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="97F5692C-903E-04C0-D58E-2AAFB2682965" name="Nalog_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>D78C4004-664F-91E8-FA5C-58FFCFD87991</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>DB564AE9-1422-D456-1FE6-6E987EBA5FFC</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62FA229D-B8F4-C256-BD7F-85ED2BA0DFEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B40B43DA-8709-B84E-1284-6E67587303BF" name="Nalog_Kllijent_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>7C7452B3-9471-006E-1D47-4E8E41D8B255</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A613045-9478-42FD-6BB9-A17CB4E03FBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

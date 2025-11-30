@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fizicko_lice_klijent" directorySegmentName="seg_0" id="24C67F95-896E-45C4-48A7-21E40936A27C">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>7264E7CD-4F97-6692-6227-D31907D69265</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<sourcePk>C88750E7-3483-FFA0-9ED3-5F226F82F115</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A89B2126-2837-62E1-5DA8-903924FA59E8</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>65DA988A-92CA-D06A-3F44-11B91F1FF16F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="kartica_transakcije" directorySegmentName="seg_0" id="C09C6F24-C8B9-B0DF-93B0-660277ED0C6D">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>54ADF184-B238-146B-4802-7E5F206EE33D</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<sourcePk>5EF55782-8042-A40C-169B-FDFA697D312A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F1AE92EE-CA57-7BFD-91A8-4597A0FE2D80</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E7164A54-CDFB-73C9-118F-E3A3EBD6D6CF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

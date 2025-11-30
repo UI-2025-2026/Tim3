@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Zaposleni_Prisustva" directorySegmentName="seg_1" id="E598220C-8CC4-D8E7-BB32-05B71114D91B">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>3A9D909F-B94C-8CC3-6AEB-499DE0BAB2A8</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<sourcePk>8DECE910-558F-2C4B-EB8D-7A9C273A9D7C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>648425EB-C9C8-F3A9-FE64-9890A7E08614</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BB9B07B6-DDA6-B713-C861-B29514E1524F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

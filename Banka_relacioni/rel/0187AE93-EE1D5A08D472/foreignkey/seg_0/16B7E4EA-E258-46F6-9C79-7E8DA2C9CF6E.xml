@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="16B7E4EA-E258-46F6-9C79-7E8DA2C9CF6E" containerWithKeyObject="97B73D8C-453D-4DE2-BFF3-6645D0CED9E1" localFKIndex="9DEE9753-666E-F284-5041-F2C63E517914" name="Promena_pina_Kartica_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>FA3E5D8F-B520-1EE5-7ED4-D3CE74207C11</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>12299058-ED47-096A-12E4-C1DE3D152FAB</importedID>
+<referredTableLongName>Kartica</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DC18AEE1-6D1A-6D54-618F-67013D2055F4</referredTableID>
+<keyObject>C598B575-CFCD-6860-0103-E0ED1FC994B2</keyObject>
+<referredKeyID>C598B575-CFCD-6860-0103-E0ED1FC994B2</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>kartica_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

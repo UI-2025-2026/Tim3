@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5BB729B8-853E-E50C-A731-9DF2A8CD7C63" name="Limit">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>E02E2393-9723-2554-1190-42F2167B6E7B</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>767043ED-FE97-6120-1280-2865623069BC</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="limit_id" id="8B3749A1-BF4D-867F-1F29-52D643D96096">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>3FA51A3D-75FA-7334-E379-D43E6540AB7B</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>C4A61733-BE0D-AF88-1414-50CBF8A412DD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kartica_id" id="BCC4197F-FEEA-BF24-109A-E300A9661E39">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>E747B67B-3885-3FAC-D335-C97FCDF1EC89</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>4AD86680-D7C3-C65F-8D33-F0382C343789</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dnevni_limit_isplate" id="28087F19-13F9-F9FB-0595-8F89DB95469C">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>7C140452-A089-6240-7782-220B33854428</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>81CB55FB-4752-2C4F-8756-055254205A52</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>69230305-AB6A-99EB-35A1-CC306D543604</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dnevni_limit_kupovine" id="5759856B-31AA-74A7-73F8-05D6C40DD72C">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>059ADD89-CC52-8743-5A3B-D772AF580289</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>65EC2AE4-4508-EEA0-16C1-2BFC34FF623B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mesecni_limit" id="86D91E22-8E2B-5212-5082-8530671CEF53">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>21E2FE17-9A96-CF52-0689-5E0859278ADE</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>025E8B5A-79BB-D69E-6532-5EE553F4E53C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kartica_kartica_id" id="BC3C2BCB-8DD5-4649-0296-36F3DD35B7A8">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>D414C3A9-9A46-5B4D-8680-04B9B34BD3A6</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>58754A73-B1F6-9B43-44B7-CBDDF887B29D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C8DF2C6-E1E5-F471-D6D9-F751F2B5622A" referredColumn="D2BC2679-66F2-1C5D-0910-03A24AC30342"/>
+</associations>
+</Column>
+<Column name="datum_od" id="E222853E-6D18-3C45-BDC1-40C750691E14">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>F31AE9FA-0D21-706F-14D7-0C7F05DF5144</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>B93C478C-CBAF-0968-93C7-D714F84A44D1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_do" id="D2CC51C8-DD67-1909-B9C1-E468F0B1CFA6">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>BE2E98DD-F62F-8BDC-6160-A8FDF284785F</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>47AA57E2-52B0-4874-5F73-3190BC17D349</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9D00801-8DF8-0180-011C-7ADB94D4F342" name="Limit_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>82C9EDF8-F51B-7217-B73A-E93C0F2BBFD9</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>1D0A0264-3366-FACF-F973-7DC352F3B5EC</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B3749A1-BF4D-867F-1F29-52D643D96096"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2800F3FA-7E2F-7E5D-6302-DC9A789D8139" name="Limit_Kartica_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>48F22B9E-0C13-03BE-BAC4-6D5112155796</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC3C2BCB-8DD5-4649-0296-36F3DD35B7A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

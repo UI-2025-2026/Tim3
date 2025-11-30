@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TipZaposleni" directorySegmentName="seg_0" id="E10FD894-FBD4-8E2E-DCE4-A0C72826AE12">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>0C6884FB-6168-93DF-2AF0-75157017A897</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<sourcePk>4A5E4AD3-A72E-542D-6235-2D6A440E7272</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>985F53EC-F902-B10C-8A29-1BF8126F138C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>648425EB-C9C8-F3A9-FE64-9890A7E08614</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

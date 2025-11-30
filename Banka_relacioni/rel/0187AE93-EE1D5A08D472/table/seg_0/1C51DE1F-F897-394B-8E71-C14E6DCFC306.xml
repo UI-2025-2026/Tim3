@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C51DE1F-F897-394B-8E71-C14E6DCFC306" name="Tip_kartice">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>01FF7286-1A97-757B-F526-8608F329CB27</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>10AF0239-848A-3F23-1B59-341625A2D2A7</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tip_id" id="0DD293F2-18E2-03E1-74AB-7DE57D4FD1D7">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>4D63361F-2461-A045-19CB-F703F1A4DBCE</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>F691232D-83A2-B415-8FDC-EF3C84D2D76D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="44C7F6FE-A21E-6386-062E-289EB8D4AB3B">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>BC818F46-5A5E-C82A-0EE9-EB3B4FCBF59B</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>1D622E28-2C1D-9491-2AED-CDB767E6C8C1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis" id="B1F53601-E449-17EF-7486-22F4B49C22D6">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>E6254EC4-5A26-0DE1-6D9B-4FC09D62318C</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>7B2300DF-0B75-9B18-F775-2995705B67F2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="06F9DFE8-B24E-CA28-BECB-E17EBC377116" name="Tip_kartice_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<generatorID>95F6B764-851E-E977-8378-2A03CC242DC7</generatorID>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>EEBB3587-A30C-DEE8-E021-7870893ABE20</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DD293F2-18E2-03E1-74AB-7DE57D4FD1D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

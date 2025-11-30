@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RadnoVremeFilijale" directorySegmentName="seg_0" id="A70DC0F2-089D-1DB6-5D7E-10ED96336AC2">
+<createdBy>milos</createdBy>
+<createdTime>2025-11-30 22:34:25 UTC</createdTime>
+<ownerDesignName>Tim3 </ownerDesignName>
+<importedID>BAD470A8-7260-E4F5-AA9D-4561438EC872</importedID>
+<engineerTo>
+<item key="0187AE93-2D87-878F-05C4-EE1D5A08D472" value="true"/>
+<item key="11856E68-494E-9643-3A92-084B03DBED38" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EC5F838A-D877-CCB0-A34C-08A93F8EECA8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A66C0390-A749-EBCC-93D2-2272326CAE3A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
