@@ -3,7 +3,7 @@
 <createdBy>milos</createdBy>
 <createdTime>2025-11-30 22:34:25 UTC</createdTime>
 <generatorID>D12EC87F-12A4-1CB0-43FE-ABFA831D689C</generatorID>
-<ownerDesignName>Tim3 </ownerDesignName>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
 <importedID>93F93BF0-9194-061C-D28E-AEB7C3B69111</importedID>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -13,7 +13,7 @@
 <createdBy>milos</createdBy>
 <createdTime>2025-11-30 22:34:25 UTC</createdTime>
 <generatorID>3F9A5E84-D764-E88A-5B3D-A2E161940AC5</generatorID>
-<ownerDesignName>Tim3 </ownerDesignName>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
 <importedID>0B0BB682-D73E-09B5-6B7E-93FD2052768D</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -21,35 +21,11 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="iznos" id="D7F0D743-ABDB-457B-BE83-DACF8D0E8313">
-<createdBy>milos</createdBy>
-<createdTime>2025-11-30 22:34:25 UTC</createdTime>
-<generatorID>A0C3AEDF-EF39-B120-D825-213B70F00833</generatorID>
-<ownerDesignName>Tim3 </ownerDesignName>
-<importedID>CFE2556D-AE34-3C85-28CC-BD1D62C8D18B</importedID>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT026</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="datum_vreme" id="DA0D8432-B620-D42E-2EF8-26C61BED16AF">
-<createdBy>milos</createdBy>
-<createdTime>2025-11-30 22:34:25 UTC</createdTime>
-<generatorID>4E98BB02-2D43-3679-5878-FD0E141C64A1</generatorID>
-<ownerDesignName>Tim3 </ownerDesignName>
-<importedID>C7929841-FA8E-F19D-9100-2C8173DEBD56</importedID>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="status" id="5AD21817-EA97-EA28-254C-3254DF7852E3">
 <createdBy>milos</createdBy>
 <createdTime>2025-11-30 22:34:25 UTC</createdTime>
 <generatorID>B58BEE17-AE07-64F7-2DC8-153054C246D8</generatorID>
-<ownerDesignName>Tim3 </ownerDesignName>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
 <importedID>8329B8C0-52CA-FF77-DDA3-08CA0111A049</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -61,7 +37,7 @@
 <createdBy>milos</createdBy>
 <createdTime>2025-11-30 22:34:25 UTC</createdTime>
 <generatorID>DAB0F624-81B7-6023-5BAE-A463C5CBB52F</generatorID>
-<ownerDesignName>Tim3 </ownerDesignName>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
 <importedID>A56F8BF3-0668-3688-8475-5AB8C08A6123</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -73,7 +49,7 @@
 <createdBy>milos</createdBy>
 <createdTime>2025-11-30 22:34:25 UTC</createdTime>
 <generatorID>E936659F-B646-692B-4313-FCEB5B8A756D</generatorID>
-<ownerDesignName>Tim3 </ownerDesignName>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
 <importedID>EE35CA43-48FD-52B3-5C41-784C59447909</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -88,7 +64,7 @@
 <createdBy>milos</createdBy>
 <createdTime>2025-11-30 22:34:25 UTC</createdTime>
 <generatorID>ACB12140-71CB-9337-F623-9DE16CF4902B</generatorID>
-<ownerDesignName>Tim3 </ownerDesignName>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
 <importedID>2191D113-5D82-116F-B2C2-97EAF8082012</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -105,7 +81,7 @@
 <createdBy>milos</createdBy>
 <createdTime>2025-11-30 22:34:25 UTC</createdTime>
 <generatorID>FBED9153-1463-FB91-88BA-39C3F6C650CF</generatorID>
-<ownerDesignName>Tim3 </ownerDesignName>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
 <importedID>04751A68-2FBF-9117-6D47-7385E2BBCB5A</importedID>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
@@ -117,7 +93,7 @@
 <ind_PK_UK id="0B877688-BE4F-7D0E-CAF6-E12F27D25786" name="Autorizacija_kartice__IDX">
 <createdBy>milos</createdBy>
 <createdTime>2025-11-30 22:34:25 UTC</createdTime>
-<ownerDesignName>Tim3 </ownerDesignName>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
 <importedID>BEBF549D-F72F-21E0-29F5-387C162DCC86</importedID>
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
@@ -129,7 +105,7 @@
 <createdBy>milos</createdBy>
 <createdTime>2025-11-30 22:34:25 UTC</createdTime>
 <generatorID>470FE31A-8AE9-9870-756F-44364DB8CE46</generatorID>
-<ownerDesignName>Tim3 </ownerDesignName>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
@@ -140,7 +116,7 @@
 <createdBy>milos</createdBy>
 <createdTime>2025-11-30 22:34:25 UTC</createdTime>
 <generatorID>D61F9A0E-D3FE-9186-98AF-56BD9B5F32FD</generatorID>
-<ownerDesignName>Tim3 </ownerDesignName>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>

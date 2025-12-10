@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="943B68E3-7B61-9570-B419-54F85D20853B" name="Reklamacija">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="943B68E3-7B61-9570-B419-54F85D20853B" name="Chargeback">
 <createdBy>milos</createdBy>
 <createdTime>2025-11-30 22:37:35 UTC</createdTime>
-<ownerDesignName>Tim3 </ownerDesignName>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
 <ordsAlias>table_62</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -11,7 +11,7 @@
 <Column name="reklamacija_id" id="A4A1AC21-22A7-31AD-3120-D0C6E4EEFAE4">
 <createdBy>milos</createdBy>
 <createdTime>2025-11-30 22:39:42 UTC</createdTime>
-<ownerDesignName>Tim3 </ownerDesignName>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -21,7 +21,7 @@
 <Column name="datum_podnosenjada" id="0CA0A5C7-E755-487A-F213-C3F1559B23E3">
 <createdBy>milos</createdBy>
 <createdTime>2025-11-30 22:39:42 UTC</createdTime>
-<ownerDesignName>Tim3 </ownerDesignName>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -31,7 +31,7 @@
 <Column name="opis" id="89908F4B-F87B-759F-2863-9ABA71ACA5BB">
 <createdBy>milos</createdBy>
 <createdTime>2025-11-30 22:39:42 UTC</createdTime>
-<ownerDesignName>Tim3 </ownerDesignName>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT040</logicalDatatype>
@@ -41,7 +41,7 @@
 <Column name="Kllijent_klijent_id" id="9F872D8B-3A94-A9D9-0F37-5EE66BEFA12F">
 <createdBy>milos</createdBy>
 <createdTime>2025-11-30 22:41:33 UTC</createdTime>
-<ownerDesignName>Tim3 </ownerDesignName>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -55,7 +55,7 @@
 <Column name="Transakcija_transakcija_id" id="76BA47D1-0A80-C033-87AB-FD2DECB5A67A">
 <createdBy>milos</createdBy>
 <createdTime>2025-11-30 22:42:04 UTC</createdTime>
-<ownerDesignName>Tim3 </ownerDesignName>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -70,7 +70,7 @@
 <Column name="Status_Reklamacije_status_reklamacije_id" id="A9755EC1-52EE-9742-7B68-839E521FE6D7">
 <createdBy>milos</createdBy>
 <createdTime>2025-11-30 22:45:22 UTC</createdTime>
-<ownerDesignName>Tim3 </ownerDesignName>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -86,7 +86,7 @@
 <ind_PK_UK id="3E2E54AA-C755-2F1C-1999-F14C0E978F50" name="Reklamacija_PK">
 <createdBy>milos</createdBy>
 <createdTime>2025-11-30 22:39:42 UTC</createdTime>
-<ownerDesignName>Tim3 </ownerDesignName>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
@@ -98,7 +98,7 @@
 <createdBy>milos</createdBy>
 <createdTime>2025-11-30 22:41:33 UTC</createdTime>
 <generatorID>A10D6DCC-8D7E-CF69-32A9-D6C870A78A88</generatorID>
-<ownerDesignName>Tim3 </ownerDesignName>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
@@ -109,7 +109,7 @@
 <createdBy>milos</createdBy>
 <createdTime>2025-11-30 22:42:04 UTC</createdTime>
 <generatorID>2420B9F2-8989-26A1-CBBF-8B1B24472244</generatorID>
-<ownerDesignName>Tim3 </ownerDesignName>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
@@ -119,7 +119,7 @@
 <ind_PK_UK id="DBCBF9D0-146E-AC37-EC02-E75F53EE4616" name="Status_reklamacije">
 <createdBy>milos</createdBy>
 <createdTime>2025-11-30 22:45:22 UTC</createdTime>
-<ownerDesignName>Tim3 </ownerDesignName>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>

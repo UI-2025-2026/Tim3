@@ -1,10 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99DA4A22-30C9-FDCE-6777-7F9CBF93A73B" name="Korespondentna_Banka">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99DA4A22-30C9-FDCE-6777-7F9CBF93A73B" name="Banka">
 <createdBy>milos</createdBy>
 <createdTime>2025-11-30 22:34:25 UTC</createdTime>
 <generatorID>68013D80-393D-2608-F68C-9EB0F336A46A</generatorID>
-<ownerDesignName>Tim3 </ownerDesignName>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
 <importedID>8AC71570-4236-7E56-D338-0CEBFDED20CB</importedID>
+<ordsAlias>korespondentna_banka</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -13,7 +14,7 @@
 <createdBy>milos</createdBy>
 <createdTime>2025-11-30 22:34:25 UTC</createdTime>
 <generatorID>FF2B2DDF-2526-7A46-076C-27DB00240066</generatorID>
-<ownerDesignName>Tim3 </ownerDesignName>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
 <importedID>A5BA4392-1CA7-0B6C-9BD3-CD9EFC9299AC</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -25,7 +26,7 @@
 <createdBy>milos</createdBy>
 <createdTime>2025-11-30 22:34:25 UTC</createdTime>
 <generatorID>1F174C86-EB1C-1B86-142C-912811DDC450</generatorID>
-<ownerDesignName>Tim3 </ownerDesignName>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
 <importedID>E3E08AD2-8995-75D8-A8FE-550EC3547803</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -38,7 +39,7 @@
 <createdBy>milos</createdBy>
 <createdTime>2025-11-30 22:34:25 UTC</createdTime>
 <generatorID>08859046-39A3-F592-FEB3-C59320310034</generatorID>
-<ownerDesignName>Tim3 </ownerDesignName>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
 <importedID>580A6BFA-9452-0CBC-8134-F708D02B243A</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -51,7 +52,7 @@
 <createdBy>milos</createdBy>
 <createdTime>2025-11-30 22:34:25 UTC</createdTime>
 <generatorID>914C0307-07BA-982D-88B3-A195A7C47BD0</generatorID>
-<ownerDesignName>Tim3 </ownerDesignName>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
 <importedID>256B5A1D-97BC-15AA-1984-A521CCF7CA41</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -63,7 +64,7 @@
 <createdBy>milos</createdBy>
 <createdTime>2025-11-30 22:34:25 UTC</createdTime>
 <generatorID>FC1B1E69-E055-9BB2-2865-AB19FC85A013</generatorID>
-<ownerDesignName>Tim3 </ownerDesignName>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
 <importedID>F520DADD-B435-D0EB-1AA0-6F5C7EDDF3B1</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -75,7 +76,7 @@
 <Column name="drzava" id="A49857F9-AD21-53CE-17D7-431D28A2372C">
 <createdBy>milos</createdBy>
 <createdTime>2025-11-30 22:34:25 UTC</createdTime>
-<ownerDesignName>Tim3 </ownerDesignName>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
 <importedID>4916ADAD-0D10-EE4A-CE12-541B21D44977</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -88,7 +89,7 @@
 <createdBy>milos</createdBy>
 <createdTime>2025-11-30 22:34:25 UTC</createdTime>
 <generatorID>72587976-71E9-2D16-E17F-88C36F2B9B65</generatorID>
-<ownerDesignName>Tim3 </ownerDesignName>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
 <importedID>BF9FE717-22BA-F9B9-BD76-E7304C6475E7</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -100,7 +101,7 @@
 <Column name="Tipovi_prenosa_tip_id" id="53A8FC75-F823-A457-C3E2-F0BDC52F4DC8">
 <createdBy>milos</createdBy>
 <createdTime>2025-11-30 22:34:25 UTC</createdTime>
-<ownerDesignName>Tim3 </ownerDesignName>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
 <importedID>35985E9E-D406-98F5-CAA7-091A59E7D946</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -114,7 +115,7 @@
 <createdBy>milos</createdBy>
 <createdTime>2025-11-30 22:34:25 UTC</createdTime>
 <generatorID>A4316D00-1F0E-DA4D-6B75-0A071D4FA2FB</generatorID>
-<ownerDesignName>Tim3 </ownerDesignName>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
 <importedID>26052733-3999-915C-67E3-293C7B1E3409</importedID>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
@@ -126,7 +127,7 @@
 <ind_PK_UK id="423F3B68-1C67-58C5-0E31-41C2C8801A79" name="Banka__IDX">
 <createdBy>milos</createdBy>
 <createdTime>2025-11-30 22:34:25 UTC</createdTime>
-<ownerDesignName>Tim3 </ownerDesignName>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
 <importedID>659DA803-29CE-D7DA-7D4B-D04FD145038E</importedID>
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>

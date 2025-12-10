@@ -1,0 +1,190 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="D8110122-600D-A78B-4E8C-9343A7DAA4D5" name="Konto">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 15:26:52 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<ordsAlias>table_73</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="konto_id" id="CF801F42-B509-CE05-EEA1-618892C5B79E">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 15:34:18 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip" id="6C0C2863-5ABE-2D9F-57C7-4489BF4EFBA6">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 15:34:18 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kontni_broj" id="6626C8DF-3150-9049-4D39-4FB98EF8CEB1">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 15:34:18 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="8D8F00F8-B57B-3527-9F0A-5606AD472C65">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 15:34:18 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vazeci" id="81945905-1AC5-3D19-83CC-97D6C5205DE2">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 15:56:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trenutni_saldo" id="98EADC7A-7B96-7BCC-4362-BA84EA038785">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 15:34:18 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Konto_konto_id" id="37C7A92D-2708-F624-4273-9D677DC7CE27">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 15:34:41 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD63BD5F-66CF-E455-FF8E-7F16229830A8" referredColumn="CF801F42-B509-CE05-EEA1-618892C5B79E"/>
+</associations>
+</Column>
+<Column name="Klasa_klasa_id" id="AAC24555-5C7F-39A3-84A6-B869571B1D0C">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 15:35:25 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="454047FF-3106-9540-6CFB-7ED9248922BD" referredColumn="C2C58A55-E5CC-0679-2EE4-A61D2AB5C0B0"/>
+</associations>
+</Column>
+<Column name="Klasa_naziv" id="7AEBF643-1562-1339-E43B-5402E6375440">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 15:35:25 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="454047FF-3106-9540-6CFB-7ED9248922BD" referredColumn="748176FB-FC61-297C-ECFC-79F410E14E1F"/>
+</associations>
+</Column>
+<Column name="Klasa_opis" id="473B5266-F31A-7E71-C16B-BDDBCDBD63E0">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 15:35:25 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="454047FF-3106-9540-6CFB-7ED9248922BD" referredColumn="190E147C-01F2-D5C6-113E-346DBBB8FD14"/>
+</associations>
+</Column>
+<Column name="Valute_valuta_id" id="304B1CE8-5398-ECED-680D-0D2D64B3141B">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 15:38:01 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D9CC27A-DA0F-E747-3AE8-63D35B6298CF" referredColumn="18EEFF21-F422-C729-9955-0B8BC61B2176"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8D3C964F-2EB1-9C4B-0E29-697ABBE07370" name="Konto_PK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 15:34:18 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF801F42-B509-CE05-EEA1-618892C5B79E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B36843F6-16C5-8391-E965-C66D6AC1878B" name="Konto_Konto_FK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 15:34:41 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37C7A92D-2708-F624-4273-9D677DC7CE27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="714A5FC5-870E-4CFA-DFC9-2CFF89978BF3" name="Konto_Klasa_FK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 15:35:25 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAC24555-5C7F-39A3-84A6-B869571B1D0C"/>
+<colUsage columnID="7AEBF643-1562-1339-E43B-5402E6375440"/>
+<colUsage columnID="473B5266-F31A-7E71-C16B-BDDBCDBD63E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67A92F72-6CDD-9A3E-AA62-1DF3C9D0C103" name="Konto_Valute_FK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 15:38:01 UTC</createdTime>
+<generatorID>F5A37A7A-C3D1-929F-09BF-2A051E40E23E</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="304B1CE8-5398-ECED-680D-0D2D64B3141B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
