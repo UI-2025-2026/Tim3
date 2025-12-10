@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="96E0A0C6-57BD-2443-CC57-8FA03068A5D4" name="Kamatna_stopa">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 16:53:22 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<ordsAlias>table_76</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="kamatna_stopa_id" id="373B2B8B-4AEF-C122-2AE1-0C671D70F7D1">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 16:55:09 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vrednost" id="655CAA3D-5917-8789-59E2-F35C0B17084B">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 16:55:09 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vazi_od" id="00FB246E-3C46-D166-CA22-0C220E53F2F9">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 16:55:09 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vazi_do" id="9C0C7AF8-5913-9CE4-F87F-8B4926CC4C86">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 16:55:09 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90682630-997C-BDA1-31FF-E22D585F7C9D" name="Kamatna_stopa_PK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 16:55:09 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="373B2B8B-4AEF-C122-2AE1-0C671D70F7D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

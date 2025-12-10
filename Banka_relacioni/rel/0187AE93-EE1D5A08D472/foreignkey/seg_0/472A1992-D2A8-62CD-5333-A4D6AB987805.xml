@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="472A1992-D2A8-62CD-5333-A4D6AB987805" containerWithKeyObject="A83845EA-9E55-1043-56E8-6771DD3829DE" localFKIndex="274D4566-BB02-3041-4C85-97C769C0F161" name="Autorizacija_kartice_Greska_FK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 16:34:05 UTC</createdTime>
+<generatorID>FE454681-4AEF-BB8C-1C48-B30BC0191EC9</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<referredTableLongName>Greska</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>379E1B18-167F-BBD2-55D4-2A9B7BDA862A</referredTableID>
+<keyObject>95905DDA-DE21-23CA-952E-01BAE5DCAEF2</keyObject>
+<referredKeyID>95905DDA-DE21-23CA-952E-01BAE5DCAEF2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>greska_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

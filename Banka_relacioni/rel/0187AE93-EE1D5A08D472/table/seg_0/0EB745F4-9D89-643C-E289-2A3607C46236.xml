@@ -248,6 +248,21 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Bankomat_bankomat_id" id="4FB65F75-EE35-0F44-8A91-B803E9FD0996">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 16:31:55 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ACC9C70D-1F83-7918-25F4-AE3EFB05904D" referredColumn="08D28D2D-97F4-92C3-2181-D560262C21A7"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="C80D35B0-3AC9-9F37-CABB-E92A8E471C6C" name="Transakcija_PK">
@@ -372,6 +387,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="B46391AA-3516-437E-1FF4-4D4F01F26B12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F9E5AAF-0154-42AD-7F28-4E21EB699DB2" name="Transakcija_Bankomat_FK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 16:31:55 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FB65F75-EE35-0F44-8A91-B803E9FD0996"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

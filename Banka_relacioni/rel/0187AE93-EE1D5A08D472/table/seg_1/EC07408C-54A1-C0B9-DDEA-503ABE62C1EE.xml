@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="EC07408C-54A1-C0B9-DDEA-503ABE62C1EE" name="Ulaganje">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 17:05:42 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<ordsAlias>table_79</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ulaganje_id" id="F8DBE764-2F32-E592-41BA-03DBDC49D7FD">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 17:09:19 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_ulaganja" id="A91685C7-CD07-030B-684D-B9547BF232D7">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 17:09:19 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="iznos_ulaganja" id="7EC7BBF3-586A-86BF-DA24-1E981CC75345">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 17:09:19 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trenutna_vrednost" id="E70AC4E6-2659-D2CA-3E00-9A37181AC992">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 17:09:19 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prinos_ukupno" id="22DC9F26-A194-4AEF-A64E-763A1E9A69BA">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 17:09:19 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_ulaganja" id="882320E0-D519-0A8F-13EE-0712EB80D1BC">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 17:09:19 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj_jedinica" id="5775F849-528B-17A0-6FC9-BB6192038044">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 17:09:19 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naknada_ulaz_iznos" id="318EAA20-9194-E1F2-3C8E-5A1FDA426E68">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 17:09:19 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kllijent_klijent_id" id="23DFB04A-25BA-8467-84F0-11ED550C62FE">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 17:09:47 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9474427-AA63-A23F-3681-1179729F3FDE" referredColumn="8AAFB894-B857-F8BB-BA28-06E161D12E22"/>
+</associations>
+</Column>
+<Column name="Fond_fond_id" id="8887B955-EC64-E134-0F84-E35A79E7D69A">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 17:09:51 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD717A2C-9952-5F7D-F637-1A413FFB9FC6" referredColumn="B28AFD3E-A3BE-6597-4855-7F8428F67D69"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E61158B-8182-4218-ED72-EAB00EFBBE35" name="Ulaganje_PK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 17:09:19 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8DBE764-2F32-E592-41BA-03DBDC49D7FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8BAEE99C-8F4B-6C71-6B58-8238B0F71977" name="Ulaganje_Kllijent_FK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 17:09:47 UTC</createdTime>
+<generatorID>A10D6DCC-8D7E-CF69-32A9-D6C870A78A88</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23DFB04A-25BA-8467-84F0-11ED550C62FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A79BA9D1-A49F-C436-801B-83CB6B83DB5F" name="Ulaganje_Fond_FK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 17:09:51 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8887B955-EC64-E134-0F84-E35A79E7D69A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

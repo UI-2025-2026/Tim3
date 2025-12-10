@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="5470349C-77CA-0195-E18D-1E082848F58F" name="Tip_kredita">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 16:50:13 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<ordsAlias>table_74</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tip_id" id="30AACDB3-E7CB-783F-6901-3AF374E8C578">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 16:50:45 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="83D191C6-DB24-14DA-41F9-D3361FE1468C">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 16:50:45 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis" id="FF64CDE4-DE9A-563B-E8BF-B459049D85E0">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 16:50:45 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4A42F9E0-0D4B-5E7B-FD84-C489A11404C6" name="Tip_kredita_PK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 16:51:03 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30AACDB3-E7CB-783F-6901-3AF374E8C578"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

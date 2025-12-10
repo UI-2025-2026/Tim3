@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5BDCAA0E-4E03-707C-D80C-3DC440C52468" name="Rate_kredita">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 16:47:34 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<ordsAlias>table_73</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rata_id" id="8DAAD2A5-8185-B67D-7DE8-064E2AF451C4">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 16:49:16 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_rate" id="E957C9FC-4BB1-1FBB-7600-E2948F09E398">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 16:49:16 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="CE3E131C-5B5F-935D-F43D-1EDFF1A75DBD">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 16:49:16 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="iznos_rate" id="5FCD7445-395D-9AFA-2B19-91D9D3D4C781">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 16:49:16 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kredit_kredit_id" id="A61DCEC2-05F5-B375-D9A0-4391A8567EDA">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 16:49:50 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA59F7FB-CCEB-7581-8AA7-1E4B52CE37D0" referredColumn="8FA3248F-C098-2D84-B784-016F54510ACE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46779E85-85C3-F206-2795-726BE25D6FA9" name="Rate_kredita_PK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 16:49:16 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DAAD2A5-8185-B67D-7DE8-064E2AF451C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C1113DB-2FD9-BC7C-24D5-C72A48C054AB" name="Rate_kredita_Kredit_FK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 16:49:50 UTC</createdTime>
+<generatorID>D88D62A3-62FF-FB59-BBD7-BC0447758145</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A61DCEC2-05F5-B375-D9A0-4391A8567EDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

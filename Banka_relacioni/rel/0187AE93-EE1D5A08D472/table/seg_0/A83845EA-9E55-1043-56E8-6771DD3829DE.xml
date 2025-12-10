@@ -45,6 +45,16 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="merchant" id="0D7436B0-FD70-4623-7922-CD66D18BCF95">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 16:41:25 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="Kartica_kartica_id" id="E01EBBE3-8703-67B9-8E2E-0D5428EFBBB8">
 <createdBy>milos</createdBy>
 <createdTime>2025-11-30 22:34:25 UTC</createdTime>
@@ -73,6 +83,20 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="9A045982-BEE3-01EA-E299-0F3F50EC939B" referredColumn="921D6EB6-EF85-BC49-15C5-4FB8F2834E6B"/>
+</associations>
+</Column>
+<Column name="Greska_greska_id" id="BA5571D4-EE57-C120-BC84-D76E60D5665A">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 16:34:05 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="472A1992-D2A8-62CD-5333-A4D6AB987805" referredColumn="E051B003-AD59-EEF7-6EA3-81E86B3F8751"/>
 </associations>
 </Column>
 </columns>
@@ -121,6 +145,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="E01EBBE3-8703-67B9-8E2E-0D5428EFBBB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="274D4566-BB02-3041-4C85-97C769C0F161" name="Autorizacija_kartice_Greska_FK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 16:34:05 UTC</createdTime>
+<generatorID>FE454681-4AEF-BB8C-1C48-B30BC0191EC9</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA5571D4-EE57-C120-BC84-D76E60D5665A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

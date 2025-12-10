@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="902209A0-7F30-F697-216B-04A3DAF1EE8D" containerWithKeyObject="0A0ECFD3-12E7-03AF-EB42-5FB8891A6928" localFKIndex="F68B555F-F3E8-08D2-27E6-6C62B39113AA" name="Kolateral/Obezbedjenje_Kredit_FK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 16:52:37 UTC</createdTime>
+<generatorID>D88D62A3-62FF-FB59-BBD7-BC0447758145</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<referredTableLongName>Kredit</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A0083A51-0BBC-F65B-1BD1-63D951C236C6</referredTableID>
+<keyObject>F0CBFC13-433A-53DF-300B-64826CEDA02B</keyObject>
+<referredKeyID>F0CBFC13-433A-53DF-300B-64826CEDA02B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>kredit_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2550AA71-79E3-AEBC-2A7B-87D55DC51C85" name="Bankomat">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 16:28:23 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<ordsAlias>table_72</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="bankomat_id" id="08D28D2D-97F4-92C3-2181-D560262C21A7">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 16:31:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lokacija" id="51B3AFFC-58EF-A647-67DD-B3CB0CFFB02A">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 16:31:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="3E681228-FA33-3C63-55FD-938BE93874A1">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 16:31:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dostupna_gotovina" id="2E7B0303-E1F2-FA26-E40A-038E1591A94D">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 16:31:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Filijala_filijala_id" id="7BBF747B-2696-3DFC-7696-12E37A3DC850">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 16:32:19 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6246C182-04E1-4404-2172-96334C16B00D" referredColumn="68A2CD69-B386-D27A-E51A-F69621C8CC65"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F7E8E442-38BA-8D65-99FD-A6D0888DDE71" name="Bankomat_PK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 16:31:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08D28D2D-97F4-92C3-2181-D560262C21A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F03F3579-EE4E-E1A4-BE44-18531201C103" name="Bankomat_Filijala_FK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-10 16:32:19 UTC</createdTime>
+<generatorID>F4E79B6B-9B3A-CDD6-8F10-F8A39B38F055</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BBF747B-2696-3DFC-7696-12E37A3DC850"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
