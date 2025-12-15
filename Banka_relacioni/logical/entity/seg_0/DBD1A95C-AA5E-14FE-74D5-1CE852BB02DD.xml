@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DBD1A95C-AA5E-14FE-74D5-1CE852BB02DD" name="Nalogv2">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:28 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>FF0A301F-6894-ADCD-F899-E4BD52C75FDF</importedID>
+<engineerTo>
+<item key="DCF0B49B-7998-063B-D429-27ADCA41EBC2" value="true"/>
+<item key="ED1E50DB-A675-CDB7-528A-28DDF42BED83" value="true"/>
+<item key="D54A57CE-99D2-9B49-2ADC-D65DAFF14E8E" value="true"/>
+<item key="65A0091F-D819-EDF0-AF60-E292F4CCD2CA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nalog_id" id="FC67F9AA-3E53-5100-6698-E1313B6E8EE1">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:28 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>6090E013-7C9B-97A0-77CF-17445C4A7973</importedID>
+<engineerTo>
+<item key="DCF0B49B-7998-063B-D429-27ADCA41EBC2" value="true"/>
+<item key="ED1E50DB-A675-CDB7-528A-28DDF42BED83" value="true"/>
+<item key="D54A57CE-99D2-9B49-2ADC-D65DAFF14E8E" value="true"/>
+<item key="65A0091F-D819-EDF0-AF60-E292F4CCD2CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="18726206-F571-F31A-7487-413CF76E5F5D">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:28 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>6F94C3A9-AD2E-A83D-7BBE-6FD5C98BA766</importedID>
+<engineerTo>
+<item key="DCF0B49B-7998-063B-D429-27ADCA41EBC2" value="true"/>
+<item key="ED1E50DB-A675-CDB7-528A-28DDF42BED83" value="true"/>
+<item key="D54A57CE-99D2-9B49-2ADC-D65DAFF14E8E" value="true"/>
+<item key="65A0091F-D819-EDF0-AF60-E292F4CCD2CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="korisnicko_ime" id="40884B3B-EAED-AAEF-4E21-67906E1CDD62">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:28 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>0E4BA8E8-CA9E-EB66-27C6-D655A5E4F343</importedID>
+<engineerTo>
+<item key="DCF0B49B-7998-063B-D429-27ADCA41EBC2" value="true"/>
+<item key="ED1E50DB-A675-CDB7-528A-28DDF42BED83" value="true"/>
+<item key="D54A57CE-99D2-9B49-2ADC-D65DAFF14E8E" value="true"/>
+<item key="65A0091F-D819-EDF0-AF60-E292F4CCD2CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hash_sifra" id="158560F0-0BBD-EE37-D2FE-502B599EBB80">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:28 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>E938A4D4-C333-4A4F-B2EC-554400FF05DF</importedID>
+<engineerTo>
+<item key="DCF0B49B-7998-063B-D429-27ADCA41EBC2" value="true"/>
+<item key="ED1E50DB-A675-CDB7-528A-28DDF42BED83" value="true"/>
+<item key="D54A57CE-99D2-9B49-2ADC-D65DAFF14E8E" value="true"/>
+<item key="65A0091F-D819-EDF0-AF60-E292F4CCD2CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_kreiranja" id="CBDA0A80-304D-7AB6-966D-670109AF6AF1">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:28 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>F0392E2A-6E2C-D342-6B21-4F173E65D0E1</importedID>
+<engineerTo>
+<item key="DCF0B49B-7998-063B-D429-27ADCA41EBC2" value="true"/>
+<item key="ED1E50DB-A675-CDB7-528A-28DDF42BED83" value="true"/>
+<item key="D54A57CE-99D2-9B49-2ADC-D65DAFF14E8E" value="true"/>
+<item key="65A0091F-D819-EDF0-AF60-E292F4CCD2CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status_naloga" id="F2C78708-FAB6-E613-A757-BE3ADCEC4FDF">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:28 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>BEC7E5DD-3387-87BC-621D-7C648E174BEF</importedID>
+<engineerTo>
+<item key="DCF0B49B-7998-063B-D429-27ADCA41EBC2" value="true"/>
+<item key="ED1E50DB-A675-CDB7-528A-28DDF42BED83" value="true"/>
+<item key="D54A57CE-99D2-9B49-2ADC-D65DAFF14E8E" value="true"/>
+<item key="65A0091F-D819-EDF0-AF60-E292F4CCD2CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="klijent_id" id="3A29E2AC-2DCB-BE7E-FB5B-B8F2EF77A47E">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:28 UTC</createdTime>
+<generatorID>2F90FF30-7D8B-1011-CF49-BBFFAB3C02BC</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>02ADF7D5-6D08-0E99-C6A6-0FEFA0247181</importedID>
+<engineerTo>
+<item key="DCF0B49B-7998-063B-D429-27ADCA41EBC2" value="true"/>
+<item key="ED1E50DB-A675-CDB7-528A-28DDF42BED83" value="true"/>
+<item key="D54A57CE-99D2-9B49-2ADC-D65DAFF14E8E" value="true"/>
+<item key="65A0091F-D819-EDF0-AF60-E292F4CCD2CA" value="true"/>
+</engineerTo>
+<referedAttribute>1CF45DBE-1B95-0687-400C-7DE4AB4D80A1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EDEBCAD0-D979-092B-D206-AA2568B9B8E6" name="Podaci_za_prijavu PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:28 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>D78C4004-664F-91E8-FA5C-58FFCFD87991</importedID>
+<engineerTo>
+<item key="DCF0B49B-7998-063B-D429-27ADCA41EBC2" value="true"/>
+<item key="ED1E50DB-A675-CDB7-528A-28DDF42BED83" value="true"/>
+<item key="D54A57CE-99D2-9B49-2ADC-D65DAFF14E8E" value="true"/>
+<item key="65A0091F-D819-EDF0-AF60-E292F4CCD2CA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FC67F9AA-3E53-5100-6698-E1313B6E8EE1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Filijala_Blagajne" directorySegmentName="seg_0" id="AF6B1C63-151C-22D3-3171-25525858C571">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:28 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>A17F8EB1-AD86-D99B-D3F1-1FA0C40D201D</importedID>
+<engineerTo>
+<item key="DCF0B49B-7998-063B-D429-27ADCA41EBC2" value="true"/>
+<item key="ED1E50DB-A675-CDB7-528A-28DDF42BED83" value="true"/>
+<item key="D54A57CE-99D2-9B49-2ADC-D65DAFF14E8E" value="true"/>
+<item key="65A0091F-D819-EDF0-AF60-E292F4CCD2CA" value="true"/>
+</engineerTo>
+<sourcePk>F9C1D04D-F388-2612-830A-ECE38984BA44</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A93D0DB5-6F5F-14EA-70D9-135317578EE6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>865BB114-7CE2-A156-8EC4-C38F19F9016F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

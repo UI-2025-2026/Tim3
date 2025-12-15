@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A4E2EED1-182D-4BC5-7373-A770145CE611" name="Filijala">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:28 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>8019DEF9-F29C-A11B-A5F2-008C42864017</importedID>
+<engineerTo>
+<item key="DCF0B49B-7998-063B-D429-27ADCA41EBC2" value="true"/>
+<item key="ED1E50DB-A675-CDB7-528A-28DDF42BED83" value="true"/>
+<item key="D54A57CE-99D2-9B49-2ADC-D65DAFF14E8E" value="true"/>
+<item key="65A0091F-D819-EDF0-AF60-E292F4CCD2CA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="filijala_id" id="BC06D94C-72DB-E9A0-F2F7-DCC5F77BDDFC">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:28 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>A0283751-652A-8C33-9887-23D36C7F777A</importedID>
+<engineerTo>
+<item key="DCF0B49B-7998-063B-D429-27ADCA41EBC2" value="true"/>
+<item key="ED1E50DB-A675-CDB7-528A-28DDF42BED83" value="true"/>
+<item key="D54A57CE-99D2-9B49-2ADC-D65DAFF14E8E" value="true"/>
+<item key="65A0091F-D819-EDF0-AF60-E292F4CCD2CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv" id="28B55079-A3F6-091B-D2F3-AA276ECC5F59">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:28 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>38A46638-125F-27BC-56D8-528A3F08807F</importedID>
+<engineerTo>
+<item key="DCF0B49B-7998-063B-D429-27ADCA41EBC2" value="true"/>
+<item key="ED1E50DB-A675-CDB7-528A-28DDF42BED83" value="true"/>
+<item key="D54A57CE-99D2-9B49-2ADC-D65DAFF14E8E" value="true"/>
+<item key="65A0091F-D819-EDF0-AF60-E292F4CCD2CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adresa" id="8B4987AD-3ED7-6C05-9C68-CE45C74EC16D">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:28 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>0DF7F2BB-BC9C-7285-DBF7-AB547EAD8757</importedID>
+<engineerTo>
+<item key="DCF0B49B-7998-063B-D429-27ADCA41EBC2" value="true"/>
+<item key="ED1E50DB-A675-CDB7-528A-28DDF42BED83" value="true"/>
+<item key="D54A57CE-99D2-9B49-2ADC-D65DAFF14E8E" value="true"/>
+<item key="65A0091F-D819-EDF0-AF60-E292F4CCD2CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tip_filijale" id="B4393B6A-37E5-8451-3E0B-864AD3C29495">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:28 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>0138ADCB-14F9-6F1B-87FD-E99D57EF0FBE</importedID>
+<engineerTo>
+<item key="DCF0B49B-7998-063B-D429-27ADCA41EBC2" value="true"/>
+<item key="ED1E50DB-A675-CDB7-528A-28DDF42BED83" value="true"/>
+<item key="D54A57CE-99D2-9B49-2ADC-D65DAFF14E8E" value="true"/>
+<item key="65A0091F-D819-EDF0-AF60-E292F4CCD2CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="odeljenje_id" id="2A592A11-BDA4-F61F-54BA-6EAF0858FA14">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:28 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>9322653D-25CF-5590-202F-F0AE2A3999FA</importedID>
+<engineerTo>
+<item key="DCF0B49B-7998-063B-D429-27ADCA41EBC2" value="true"/>
+<item key="ED1E50DB-A675-CDB7-528A-28DDF42BED83" value="true"/>
+<item key="D54A57CE-99D2-9B49-2ADC-D65DAFF14E8E" value="true"/>
+<item key="65A0091F-D819-EDF0-AF60-E292F4CCD2CA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="region_id" id="D1644F8D-08A9-D39D-FE9F-7B37A9489798">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:28 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>3B566D06-793D-73E3-EE39-0CE52777B2FE</importedID>
+<engineerTo>
+<item key="DCF0B49B-7998-063B-D429-27ADCA41EBC2" value="true"/>
+<item key="ED1E50DB-A675-CDB7-528A-28DDF42BED83" value="true"/>
+<item key="D54A57CE-99D2-9B49-2ADC-D65DAFF14E8E" value="true"/>
+<item key="65A0091F-D819-EDF0-AF60-E292F4CCD2CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="region_id1" id="E1BD159F-9D6D-A5AE-31B0-C5AA0F23C6B1">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:28 UTC</createdTime>
+<generatorID>CDAE3F18-4A06-29AA-053B-08CCC5FA5CF6</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>89713F8F-C2BE-8FD4-CDAE-46C0C62B41A6</importedID>
+<engineerTo>
+<item key="DCF0B49B-7998-063B-D429-27ADCA41EBC2" value="true"/>
+<item key="ED1E50DB-A675-CDB7-528A-28DDF42BED83" value="true"/>
+<item key="D54A57CE-99D2-9B49-2ADC-D65DAFF14E8E" value="true"/>
+<item key="65A0091F-D819-EDF0-AF60-E292F4CCD2CA" value="true"/>
+</engineerTo>
+<referedAttribute>696B97DF-2293-4472-0538-66E35307EC2B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3075AFB4-A100-4E9D-6867-FBEFB3651C62" name="Filijala PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:28 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>AB303CE0-ED22-1007-CAC0-54539EC44D55</importedID>
+<engineerTo>
+<item key="DCF0B49B-7998-063B-D429-27ADCA41EBC2" value="true"/>
+<item key="ED1E50DB-A675-CDB7-528A-28DDF42BED83" value="true"/>
+<item key="D54A57CE-99D2-9B49-2ADC-D65DAFF14E8E" value="true"/>
+<item key="65A0091F-D819-EDF0-AF60-E292F4CCD2CA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BC06D94C-72DB-E9A0-F2F7-DCC5F77BDDFC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

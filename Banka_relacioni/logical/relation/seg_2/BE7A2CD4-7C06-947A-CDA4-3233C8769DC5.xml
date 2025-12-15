@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ZaposleniKreditniZahtevi" directorySegmentName="seg_2" id="BE7A2CD4-7C06-947A-CDA4-3233C8769DC5">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:28 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>202774C0-2586-2380-FB58-FA3EBC3846F8</importedID>
+<engineerTo>
+<item key="DCF0B49B-7998-063B-D429-27ADCA41EBC2" value="true"/>
+<item key="ED1E50DB-A675-CDB7-528A-28DDF42BED83" value="true"/>
+<item key="D54A57CE-99D2-9B49-2ADC-D65DAFF14E8E" value="true"/>
+<item key="65A0091F-D819-EDF0-AF60-E292F4CCD2CA" value="true"/>
+</engineerTo>
+<sourcePk>719E5A93-0F3C-59E4-D31E-E8EE6E7DD313</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4FF1887C-DA54-EC6F-C53E-3BDA340A90A2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DDEEA431-128F-8AD6-B6B9-22BBC08B230A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="243B3379-6180-D0CD-D02F-42C76B06C251" containerWithKeyObject="7403FB8A-509B-3D8E-B103-2BE120085E75" localFKIndex="1A1F14D2-A2DE-CCF2-85DE-63B12DCF5BB3" name="Bankomat_Filijala_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>F4E79B6B-9B3A-CDD6-8F10-F8A39B38F055</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>6246C182-04E1-4404-2172-96334C16B00D</importedID>
+<referredTableLongName>Filijala</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9FDDF003-F9BE-F25F-E263-24730854EE67</referredTableID>
+<keyObject>57C9462A-B242-C3DB-07AC-B78087DE2AAD</keyObject>
+<referredKeyID>57C9462A-B242-C3DB-07AC-B78087DE2AAD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>filijala_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

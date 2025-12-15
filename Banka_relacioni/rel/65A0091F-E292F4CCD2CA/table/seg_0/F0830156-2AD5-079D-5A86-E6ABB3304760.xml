@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0830156-2AD5-079D-5A86-E6ABB3304760" name="Blagajna">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:28 UTC</createdTime>
+<generatorID>865BB114-7CE2-A156-8EC4-C38F19F9016F</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>C3C904C2-D161-B38A-4AE1-5EEFABD2CD32</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="blagajna_id" id="A9EFF699-6606-51D4-9982-AB1941D45632">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>F727C465-5AD6-5DCB-F563-84B6FEAC3369</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>FAA9E2F0-ADB3-0691-0A2C-5D7043FB3268</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stanje_blagajne" id="933450F0-59BC-F189-EF47-97F1C7DF530B">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>EC1C1315-532B-016C-3B1A-C41EDC9AFAB8</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>FEA5433E-B13F-4F15-5BE5-931C2A286E6C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="filijala_id" id="3AF73BA1-5445-FBAD-A050-B61A10D6FE7A">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>9BC118FB-EA41-170E-7103-D9B781FE5F70</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>E31564D5-1BDE-3B03-151D-4E037AC33159</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Filijala_filijala_id" id="82706B7D-A468-9836-97CD-455954C082C1">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>A15F973C-82A1-FFF1-9050-2A20A0D3E0FD</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>39831BF0-5D34-0717-613D-65907C3CFC58</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8C76B65-6D61-A20C-9A78-1F94D50B59E7" referredColumn="D4319DD8-12C7-C93A-E091-24B775A21AA6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F430A05-51DA-CBB0-9FCA-FAE951190B76" name="Blagajna_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>24E411F3-C2E9-21F5-4E9A-036CED78064F</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>750B4B00-E3B4-D668-1147-7DD165966D4A</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9EFF699-6606-51D4-9982-AB1941D45632"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B86F64F-AC0F-222D-AE6F-0BB75F946F22" name="Blagajna_Filijala_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>AF6B1C63-151C-22D3-3171-25525858C571</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82706B7D-A468-9836-97CD-455954C082C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

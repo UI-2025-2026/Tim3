@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B8830C6D-13A6-6D3B-E478-A251012D7D1D" name="Chargeback">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:28 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>943B68E3-7B61-9570-B419-54F85D20853B</importedID>
+<ordsAlias>table_62</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="reklamacija_id" id="6B7BC90B-CE5A-E295-653C-BA85E638C210">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>A4A1AC21-22A7-31AD-3120-D0C6E4EEFAE4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_podnosenjada" id="C8A121A3-C44C-A428-E29E-76C596AA861F">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>0CA0A5C7-E755-487A-F213-C3F1559B23E3</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis" id="3986A589-4E21-D9E5-308E-D706227D114B">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>89908F4B-F87B-759F-2863-9ABA71ACA5BB</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kllijent_klijent_id" id="F3FE67C4-8151-63B2-E447-54B6777B5CFF">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>9F872D8B-3A94-A9D9-0F37-5EE66BEFA12F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3E461EA-B657-1AAD-48E0-714A7D6C46A3" referredColumn="CC741D37-AEF2-F4EA-BF90-349E5F0479B1"/>
+</associations>
+</Column>
+<Column name="Transakcija_transakcija_id" id="FE98FC4F-9DBB-FD26-1365-8D1056796258">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>76BA47D1-0A80-C033-87AB-FD2DECB5A67A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB2D6607-4650-1FDA-B1E7-C40C2F5A22F7" referredColumn="9C69888C-3C2E-1B62-399F-12D3B1BC8877"/>
+</associations>
+</Column>
+<Column name="Status_Reklamacije_status_reklamacije_id" id="921EB89A-5943-E7A9-FFEE-1D7CC103F916">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>A9755EC1-52EE-9742-7B68-839E521FE6D7</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="941FA197-640C-398B-5A67-3DED8F690605" referredColumn="86C7A6F7-8DC9-4304-8227-C8CE81273B6C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1088E94-97F7-7B20-F7AA-2D05554E1B1D" name="Reklamacija_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>3E2E54AA-C755-2F1C-1999-F14C0E978F50</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B7BC90B-CE5A-E295-653C-BA85E638C210"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1EBF1659-89FB-4E87-3F91-F17B324A3B0A" name="Klijent">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>A10D6DCC-8D7E-CF69-32A9-D6C870A78A88</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3FE67C4-8151-63B2-E447-54B6777B5CFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98102E98-0580-7487-0E40-45F22918FC8C" name="Transakcija">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>2420B9F2-8989-26A1-CBBF-8B1B24472244</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE98FC4F-9DBB-FD26-1365-8D1056796258"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="912EE11E-7CC2-723F-7EFE-DC4FA7CE9144" name="Status_reklamacije">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="921EB89A-5943-E7A9-FFEE-1D7CC103F916"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

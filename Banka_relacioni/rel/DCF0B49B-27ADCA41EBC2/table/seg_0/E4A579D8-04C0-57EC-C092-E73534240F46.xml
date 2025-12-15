@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E4A579D8-04C0-57EC-C092-E73534240F46" name="Tip_kartice">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>97547C6C-6031-4A03-3EB5-0EEB2E1CB421</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>10AF0239-848A-3F23-1B59-341625A2D2A7</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tip_id" id="E8884AA3-A43C-6A83-3094-3B25539BEB0E">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>795ED956-D644-1451-00AE-BB548B94EE87</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>F691232D-83A2-B415-8FDC-EF3C84D2D76D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="E8D33530-0BE0-25E2-0343-9B6EA7C69AF6">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>9FBF12E9-C711-A6C9-6D9C-986612B2557A</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>1D622E28-2C1D-9491-2AED-CDB767E6C8C1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis" id="80CD3967-3519-0341-1A92-3F67B361C7A1">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>6A8742BA-C329-CCA8-DF27-226C9D96F083</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>7B2300DF-0B75-9B18-F775-2995705B67F2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1FB48770-5368-D0F6-3B12-20EEF185882A" name="Tip_kartice_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>D86DE235-BE6C-98FD-CA01-DC8A34436C0B</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>EEBB3587-A30C-DEE8-E021-7870893ABE20</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8884AA3-A43C-6A83-3094-3B25539BEB0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

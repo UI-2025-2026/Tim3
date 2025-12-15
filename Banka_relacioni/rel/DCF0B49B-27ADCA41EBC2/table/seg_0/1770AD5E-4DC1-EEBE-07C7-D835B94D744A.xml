@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1770AD5E-4DC1-EEBE-07C7-D835B94D744A" name="Kontni_okvir">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>3787F1EA-0C55-8230-F304-DDAED723DCF8</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>33C28EA7-28AB-129E-9AA3-A9388F109D04</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="konto_id" id="1BAF825B-92C3-71E9-9493-0176A9DC719D">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>C067F421-DD81-BD25-152A-1ECFDBAE48F7</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>2EFFFD69-40F5-2556-4020-9CC476B005EC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="konto_broj" id="917124A0-AD25-7CF6-AC8F-8E8C14D0C3C9">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>1619B197-E072-3D11-B5D6-E956E1959271</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>12ECB992-8886-6451-401E-A8BD95B979F2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="E7C0F604-6F5F-903E-C227-20C7B055EE3E">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>435E4A49-AACC-CBB5-705F-BFD2A599E926</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>A49E6ECA-C6F5-7BC6-005D-7C633B7A8A2A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip_konta" id="F21A665D-373C-BBF6-D3A0-43CCDDD806B8">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>65FEEAA2-67C2-0169-3DC9-35BC732787C9</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>FCA8D77F-8A09-28B5-8211-B6BF9772AC74</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E6A50FB-6000-9089-EB07-3010B84D60D9" name="Kontni_okvir_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>D1FC812C-FFF6-A090-6D49-E4CF99287CC1</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>84F97302-E171-25D9-558A-84139D896DF0</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BAF825B-92C3-71E9-9493-0176A9DC719D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

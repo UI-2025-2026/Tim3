@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F919E4FA-073A-A743-FE4A-A7D3035E99BE" name="Prisustvo">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>32142E08-0BA9-F5D2-39FA-1FAE7C8072DB</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>0C7A86C4-C6A2-9D7F-7455-CD759F97ACD3</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="prisustvo_id" id="2B75670D-779D-1718-8D10-D40CDC210841">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>85ED1A72-4FE2-F1C8-1842-CDCCF347203E</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>4AACCBB9-C66C-41C7-BE00-01D52C07B0F1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zaposleni_id" id="E3768D2A-9F35-935A-B5E6-6CABDBAE548B">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>AEF16FF7-EE41-AEB2-3AC3-5C5FF6023DE3</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>57D4E100-2439-8D96-4506-47B30C75BD0E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum" id="F106EDA8-F7F4-827D-0DB6-805FB0475DA8">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>32F75EB2-1D34-F879-EFDA-D70947B64781</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>477CAB99-A916-0689-29AE-679E5E8A05EE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="E7EA700B-6EAF-81FC-0879-2860791972F9">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>8DAAA8DD-C129-8C0F-020D-3033C747E241</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>725148B5-DB79-53B6-A27D-19C8E0329E51</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zaposleni_zaposleni_id" id="EEBEC978-84BA-CCEF-0ACB-4F089820477C">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>D6E99AE6-8AAA-810C-CBF6-B6E257E08B1F</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>29B9F698-8F19-EF2D-C4FB-0B1F0FA6ED53</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D460C11-8B95-C0D1-9F7E-42475579629A" referredColumn="465BB9DF-E78B-8D14-D8DB-A92A48E9A5F3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FCC140DE-1341-6EA2-3D7A-C7842277AC64" name="Prisustvo_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>780E35D5-FAF5-413C-822A-E8A74F62987D</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>A9ED702F-41D0-DF10-1B91-0F338BE97D48</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B75670D-779D-1718-8D10-D40CDC210841"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2B557AC-B4B5-63BD-78FB-52ABDF4A5F9E" name="Prisustvo_Zaposleni_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>3BD96A31-CB81-743F-AE0E-8810A29D1AD0</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEBEC978-84BA-CCEF-0ACB-4F089820477C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

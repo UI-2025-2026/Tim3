@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0817E29-89B2-4965-FAE7-6C3C5900BA2E" name="Platni_protokol">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>C868AA6B-367A-38FF-DDE1-14FE699F0F30</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>758564FF-687C-ECF7-5025-B4826A46241B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="kanal_id" id="80773CAA-687F-541B-6532-B0F2196AFD2F">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>CCA3A5E1-611E-A9EC-36CF-AC8761172C7A</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>5C41C1F5-6CB1-2E6E-FB11-BEC6E33C6BA5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="30563C91-098A-AAE8-3B05-1C2F8D59904D">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>941E159F-9398-0EE8-BEDB-0087434AFCAC</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>1FE578E2-200E-7735-1AA6-B8A4C285DBB2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kod" id="2673728F-7EC5-CE9C-2FEA-FCBF15FF9DA3">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>01CFC423-0A86-71FA-E906-C35985245681</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>BC804B22-765F-1A3C-6B9A-0789F68E9141</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis" id="AF430FC6-3A1B-45C3-45D0-A0DFA00D09C8">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>2170F9DC-7C49-3802-B892-5FDDE21C47BB</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>0FB74F91-253E-6DE0-E2AC-40C920AD2CF6</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="poruka" id="0AABA2C0-3F8C-C12C-5AA7-BC47DF5BAF49">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>3827B4CC-6F92-442E-135A-06F20E5554A6</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>3B89A26B-92E8-7612-734A-FF4EC23DD963</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F3CFB73-8374-5D13-6789-73E810671586" name="Kanal_transakcije_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>0A5CA1F6-7EB8-C826-FF1A-B9EBE022D3ED</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>62CE55B3-3F51-99E1-0FED-44FB323B0859</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80773CAA-687F-541B-6532-B0F2196AFD2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

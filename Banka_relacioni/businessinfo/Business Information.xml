@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="3815D4A9-82EB-884B-E625-18CE9A2E36FA">
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="AF7AC060-22A8-939E-25B6-EB020AF068F7">
 <createdBy>milos</createdBy>
-<createdTime>2025-11-30 22:33:32 UTC</createdTime>
-<ownerDesignName>Tim3 </ownerDesignName>
+<createdTime>2025-12-15 02:13:32 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
 <shouldBeOpen>false</shouldBeOpen>
 </BusinessInfoDesign>

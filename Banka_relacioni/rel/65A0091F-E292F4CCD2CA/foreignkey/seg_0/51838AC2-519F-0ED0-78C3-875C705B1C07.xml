@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="51838AC2-519F-0ED0-78C3-875C705B1C07" containerWithKeyObject="69C779DA-78AC-32E5-A826-D478432CB2FF" localFKIndex="030B7624-6F85-3056-1746-662A16D7F5E1" name="Rate_kredita_Kredit_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>D88D62A3-62FF-FB59-BBD7-BC0447758145</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>EA59F7FB-CCEB-7581-8AA7-1E4B52CE37D0</importedID>
+<referredTableLongName>Kredit</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FBE390CF-A339-82B3-5FDF-B7E67F23AC67</referredTableID>
+<keyObject>9E863B55-CE14-D471-E05D-F0AF7EEBCACA</keyObject>
+<referredKeyID>9E863B55-CE14-D471-E05D-F0AF7EEBCACA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>kredit_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

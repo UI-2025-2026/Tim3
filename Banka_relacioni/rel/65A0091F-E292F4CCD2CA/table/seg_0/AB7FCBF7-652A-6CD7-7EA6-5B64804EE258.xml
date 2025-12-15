@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB7FCBF7-652A-6CD7-7EA6-5B64804EE258" name="Lojalti_bodovi_klijenta">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:28 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>535125C5-8247-38C0-DA2A-783931D849E0</importedID>
+<ordsAlias>table_67</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="bodovi_id" id="3A65F505-910A-300C-25BA-BF2C95A981A8">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>756D8A9C-317C-3456-A8C2-5A54273BEABA</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj_bodova" id="DD17DB67-795A-281C-6878-E133FFC94784">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>B0631FA9-AE4E-A206-A16F-863E9B88163C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_azuriranja" id="DAEB1FE3-6AB4-4668-E40E-99888255CE47">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>2A006C55-F995-4A26-6781-C49D5D8CB3C6</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOJALTI_PROGRAM_program_id" id="6A140B83-0930-7AB7-6F27-5DC364A2BC77">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>50F1F210-62A0-146C-A8C5-62677FB157EB</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E316E9F1-01D4-F43E-83DF-DF4957BEF462" referredColumn="ADA078B9-27EC-CD6A-F245-D1DE8138A83C"/>
+</associations>
+</Column>
+<Column name="Kllijent_klijent_id" id="7774A35A-7030-C598-367F-6BA31106EFA0">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>F2A9D88D-FC62-DC32-0775-F323B6400CFE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A8792BC-6218-768A-E7E8-2CE369459EB7" referredColumn="CC741D37-AEF2-F4EA-BF90-349E5F0479B1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B5AD348D-E0AB-93ED-9B45-58720DE1DFC2" name="Lojalti_bodovi_klijenta_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>48149641-503B-6867-E458-411DE6E04CA9</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A65F505-910A-300C-25BA-BF2C95A981A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78FE4F2B-20F4-58C0-BD88-DBB0ECCED768" name="Lojalti_program">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A140B83-0930-7AB7-6F27-5DC364A2BC77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE4F6563-4795-A091-AD53-9E9D76D12F3C" name="Klijentv2">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>A10D6DCC-8D7E-CF69-32A9-D6C870A78A88</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7774A35A-7030-C598-367F-6BA31106EFA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

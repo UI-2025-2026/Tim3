@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DEADF14B-96FB-503B-5A56-28CB35E61E32" name="Eksterni_transfer">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:28 UTC</createdTime>
+<generatorID>C761F945-6302-D069-A516-53179FD1F75E</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>7F525B05-0106-CF57-556E-C62172E1405C</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ext_id" id="E0AB470A-35A3-5FC9-5541-A45C397E0D5C">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>849432BB-E49A-765A-68EF-ED9B47A84802</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>820D0652-B7BA-18FF-8EBD-D6AE74F76D3A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pravac_transfera" id="5F89752F-F0F0-DB06-F465-F85DACF8E3D7">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>749F5C1A-2A21-0DB0-54D5-9C6D8D79D330</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>6C0E4994-E321-878D-6092-3C65C89595F5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="iban_primaoca/posiljaoca" id="668F87F2-81C1-A7FA-233D-F357FB94335C">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>11C702BF-508E-7543-9A51-BAF12AE794AD</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>10356FE3-0F77-DE19-A96B-5BC90BC695AE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="payment_system" id="9802F6FB-EB9E-5064-3881-9FFEE9FE8002">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>A3F9169D-9BEC-E365-604A-6BEFA66E1DBE</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>74B55403-BD2B-F2A4-BBD2-3FF2CBD89016</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Transakcija_transakcija_id" id="91B6460F-4DD8-9867-3D9B-3DF0D302F948">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>015C688B-837D-7F7B-39CB-7B331003D0DC</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>39C26CC4-E49D-EA2A-6F16-48C76D9874D9</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Korespondentna_Banka_banka_id" id="4BA2373E-F270-0406-37CD-922C8E8BE27D">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>D0A89B09-8995-8EAB-086B-7247FF4D58F6</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>A01B0EB3-EAF3-E532-A1CD-BE9624B697BB</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE8DBC48-935C-71A1-348A-A3C22780457F" referredColumn="091A93C6-79FB-2BFC-363C-AB2C95034D0F"/>
+</associations>
+</Column>
+<Column name="korespodentni_racun" id="5E95B0C1-5F69-E0D2-756D-6DCBF90419C3">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>C12E6012-5FCD-B7A1-AACB-EF974EE39312</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>D1D05310-3771-26F5-78CE-32CB3DFD8EDC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7584BB6-0729-C1B1-CD44-8A6A40A5D389" name="Eksterni_transfer_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>89CF660A-48B7-83F9-A306-AE0123A0A10D</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>9C5E602B-9314-0E4A-DEEE-13C27ACD44BC</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0AB470A-35A3-5FC9-5541-A45C397E0D5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5213E9F7-C009-7B29-D69C-2BCA4701966C" name="Eksterni_transfer__IDX">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>80661BB8-C683-46D0-09AE-60BFFC229E6E</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91B6460F-4DD8-9867-3D9B-3DF0D302F948"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6AD4192D-7495-FCCD-C0A0-4549DCD7E81B" name="Eksterni_transfer_Korespondentna_Banka_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>5897EB74-40C6-D556-CF3B-6751BD6AAF32</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BA2373E-F270-0406-37CD-922C8E8BE27D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="89F16453-EE9B-ACA9-337C-0E8A22B1FA6B" containerWithKeyObject="C8197C01-345A-79A6-D438-1545C19895FA" localFKIndex="770D9675-F235-0FC0-1F9A-F2652C64E04E" name="Kartica_Tip_kartice_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>F4E9A2B6-500C-78CD-F33F-C6BDEF465006</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>82A7FE61-7C85-A503-1116-E8B0D468CC1A</importedID>
+<referredTableLongName>Tip_kartice</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>14280563-6A86-1E74-DE7A-0B98EE8E1B26</referredTableID>
+<keyObject>85CF557B-4ED7-FB30-8FBB-72F25BD5E56A</keyObject>
+<referredKeyID>85CF557B-4ED7-FB30-8FBB-72F25BD5E56A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>tip_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

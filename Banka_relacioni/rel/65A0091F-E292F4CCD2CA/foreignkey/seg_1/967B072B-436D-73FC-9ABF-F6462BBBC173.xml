@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="967B072B-436D-73FC-9ABF-F6462BBBC173" containerWithKeyObject="037E291A-AA84-8E2F-2C23-5CD24BF4AEB6" localFKIndex="2177E654-4215-B444-10E1-A4AB0DD173FB" name="Tip_Ovlascenja_Ovlascenje_klijenta_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>3E145956-60D2-035A-38CD-2E99382B19DF</importedID>
+<referredTableLongName>Ovlascenje_klijenta</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7DD5D241-5CB5-C90A-015A-2CDE9A9E3624</referredTableID>
+<keyObject>430C6697-6DBB-E1DA-B150-FB5FA1C4254A</keyObject>
+<referredKeyID>430C6697-6DBB-E1DA-B150-FB5FA1C4254A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ovlascenje_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

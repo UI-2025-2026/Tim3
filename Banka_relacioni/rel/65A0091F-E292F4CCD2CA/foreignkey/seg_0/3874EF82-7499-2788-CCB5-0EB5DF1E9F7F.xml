@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3874EF82-7499-2788-CCB5-0EB5DF1E9F7F" containerWithKeyObject="3E1F39CD-13A8-B2A0-503C-BCE34330B370" localFKIndex="DB55B16E-B2FC-DAFA-8498-644E93E97B31" name="Fond_Valute_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>F5A37A7A-C3D1-929F-09BF-2A051E40E23E</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>60018D29-A41B-9AE1-9C01-68A0F7F5D5F4</importedID>
+<referredTableLongName>Valute</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>86EA2DFF-E7FE-96CC-29D6-4D78896293C4</referredTableID>
+<keyObject>E565D7AF-190D-01AC-44B0-C70BF0169FEA</keyObject>
+<referredKeyID>E565D7AF-190D-01AC-44B0-C70BF0169FEA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>valuta_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B58239C8-7F2A-D482-B804-4D57A58C1C91" name="Poslodavac">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>03FB1944-B76D-E16A-9992-C7EECB93BAE7</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>5465CB9A-FEA0-857B-3F8B-B0BB37218CFC</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="poslodavac_id" id="8651D60F-E60E-70A8-D96B-BB0E679C3C92">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>416A8981-B9E9-1FB1-5F34-386C80D66AAE</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>82B67FB2-903E-538D-9C40-5DFC4293C24A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv_poslodavca" id="0C7769E6-E0EC-CC0D-6105-E28FABB838C7">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>B1E89DC0-6FB7-7031-6329-892A0EB787BE</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>1B74F0B3-C7B7-B781-32D1-2CDE57238D78</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_od" id="80D9013A-781E-CCFF-334A-BBC9926394F8">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>49CF541B-BE00-C89B-06D6-CECEAE8E6476</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>BBC744A2-6852-1B27-5068-6008E1BDC6FE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_do" id="AB14B2CB-B4F1-6106-CCE6-EE326608A7E4">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>A695D763-AD42-4E79-8AE9-888FDFFFB8CB</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>156CAA9F-18DC-F68C-471F-5FD4CE9C036E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD93FD40-1BEA-F771-2A1D-21BA7F18D51F" name="Poslodavac_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>F22EC3D0-DE3B-FFE1-7566-B107F7390B00</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>547CFAC7-54C3-D9E7-B5F1-A50073BFAF2A</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8651D60F-E60E-70A8-D96B-BB0E679C3C92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

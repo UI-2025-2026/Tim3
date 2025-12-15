@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="B66A8F56-7A47-50C0-8DB5-9D555B46A37C" containerWithKeyObject="87A4E071-182C-677D-017B-2627F8989940" localFKIndex="0C3F06BC-3967-D1C6-33E8-9BB31F618B10" name="Transakcija_Platni_protokol_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>431E89B3-8CEF-6A07-8B2C-28100514EF23</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>8CB4369E-6CF8-919D-5DF6-8E9293855FD3</importedID>
+<referredTableLongName>Platni_protokol</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F132E318-75C2-6292-2DD5-40F2E40A855A</referredTableID>
+<keyObject>F8C9B9EC-5EEB-73F7-8E18-0DA861841913</keyObject>
+<referredKeyID>F8C9B9EC-5EEB-73F7-8E18-0DA861841913</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>kanal_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

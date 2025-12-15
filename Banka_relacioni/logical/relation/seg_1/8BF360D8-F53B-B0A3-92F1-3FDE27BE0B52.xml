@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_86v1" directorySegmentName="seg_1" id="8BF360D8-F53B-B0A3-92F1-3FDE27BE0B52">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:28 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>9C3CABB7-5192-D96D-ECFA-C90FE53C6667</importedID>
+<engineerTo>
+<item key="DCF0B49B-7998-063B-D429-27ADCA41EBC2" value="true"/>
+<item key="ED1E50DB-A675-CDB7-528A-28DDF42BED83" value="true"/>
+<item key="D54A57CE-99D2-9B49-2ADC-D65DAFF14E8E" value="true"/>
+<item key="65A0091F-D819-EDF0-AF60-E292F4CCD2CA" value="true"/>
+</engineerTo>
+<sourcePk>CF9F0950-F69B-A187-7DB4-B12289CA6DEE</sourcePk>
+<targetPk>8266516A-A1A2-23D6-B1B7-C139588779BC</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>93A1F512-6EE0-7B4E-4EB0-1D29639225C7</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>AD746DE2-705D-3597-D14C-C4579D6FDEB6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

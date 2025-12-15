@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1903E0D5-DD37-F247-AAB3-EDAD743143CF" containerWithKeyObject="9FDDF003-F9BE-F25F-E263-24730854EE67" localFKIndex="B2EE27E2-29EC-FDB5-E3A0-793BA9450093" name="Filijala_Region_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>7837D6FA-B7BD-F645-69BF-4F153EF99F51</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>7CDE1448-3F8B-CDE1-FF34-E6414086D591</importedID>
+<referredTableLongName>Region</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>28C6EC7D-9E9B-7A12-3745-7631B4B0C0AD</referredTableID>
+<keyObject>B05415E3-CE7D-27E4-B285-0936DD8BEA98</keyObject>
+<referredKeyID>B05415E3-CE7D-27E4-B285-0936DD8BEA98</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>region_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

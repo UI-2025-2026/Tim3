@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="42192203-5D7E-89D3-6C55-8A16331376D9" name="Tip_dokumenata">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:28 UTC</createdTime>
+<generatorID>E451A29B-FDF2-EF49-EC5B-A256C9AA6887</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>AF869F49-3C28-7DF0-B0EB-EDF71A3E2246</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tip_id" id="EF3E1DB2-4E8C-B967-5075-5D85B15D472F">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>6566D391-9C5A-4DF3-3D9A-9980E0EEF5D7</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>4BE37354-E6E9-4D5F-ADC0-1FC077E63F41</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="ACF57230-9E56-AF96-8657-4100DA2555AF">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>54359A0F-B377-E630-896C-902CA11EC9FD</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>4C8C4C27-A5CA-25D1-2E11-09FA9B6EE754</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lična_dokumenta_licni_dokument_id" id="32274CA8-8278-3A25-C433-F29CBCE6FA3C">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>DBC0380F-8BC6-18D2-56F4-4F8E97B6C5F8</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>3A05C286-4EEB-6187-9C92-12085340705E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54E52DED-9616-1FFD-43C7-E6977F82959B" referredColumn="1922FB0C-7955-11BD-2299-D90BAFCC72DF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2BAAC204-522B-FB52-3A39-55D6594717A3" name="Tip_dokumenata_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>C0587D03-C13C-6A36-2A4A-EED7CD1CE0EB</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>4F921EB8-3496-4295-3145-DAFA10C59074</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF3E1DB2-4E8C-B967-5075-5D85B15D472F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00430D2B-9C0D-FEB3-FF92-A2F6F8BB76AE" name="Tip_dokumenata__IDX">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>FC9F826F-6336-7A01-FF7E-19D7F391E72B</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32274CA8-8278-3A25-C433-F29CBCE6FA3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4391B37-819D-8CB7-4B3F-9C2A5A41273D" name="Tip_dokumenata_Lična_dokumenta_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>A7CC1D68-C23F-DE1C-4745-6046FC902332</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32274CA8-8278-3A25-C433-F29CBCE6FA3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

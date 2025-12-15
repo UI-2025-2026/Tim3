@@ -1,0 +1,218 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="11B0F6B1-A54B-65A8-76C1-EADD8D713826" name="Kartica">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>3005BB71-9E81-D246-F509-609F43BA4D13</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>562CBFA5-CCE9-468C-C1E2-2E77B54DE399</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="kartica_id" id="164739D1-E6EF-469B-B6E5-D58356DC6990">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>236836DB-500C-D42F-9133-A9980728C0B1</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>79F4B58F-03BC-E28A-D384-707D8B02F134</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj_kartice" id="0DF66D14-70C9-082E-29A4-284C4C2B7F59">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>081CC930-3C7D-AB8A-B3E2-6EDC2A1A1DA7</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>C23C143E-C998-D88F-BBBF-D401161AFA43</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="racun_id" id="1E64A324-9B86-47C8-01E9-AF29DF27C9DB">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>D41AAF14-666D-0514-3692-5C49D7DAF0A6</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>6B413E43-415F-F756-F298-4AA55948A923</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip_kartice_id" id="598E3A9E-72D8-522E-BFB8-C217A8EEE66B">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>50189422-1D72-EA46-6B67-9D9D4DC65B68</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>CC6D0C40-B4D8-F563-EB2D-6DE10A2D92C5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_id" id="DC5CE511-F9A7-646A-72D4-9A2219FFBCE7">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>1C84809F-DD59-8767-11FD-139B71842229</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>047607AC-4A53-C1AD-EEA9-17EB2CFD1349</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="limit_id" id="B2644BC3-D00A-A865-82BB-2AB263C9F9CD">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>425A4786-0DCC-0746-4D84-401409064E5A</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>AEF81969-2E2C-F223-A7AD-4C013A8A49C5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_izdavanja" id="323834CE-663C-C420-A47C-AF47E1EA35A8">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>033C3923-E0BB-4D2D-B085-BD361450D2C6</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>094E2695-EE89-3C6C-BCF1-C22B040886FF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_isteka" id="D217D961-E076-B99F-19DB-F2DEC8B22907">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>D79FBF06-C8F4-3FA3-8DD6-F4747ACF7712</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>E023DEFB-C624-B8FC-B9D5-0527BA84008B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cvv" id="905E7613-7B27-C89F-8A62-A9406FACF84F">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>E1E8954A-A202-3385-CE81-30D68117CB9E</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>4CCB7E4B-7AC1-3B88-B50C-D44372E52CC0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pin" id="38CC5D0F-8773-A87F-6CE8-C2F232F2DFFE">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>7C2A85A4-0CE0-4CEB-61E9-8AF154291717</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>845F073F-5C90-31F7-AC4E-B814337B36C2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bankovni_racun_racun_id" id="16DD8C41-63EA-41B6-9AE6-021C7DDB0632">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>4CB8DBBE-F269-D9FF-D7EB-E09EC858E6EC</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>71B1EDEB-5CE4-1794-1995-CEDE49CE47E5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8B5F709-A60F-AC9C-226F-D4A9BA22DA56" referredColumn="8B3CFCEE-4588-4CFE-8320-A7D1AC64C21F"/>
+</associations>
+</Column>
+<Column name="Bankovni_racun_broj_racuna" id="DD705A17-CCB1-0732-0138-DFDF08BCE042">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>07CBDCB5-2560-78B3-46D7-B593FB0B6EA0</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>6813D411-B30D-390C-581F-D88B23FDC9A0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8B5F709-A60F-AC9C-226F-D4A9BA22DA56" referredColumn="5F7C0A75-AA57-7771-8200-656BC4486A3B"/>
+</associations>
+</Column>
+<Column name="Tip_kartice_tip_id" id="C3013500-4AEC-786D-EE5D-C2BB6F522153">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>3C3B9F49-891F-D105-6FE8-7761EC9CB243</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>2B33E552-B178-5FAD-8F13-8EA1B9AE93B2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53A9BD46-2020-E661-5E87-849F52139BA4" referredColumn="E8884AA3-A43C-6A83-3094-3B25539BEB0E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="97D29FFE-5655-6359-F2A2-08594351D794" name="Kartica_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>DE0A6417-AEA5-3253-A2A3-81E4564F9CB3</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>76DB88A0-2298-CE50-E693-5E0E7891B8D3</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="164739D1-E6EF-469B-B6E5-D58356DC6990"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD256A39-B910-6B7B-9A5A-913BE2E386C2" name="Kartica_Bankovni_racun_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>D4B7D049-F139-A2A7-37D4-F280896AF791</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16DD8C41-63EA-41B6-9AE6-021C7DDB0632"/>
+<colUsage columnID="DD705A17-CCB1-0732-0138-DFDF08BCE042"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2266EB5D-5433-0CFB-422D-D8D0BAB562EC" name="Kartica_Tip_kartice_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>F5AA14FF-92D7-3FA0-6E06-74E9B9C3DDA9</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3013500-4AEC-786D-EE5D-C2BB6F522153"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

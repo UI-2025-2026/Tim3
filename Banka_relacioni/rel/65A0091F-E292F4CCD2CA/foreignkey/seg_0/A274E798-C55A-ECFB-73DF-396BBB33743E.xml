@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A274E798-C55A-ECFB-73DF-396BBB33743E" containerWithKeyObject="FBE390CF-A339-82B3-5FDF-B7E67F23AC67" localFKIndex="DB91A038-C933-4BA9-CA99-94802A828A66" name="Kredit_Tip_kredita_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>CE35E3DF-F2F6-26C6-978F-CC1FB425AF57</importedID>
+<referredTableLongName>Tip_kredita</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>07764988-FC18-E370-3F94-3248687878B8</referredTableID>
+<keyObject>4C980E99-88E5-EC85-CF2D-41C18340DA4F</keyObject>
+<referredKeyID>4C980E99-88E5-EC85-CF2D-41C18340DA4F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>tip_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

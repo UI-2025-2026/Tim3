@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="51CDB390-4BF9-3972-DF2A-A6F19E88221C" name="Obuke">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:28 UTC</createdTime>
+<generatorID>2C8F015F-2075-50F1-C503-36F4A6F882AF</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>8D3D4204-D941-C71B-3F88-F0308AA87A1E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="obuka_id" id="16B00BF5-4C37-C7CB-742A-E447E0DEA0BC">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>754261FF-00E1-A40E-ED79-FAC8CB338263</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>7203AC3B-5986-53B3-6465-BD994BA604F5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv_obuke" id="1031A6AB-EFFA-885B-9C97-D1F0A532562C">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>01FBF755-41B7-D9A4-DB9A-DFAC24B4703E</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>D6AD9E2B-0CA6-B1A9-1146-DE878D1EEE5D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis" id="72B6922B-F70B-694E-9E71-AA68F195007E">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>D340F1CC-0C45-5254-C190-7C46592A1579</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>2A8853C0-C58A-664F-82AB-25896911FABD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip_obuke" id="B459165E-129E-C7FD-16C3-F386E3F311F0">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>85DFACBD-36D1-2B85-DA51-F6E0DE8373CC</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>A2F173F8-3991-0DFD-B809-44E848C467F8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="edukator_id" id="5C0694E5-1FE3-29DD-3DB9-7D08513F1BBA">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>93D1698C-912D-77F8-96A5-770F0AC72567</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>FAAA90B8-8877-6BA4-F960-57959ADA836B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zaposleni_zaposleni_id" id="EE45C77E-022F-FB92-454B-BC6D204A77E9">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>2E677142-4D3D-33C7-BA30-E3CA44BD2DA5</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>55907341-5C31-473C-4820-4AA6B2EAACA7</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ABC87E08-7B30-4795-263E-6B48B4AA4E81" referredColumn="D974502B-AF11-C38E-5429-5EABD7107729"/>
+</associations>
+</Column>
+<Column name="Edukator_edukator_id" id="2AFEB003-1948-C2FD-BAA9-9AC67F4493AC">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>A5505072-29C0-FD7B-D09C-F95BE44476C9</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>8E43A2DA-59F6-1E07-2335-94DFE0D379CC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="532E4E41-FAD6-A884-E556-FDB500AD92CD" referredColumn="5769146C-1979-2D50-3B3D-228798173D4F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2591B6C0-DDBB-5602-0063-CB79DB689F57" name="Obuke_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>0BB8EAB7-BFD7-EC38-1AB5-CE14A0FE2C64</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>CFBDC686-F4C8-5314-BEF4-5754B9CFA325</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16B00BF5-4C37-C7CB-742A-E447E0DEA0BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1059F16C-8D03-61EF-87F0-4BB2D6C11F0B" name="Obuke_Edukator_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>E5A106F3-2933-5529-9525-51149ED0897A</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AFEB003-1948-C2FD-BAA9-9AC67F4493AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F4E589C-918F-0EF0-A061-E6AD94CF71B0" name="Obuke_Zaposleni_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>F4C8F32B-BE37-BB7A-3856-28BFF4B330C8</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE45C77E-022F-FB92-454B-BC6D204A77E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

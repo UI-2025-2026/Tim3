@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C675FE0A-E1DD-6EA3-5E6A-09B3D43E40DD" containerWithKeyObject="290B0F2B-B1F7-2BB7-36F1-0A6F1E7AD9D5" localFKIndex="EEBB6B5F-E7DB-FC39-A9D7-E3F307B618E9" name="Jorunal_entry_Konto_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>E208A45C-7E53-040C-9980-BFF8026F24D7</importedID>
+<referredTableLongName>Konto</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1B341F92-1C96-78D8-A37C-0A8D5D9687F2</referredTableID>
+<keyObject>690CBA42-1637-904B-18D8-17462CB1B044</keyObject>
+<referredKeyID>690CBA42-1637-904B-18D8-17462CB1B044</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>konto_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

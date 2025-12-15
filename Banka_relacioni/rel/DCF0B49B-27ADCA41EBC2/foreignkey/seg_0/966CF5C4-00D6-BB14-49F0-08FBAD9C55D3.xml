@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="966CF5C4-00D6-BB14-49F0-08FBAD9C55D3" containerWithKeyObject="E13A68C7-C04C-EB1B-72F9-D0BE7C36AF3F" localFKIndex="F830F4BF-E10A-CCF4-3AAF-64AA7E3354AC" name="Obuke_Edukator_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>AA0992D0-64C6-DE77-F489-17A57EF3BD66</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>23EA3BB4-B7F6-0D16-6E68-FC7BA2B797CC</importedID>
+<referredTableLongName>Edukator</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B00E571D-943A-ED91-D12D-F004EAF845ED</referredTableID>
+<keyObject>2D0208C7-C4FB-4480-2B8B-3A849D7476D0</keyObject>
+<referredKeyID>2D0208C7-C4FB-4480-2B8B-3A849D7476D0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>edukator_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

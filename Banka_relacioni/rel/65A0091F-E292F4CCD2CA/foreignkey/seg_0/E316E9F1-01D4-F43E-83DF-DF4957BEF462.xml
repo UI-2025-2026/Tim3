@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E316E9F1-01D4-F43E-83DF-DF4957BEF462" containerWithKeyObject="AB7FCBF7-652A-6CD7-7EA6-5B64804EE258" localFKIndex="78FE4F2B-20F4-58C0-BD88-DBB0ECCED768" name="Lojalti_program">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>2CB9D616-1718-9315-6B61-7841D3EEC8C2</importedID>
+<referredTableLongName>Lojalti_Program</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4E870321-78F5-B89A-6DCE-7A3229E35D70</referredTableID>
+<keyObject>3261049F-5780-4D01-63F6-92537B99E397</keyObject>
+<referredKeyID>3261049F-5780-4D01-63F6-92537B99E397</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>program_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

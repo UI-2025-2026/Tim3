@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="EE3788ED-112D-EC9B-3472-004E4A9CAEF9" containerWithKeyObject="54BE6B3F-B988-A0B9-BEDB-6C65ACA57BD3" localFKIndex="CF1DE276-EBE1-B304-D545-E301B176EC84" name="Ugovor_Bankovni_racun_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>7279FBDB-206A-9AF1-5A12-205D0C479966</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>9EF39EEC-34BB-109B-CECF-F01AD06B7F3B</importedID>
+<referredTableLongName>Bankovni_racun</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DEE337D8-66BB-C935-75D5-EEBAF6C94C7C</referredTableID>
+<keyObject>C4247501-5741-D12E-8677-497134C1CC48</keyObject>
+<referredKeyID>C4247501-5741-D12E-8677-497134C1CC48</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>racun_id,broj_racuna</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

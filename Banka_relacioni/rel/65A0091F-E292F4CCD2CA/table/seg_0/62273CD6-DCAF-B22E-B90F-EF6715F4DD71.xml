@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="62273CD6-DCAF-B22E-B90F-EF6715F4DD71" name="Edukator">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:28 UTC</createdTime>
+<generatorID>7C39BB38-DAFB-E19A-035D-BEE60AF70FCE</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>50BB9491-9CC9-7F9B-43AE-48E108C08165</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="edukator_id" id="5769146C-1979-2D50-3B3D-228798173D4F">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>F5A6CE08-B14E-5028-C9F9-70177358AA9F</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>A68093AF-7C1E-86F2-1042-126C595F38A8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="9A28C4BC-8DC4-10CF-9AE6-FBA9F6DACF86">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>2BAF0B7C-147A-9C51-D083-A69E9E31F279</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>D1998A7D-8620-BF69-355B-A03345033442</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pib" id="B78A9CFC-08E2-2354-7D84-BACD9C1FBF18">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>94F679D6-CF6A-DA09-BF31-2BD55476E511</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>CEAD729C-F57F-6BDF-D2EB-7B17C86B1884</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="maticni_broj" id="87434108-CF4D-7BE3-5E72-0D022A298493">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>21080CDA-73E5-E912-3240-11AA0B8C8FDC</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>5B8C632E-48A0-BE16-5A89-2E6849ACD6C3</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email_adresa" id="A81A4591-1FFE-830D-3170-1F3B5BE96D20">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>83555FCD-C130-FCAD-8884-F2B36A4E705A</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>42858221-EA07-E3C9-F272-6D8C5A91738F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0615EFC2-0FF1-A190-6872-2628C125C5B9" name="Edukator_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>BF0856C7-761E-8DD6-40AC-7CAB36D3D5AE</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>0759A71E-F9B2-B483-E566-08408ECF50D2</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5769146C-1979-2D50-3B3D-228798173D4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

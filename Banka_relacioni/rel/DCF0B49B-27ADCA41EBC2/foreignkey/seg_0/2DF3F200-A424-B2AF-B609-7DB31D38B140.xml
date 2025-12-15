@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2DF3F200-A424-B2AF-B609-7DB31D38B140" containerWithKeyObject="21F621FD-7BCF-E2D9-E477-C952F8D6B4F3" localFKIndex="AD78F535-BBD6-1C70-69F4-95D4AB914B2C" name="Transakcija_Valute_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>983C3045-A8EB-1E95-7448-BE264A923A40</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>E1ED4597-EE36-CEDF-5355-A7918365F709</importedID>
+<referredTableLongName>Valute</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>04DE72A7-22C3-0B3D-6396-8B115AFF1F1B</referredTableID>
+<keyObject>608FD154-960A-4883-A2C0-6AA62D534C59</keyObject>
+<referredKeyID>608FD154-960A-4883-A2C0-6AA62D534C59</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>valuta_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F9341D02-2126-D2F2-520E-6C2357C49379" name="Naknada_transakcije">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>A3262ABC-8A3A-A628-7F00-2CCDC232074B</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>FFC89754-38F2-5F38-4C7C-7BBA1221367D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Naknada_transakcije_ID" id="16FEF3DB-586D-6ABB-001D-F54445172D59">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>20B72138-2B88-0C8B-4630-9831FAD14CEC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip_transakcije" id="B191D8E9-92EA-58D8-A212-0F0F70E8D9F3">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>CC8E44AD-38F9-9396-D9A3-2C26187DDE30</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>FA358EC2-0D73-F864-4E54-87925C3DAF2B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="iznos" id="353DB503-4E3A-A402-E9AF-6F98DADB517C">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>91815E0D-FA33-0293-7370-67AB260BD312</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>7F32AD4B-8AA0-BD66-F5B9-B7FF72B1C58B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipovi_transakcije_tip_transakcije" id="AEDE01B6-46D4-1DDE-70BB-A37B5352F9F5">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>1551EB0C-8DF3-6840-451F-1203B0926598</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip_naknade" id="5A337A91-623D-3C2A-D561-E8D857922143">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>49AB9614-13B7-D077-76DB-6D0C3742BF4E</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>1F387073-1C02-BEFD-305F-BFB23D84CAB9</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Transakcija_transakcija_id" id="8EDA1B12-662B-584C-9FCA-21C59AB1CEC1">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>B9BABBB1-AB61-C8FB-2BAA-67AC806A534B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="81C41C59-FC3B-0CC8-7D72-312DBC647601" referredColumn="48015329-4313-A30E-9170-B3ED8C97BCB4"/>
+</associations>
+</Column>
+<Column name="procenat" id="60A31807-AD03-A2B2-79BF-52C2A420D90A">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>9F07A009-F874-97E3-BB11-4099E1B10373</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>2943C746-4CAC-F75B-3299-73BBDA01B17D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum" id="36338DE6-51F4-F814-9686-32A6FCDE4C6B">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>A370B8DB-7859-6B7E-98CA-A9D9C6662747</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>4C5979D1-2949-2C03-7090-677DB574F6BC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A81C9AB-75F3-EB77-9B7C-12CA7D3E7E1A" name="Naknada_transakcije_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>3170D2AC-0747-83DF-4AD9-533E9A92DD95</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16FEF3DB-586D-6ABB-001D-F54445172D59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D1E340CC-D5BF-992A-7589-80A9E6CC8E36" name="Provizija__IDX">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>6AD133F5-AD91-92D1-7E2B-D88689A17B27</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEDE01B6-46D4-1DDE-70BB-A37B5352F9F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2FFAECD-B0D5-8C70-E6CF-F1B31476EBB3" name="Naknada_transakcije_Transakcija_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>463A8EAB-E657-268B-A5F3-405D3B3A39C1</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EDA1B12-662B-584C-9FCA-21C59AB1CEC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

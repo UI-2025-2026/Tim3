@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A68AE50A-C020-D87A-EB97-35D003CD660A" name="Region">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>B418532D-B924-6A66-6B15-CF52851E35EB</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>1092D0F5-1A90-00A6-1D5A-088ACEC22E19</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="region_id" id="6FFE2BED-20F7-9957-CDAC-0CE14836BAF1">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>696B97DF-2293-4472-0538-66E35307EC2B</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>24F71408-E748-F5E6-8E87-DD93F0103504</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv_regiona" id="418D0853-F514-974C-EB0E-A15567472404">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>E99B3FAE-3C8E-7EEB-8F8E-0457F43DF663</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>2411E590-BEA7-D387-940E-756B4853CE6D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="599E50E8-16C8-1167-7EDF-C67585D6ED3E" name="Region_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>184BC34E-CCB1-0977-92A5-FFC2EA5CA5CA</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>441A2A78-9C35-29BB-D120-C95BA950FD6F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FFE2BED-20F7-9957-CDAC-0CE14836BAF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC61BC1A-FA6B-0FED-8A51-94C4EF68590B" name="Zaposlenje">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>67E06B4B-955F-1BA7-BD06-5C6DE90FBA05</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Kllijent_klijent_id" id="74CCE4B9-EE35-A42A-6208-97279D963B13">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>28BD5E81-32FA-5B24-5F7E-0D46B65F17EC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8DD97E13-82CA-291C-8BAA-9E840A2B3E37" referredColumn="E1E4D7AF-9C49-EFAB-219E-26BE4971D1C6"/>
+</associations>
+</Column>
+<Column name="Poslodavac_poslodavac_id" id="F0C33B02-1E2B-C402-7826-89E73CAE7895">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>1A91012B-0604-DB66-9EE8-848730035BFD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0A8DD99-759C-AE64-832B-7D0FAC5F6F0A" referredColumn="8651D60F-E60E-70A8-D96B-BB0E679C3C92"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="72A1B67F-C44D-0225-023D-199913776B8D" name="Zaposlenje_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>BD42CC8A-5317-D4B1-BA35-40A60DBFE838</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74CCE4B9-EE35-A42A-6208-97279D963B13"/>
+<colUsage columnID="F0C33B02-1E2B-C402-7826-89E73CAE7895"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE6586DD-0E5C-0FEF-FFF9-323580C66B0A" name="Zaposlenje_Poslodavac_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>AC4F95E3-53A3-3109-7C52-7B8DA3B4AD5F</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0C33B02-1E2B-C402-7826-89E73CAE7895"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36689C54-741B-F7F5-0B3D-6E76436532BE" name="Zaposlenje_Kllijent_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>AC4F95E3-53A3-3109-7C52-7B8DA3B4AD5F</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74CCE4B9-EE35-A42A-6208-97279D963B13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA28256D-3C23-F613-90DC-407A7287EEA2" name="RadnoVreme">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>CEC1D958-75F5-6801-BBD6-6125C4958F61</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>45F2B7F7-D708-BED4-1F65-A8783600DE31</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="radno_vreme_id" id="11738ADD-4010-7243-49E5-820B26EF12EE">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>F6DF42D5-5582-625C-C035-F79EF4C104A0</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>F26B4F6E-8D54-0E7C-9C19-CD6B783CDD4A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pocetak_radnog_vremena" id="6E292019-833E-5F77-552A-5088C3C5F511">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>BA6381DB-9762-B787-C22E-9E78EB0DD4CE</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>0782F95E-3FB7-8D91-5463-B17FA7DC2663</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kraj_radnog_vremena" id="37B73037-835F-4670-C57F-72950A5A572F">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>0B793937-32CC-4FAC-901B-B1BC5E2857B0</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>54222F8C-0FA2-1A9C-0BC7-E824F7D4909D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dan" id="050FA7B0-12A5-0AC3-3B1E-58938625E19A">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>9CE122B4-71F1-25CF-B51F-8461343A5A7D</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>8215EFFC-2C6C-34D1-776C-7FF268BA8021</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RadnoVreme_ID" id="55C480EA-8DDB-EFDF-3EA5-38D8D2C67660">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>A4FDA24B-303E-EC42-4BB1-ED9C764F47F0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="111CC8B4-0CA7-3271-C00F-7249C8052251" name="RadnoVreme_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>D3C9B994-06AA-43F4-727C-5B740F5A70FF</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55C480EA-8DDB-EFDF-3EA5-38D8D2C67660"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

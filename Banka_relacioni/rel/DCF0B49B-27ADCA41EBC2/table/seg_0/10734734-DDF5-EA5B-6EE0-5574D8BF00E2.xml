@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10734734-DDF5-EA5B-6EE0-5574D8BF00E2" name="Dokumentacija_zahtev_za_kredit">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>32083E1B-0B29-AEFC-DD7F-EC832E26E001</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>C05B11D5-4D5E-C73C-5186-BB4AF39F9AD6</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dokumentacija_id" id="4127DD26-1401-798D-602D-F67F6243D972">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>4969A8CD-D387-4927-70CE-7561F02B05B5</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>8706E3AB-49CC-111F-46A9-CAAB1D0A57E0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zahtev_id" id="2DA711B0-31BC-4709-CB46-80FB8561FD33">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>61D477C3-CC6D-4A53-7D76-ECA662047C23</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>9C35761E-A2DA-8E5F-AF21-EF400277A070</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip_dokumenta" id="45A3A8F7-0483-5DD5-1F9A-DAEF97354167">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>7A0517D4-D494-F286-1824-2A83E534EFD0</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>4F4FFA5A-B423-9F11-3A66-5E176CDCBD95</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_prihvatanja_dokumenta" id="BD70EE8D-8013-BFF0-4209-3C5737E42651">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>9D40E42A-E3BC-5402-32ED-54E9A09A4DA2</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>5F3439C0-11F1-DA74-65E1-379B9EC2042E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kreditni_zahtev_kreditni_zahtev_id" id="3FE88251-48A2-13B4-C3FD-633608CD2202">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>F0217427-C1E8-49FD-5B8C-A092FB549B89</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>5EBCAB6A-93B4-A10A-BFA6-A3BBA6D7E9DC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C68885D-5ABE-86C1-BF89-9D908386922E" referredColumn="A0E6B4E6-A8AA-10C0-8B6D-0FC85D8BA553"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58742C74-E133-3F29-6D2A-31780559613F" name="Dokumentacija_zahtev_za_kredit_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>00FD2BE3-20E9-00CC-B703-5D1197961DFB</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>480901AF-1248-E2D7-B7FB-C6BC14FCFCAC</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4127DD26-1401-798D-602D-F67F6243D972"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4089980-6EBF-4CE7-B8F1-9CCCBCCD24C0" name="Dokumentacija_zahtev_za_kredit_Kreditni_zahtev_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<generatorID>E1B77A8B-06D4-BCD6-E460-3739E4CC0B42</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FE88251-48A2-13B4-C3FD-633608CD2202"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

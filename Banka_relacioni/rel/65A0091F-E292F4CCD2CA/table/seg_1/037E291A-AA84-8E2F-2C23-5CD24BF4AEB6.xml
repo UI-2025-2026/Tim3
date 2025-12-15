@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="037E291A-AA84-8E2F-2C23-5CD24BF4AEB6" name="Tip_Ovlascenja">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:28 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>708655E1-A4E0-A445-CA6B-D2CBAE85330D</importedID>
+<ordsAlias>table_69</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tip_ovlascenja_id" id="E02B4EA5-FFEC-DA14-DEC5-1BF2D5CB4929">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>DFA282D0-3D96-2689-5B26-C9B4B4E37A4F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="9670FCBC-AF57-3BE1-F4EC-676F6F1F24E7">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>419355D9-656F-D0A9-946F-884A49F8AAE0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ovlascenje_klijenta_ovlascenje_id" id="C840406F-4261-12AA-2DA8-E9912AB52534">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>2C41F240-3152-ACB5-0188-77586BF3020B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="967B072B-436D-73FC-9ABF-F6462BBBC173" referredColumn="0B3F5897-5661-9F3E-3D0D-429A508CA585"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0E9196E7-7ADA-DBE0-8A83-E9F0BC770B8B" name="Tip_Ovlascenja_PK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<importedID>7E6EC90F-2866-5EF6-5FAE-C911FD66A17D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E02B4EA5-FFEC-DA14-DEC5-1BF2D5CB4929"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2177E654-4215-B444-10E1-A4AB0DD173FB" name="Tip_Ovlascenja_Ovlascenje_klijenta_FK">
+<createdBy>milos</createdBy>
+<createdTime>2025-12-15 02:16:29 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C840406F-4261-12AA-2DA8-E9912AB52534"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
