@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="B5E903A8-C192-5F2E-EE94-45B12383E74B" name="KlijentPodrskaRezidentnosti">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="B5E903A8-C192-5F2E-EE94-45B12383E74B" name="KlijentPoreskeRezidentnosti">
 <createdBy>srnam</createdBy>
 <createdTime>2025-12-28 20:32:33 UTC</createdTime>
 <ownerDesignName>Banka_relacioni</ownerDesignName>

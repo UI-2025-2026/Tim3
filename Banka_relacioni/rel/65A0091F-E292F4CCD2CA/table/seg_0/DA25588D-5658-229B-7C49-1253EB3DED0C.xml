@@ -40,27 +40,6 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="datum_od" id="00CF517D-C817-4CC9-5AC7-81CAB42B6FA3">
-<createdBy>milos</createdBy>
-<createdTime>2025-12-15 03:27:40 UTC</createdTime>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="datum_do" id="51AF3BC4-FDC6-221F-9C11-5FCAB58810CF">
-<createdBy>milos</createdBy>
-<createdTime>2025-12-15 03:27:40 UTC</createdTime>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="primarna" id="35CBD0B7-E9AB-F33F-98DB-9682CF7711D0">
 <createdBy>milos</createdBy>
 <createdTime>2025-12-15 03:27:40 UTC</createdTime>
