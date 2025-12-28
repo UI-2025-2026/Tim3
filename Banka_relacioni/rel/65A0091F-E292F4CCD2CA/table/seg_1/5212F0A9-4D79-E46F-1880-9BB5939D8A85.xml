@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="5212F0A9-4D79-E46F-1880-9BB5939D8A85" name="Dokument">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-28 20:00:44 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<ordsAlias>table_86</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dokument_id" id="894CF38E-B4A1-BE74-D01B-D9A444513BF3">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-28 20:01:30 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj_dokumenta" id="D6DE0F28-32E9-AD64-AB06-37E7E1AB7C40">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-28 20:01:30 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="7820E0CE-1515-BBDC-8ECC-9465B3CF0F17">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-28 20:01:30 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum" id="13900023-2C92-B330-2733-117BFB31FF30">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-28 20:01:30 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5FF40FE5-12E0-4A4B-1123-B204A5F04A0E" name="Dokument_PK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-28 20:02:04 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="894CF38E-B4A1-BE74-D01B-D9A444513BF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

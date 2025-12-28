@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="011B5A2F-FBCF-E5EB-62D9-53137622BA63" containerWithKeyObject="0EA33949-5050-00B1-1530-15D4D8080690" localFKIndex="7C8D1139-2F45-5FCD-AAB8-FEC60A098B46" name="Statistika_Klijenta_Kllijent_FK">
-<createdBy>milos</createdBy>
-<createdTime>2025-12-15 03:46:27 UTC</createdTime>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="45D0EF6D-D78C-9BD6-6034-AAB70DB97BBD" containerWithKeyObject="B5E903A8-C192-5F2E-EE94-45B12383E74B" localFKIndex="35EE9979-6BE3-400D-07E0-3D514948155E" name="KlijentPodrskaRezidentnosti_Kllijent_FK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-28 20:34:18 UTC</createdTime>
 <generatorID>519B9511-D9B6-70A4-E22A-EA8A54C9660F</generatorID>
 <ownerDesignName>Banka_relacioni</ownerDesignName>
 <referredTableLongName>Kllijent</referredTableLongName>

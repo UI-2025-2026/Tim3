@@ -33,6 +33,16 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="datum" id="1E99F1A6-1510-58F4-7277-7191A5162E1A">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-28 19:55:24 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="auth_kod" id="1B7C97DE-2971-B66B-0233-098ED719A5CC">
 <createdBy>milos</createdBy>
 <createdTime>2025-12-15 02:16:29 UTC</createdTime>
@@ -96,8 +106,19 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ishod_autorizacije_ishod_id" id="0D21BC12-140A-9BC2-5331-9CE4AE06696C">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-28 19:57:31 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="31D98B0E-1627-A7B2-90CD-4017F95546F2" referredColumn="B59468FC-6AB0-CC03-09E5-2E32F0D02F7C"/>
+<colAssociation fkAssociation="185A1200-669D-F595-1E24-8CCBB6DF8673" referredColumn="735E2E5D-7E35-F894-D557-A6117952A813"/>
 </associations>
 </Column>
 </columns>
@@ -126,17 +147,6 @@
 <colUsage columnID="D9264086-CD78-2EC4-CB75-7A4AFB188991"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="09A46620-822F-E265-DC72-C8A480A28AD4" name="Autorizacija_kartice_Greska_FK">
-<createdBy>milos</createdBy>
-<createdTime>2025-12-15 02:16:29 UTC</createdTime>
-<generatorID>FE454681-4AEF-BB8C-1C48-B30BC0191EC9</generatorID>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="8827F0EB-3DFE-E281-CCFB-CDE787F64D31"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="C510E71A-ADCC-808B-DEFE-D1FE37DF563B" name="Autorizacija_kartice_Transakcija_FK">
 <createdBy>milos</createdBy>
 <createdTime>2025-12-15 02:16:29 UTC</createdTime>
@@ -157,6 +167,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="532CB91B-93DA-73B4-4030-996BD81C8790"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D842A8FF-F1BD-C203-3881-86AA4D9A9A43" name="Autorizacija_kartice_Ishod_autorizacije_FK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-28 19:57:31 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D21BC12-140A-9BC2-5331-9CE4AE06696C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

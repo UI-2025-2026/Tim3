@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="AA0F78FA-321A-7EDE-7D42-1A43231BA469" name="Nivo_Rizika">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-28 20:12:25 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<ordsAlias>table_88</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nivoid" id="FCA5E811-0631-9EFF-5A0D-544045209423">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-28 20:13:14 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="F55361A5-CCAD-6CC3-458C-38F7C9208FA8">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-28 20:13:14 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis" id="67999A91-2022-82DA-A449-0F078CA527E8">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-28 20:13:14 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD373A86-8419-B141-AEBE-61C31A693B71" name="Nivo_Rizika_PK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-28 20:13:14 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCA5E811-0631-9EFF-5A0D-544045209423"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

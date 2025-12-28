@@ -73,6 +73,20 @@
 <colAssociation fkAssociation="A2433291-7AC1-B4C7-4040-D39FB51A0047" referredColumn="8FA6C581-DE36-E8D7-0B44-B517FB6383E0"/>
 </associations>
 </Column>
+<Column name="Dokument_dokument_id" id="F7E68029-95C1-9355-0815-C9092AA79C6E">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-28 20:02:08 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79F2BCDC-0A32-557D-FBDC-F20CA16AA147" referredColumn="894CF38E-B4A1-BE74-D01B-D9A444513BF3"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="26135E5F-37C0-7B14-8A8E-11704C8E29E7" name="Dokumentacija_zahtev_za_kredit_PK">
@@ -97,6 +111,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="099F9AD3-0753-5B9E-CB0B-FDB1071617DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C47D5F9-F436-DF46-3B88-1C845219EEE1" name="Dokumentacija_zahtev_za_kredit_Dokument_FK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-28 20:02:08 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7E68029-95C1-9355-0815-C9092AA79C6E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

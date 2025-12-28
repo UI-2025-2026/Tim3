@@ -91,20 +91,6 @@
 <colAssociation fkAssociation="9CC65875-277B-7462-977D-F24ADC005580" referredColumn="38687438-3DAD-4CB3-5138-AD94C8660DAB"/>
 </associations>
 </Column>
-<Column name="Klasa_klasa_id" id="A630E27C-12BA-BDBB-8A88-E02BBDDE0F76">
-<createdBy>milos</createdBy>
-<createdTime>2025-12-15 02:16:29 UTC</createdTime>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<importedID>AAC24555-5C7F-39A3-84A6-B869571B1D0C</importedID>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="D022236B-95E7-8F81-C0D7-AF309512B728" referredColumn="C0E8249A-8F96-83A8-5680-64B443FE9AD2"/>
-</associations>
-</Column>
 <Column name="Klasa_naziv" id="0FBC1B21-1029-062F-DED1-974BF2E5F474">
 <createdBy>milos</createdBy>
 <createdTime>2025-12-15 02:16:29 UTC</createdTime>
@@ -115,23 +101,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="D022236B-95E7-8F81-C0D7-AF309512B728" referredColumn="09427A13-3FDF-AC4D-CFA6-44526DB0578B"/>
-</associations>
-</Column>
-<Column name="Klasa_opis" id="14195202-7208-4A14-96CA-FB5923861D5B">
-<createdBy>milos</createdBy>
-<createdTime>2025-12-15 02:16:29 UTC</createdTime>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<importedID>473B5266-F31A-7E71-C16B-BDDBCDBD63E0</importedID>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="D022236B-95E7-8F81-C0D7-AF309512B728" referredColumn="7D306E67-FA61-BB48-2797-009E3AD4CBAA"/>
-</associations>
 </Column>
 <Column name="Valute_valuta_id" id="C50AAB89-999A-FB10-8584-D72EB85E27EF">
 <createdBy>milos</createdBy>
@@ -170,18 +139,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="C50AAB89-999A-FB10-8584-D72EB85E27EF"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="254C8BF8-341C-CB4A-7CB1-7355431A8A97" name="Konto_Klasa_FK">
-<createdBy>milos</createdBy>
-<createdTime>2025-12-15 02:16:29 UTC</createdTime>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="A630E27C-12BA-BDBB-8A88-E02BBDDE0F76"/>
-<colUsage columnID="0FBC1B21-1029-062F-DED1-974BF2E5F474"/>
-<colUsage columnID="14195202-7208-4A14-96CA-FB5923861D5B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="B0BE9E70-342B-F096-DDF8-924126C3AFF8" name="Konto_Konto_FK">

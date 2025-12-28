@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="3FA4ABBC-BA3C-3627-3BA2-DF74865353E9" containerWithKeyObject="31D9EB8F-5C99-A259-70CC-0A69F65A336D" localFKIndex="CEE07173-EB6E-A7BB-343C-08FD453AB007" name="Rizik_Klijenta_Nivo_Rizika_FK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-28 20:13:36 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<referredTableLongName>Nivo_Rizika</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AA0F78FA-321A-7EDE-7D42-1A43231BA469</referredTableID>
+<keyObject>BD373A86-8419-B141-AEBE-61C31A693B71</keyObject>
+<referredKeyID>BD373A86-8419-B141-AEBE-61C31A693B71</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nivoid</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

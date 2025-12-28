@@ -82,20 +82,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Kllijent_klijent_id" id="C79AD2F7-EEE0-7873-ADF1-AD637791A33E">
-<createdBy>milos</createdBy>
-<createdTime>2025-12-15 03:29:07 UTC</createdTime>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="3DBAF889-A1BD-3A2B-92CA-FDB93263F458" referredColumn="CC741D37-AEF2-F4EA-BF90-349E5F0479B1"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="30BD30DA-86B5-B8B6-7478-42F48B110DB2" name="Porezska_Rezidentnost_PK">
@@ -107,17 +93,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="29820FC0-F19B-984A-A9DA-3C1E7A5820E9"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="A979370C-75A5-D7C9-F264-CE079F24EA68" name="Porezska_Rezidentnost_Kllijent_FK">
-<createdBy>milos</createdBy>
-<createdTime>2025-12-15 03:29:07 UTC</createdTime>
-<generatorID>519B9511-D9B6-70A4-E22A-EA8A54C9660F</generatorID>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="C79AD2F7-EEE0-7873-ADF1-AD637791A33E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

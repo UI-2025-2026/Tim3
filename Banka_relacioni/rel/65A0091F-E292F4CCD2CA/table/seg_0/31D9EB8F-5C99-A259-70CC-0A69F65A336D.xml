@@ -20,28 +20,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="rizik_nivo" id="5FCE31A5-7210-5A45-8358-4B7E99E290D3">
-<createdBy>milos</createdBy>
-<createdTime>2025-12-15 02:16:29 UTC</createdTime>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<importedID>E2BA9221-70B1-B8E5-DAAA-90F5B00DA736</importedID>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="kategorija" id="B93DE637-835E-F58C-0834-A2C6550CFF20">
-<createdBy>milos</createdBy>
-<createdTime>2025-12-15 02:16:29 UTC</createdTime>
-<ownerDesignName>Banka_relacioni</ownerDesignName>
-<importedID>07F15B2B-AAD0-77AA-E9F5-57F40BD9F88A</importedID>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="datum_procene" id="8E2B0682-5B67-FCC7-09E8-503AB1876076">
 <createdBy>milos</createdBy>
 <createdTime>2025-12-15 02:16:29 UTC</createdTime>
@@ -93,6 +71,34 @@
 <colAssociation fkAssociation="05069E99-F3D3-2E5F-AB1E-E81A2100CE4C" referredColumn="D974502B-AF11-C38E-5429-5EABD7107729"/>
 </associations>
 </Column>
+<Column name="Kategorija_rizika_kategorija_rizika_id" id="728104EE-92B5-3765-4A70-60BF1288AA5D">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-28 20:13:28 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A12E4F35-135E-B540-47EB-4219C95F547B" referredColumn="F939BD1F-49F1-47A2-1B04-C8A27A24EF41"/>
+</associations>
+</Column>
+<Column name="Nivo_Rizika_nivoid" id="E782EE2B-499E-C6F7-AC18-39D18E235CB4">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-28 20:13:36 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3FA4ABBC-BA3C-3627-3BA2-DF74865353E9" referredColumn="FCA5E811-0631-9EFF-5A0D-544045209423"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="311A4EC3-7A20-FE6B-EBA3-D3936C953DA3" name="Rizik_Klijenta_PK">
@@ -127,6 +133,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="EE57FA1B-5064-6FB2-7941-27154997BE90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A8CE9CA-ADF0-6F4C-DD29-A04A98ED24B8" name="Rizik_Klijenta_Kategorija_rizika_FK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-28 20:13:28 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="728104EE-92B5-3765-4A70-60BF1288AA5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CEE07173-EB6E-A7BB-343C-08FD453AB007" name="Rizik_Klijenta_Nivo_Rizika_FK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-28 20:13:36 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E782EE2B-499E-C6F7-AC18-39D18E235CB4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -66,6 +66,21 @@
 <colAssociation fkAssociation="51838AC2-519F-0ED0-78C3-875C705B1C07" referredColumn="97948D25-685D-8DC1-C8F1-CFD44FBD3B01"/>
 </associations>
 </Column>
+<Column name="Transakcija_transakcija_id" id="95C7D945-2CEB-0A6C-CC8B-CC53F83CB020">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-28 20:06:07 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6B60FCB-F6D4-506D-2247-786F1EFFA808" referredColumn="9C69888C-3C2E-1B62-399F-12D3B1BC8877"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="BF48FADD-2400-FC5B-5DF4-09FCF4AFA301" name="Rate_kredita_PK">
@@ -89,6 +104,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="B00B5162-B9F4-851C-D6DE-F81A0F2A36AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4EAF7ECC-575F-4A56-AE2F-1404941C334C" name="Rate_kredita_Transakcija_FK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-28 20:06:07 UTC</createdTime>
+<generatorID>EACA407E-9DE4-70F7-0DCA-C7597BB78BCB</generatorID>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95C7D945-2CEB-0A6C-CC8B-CC53F83CB020"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

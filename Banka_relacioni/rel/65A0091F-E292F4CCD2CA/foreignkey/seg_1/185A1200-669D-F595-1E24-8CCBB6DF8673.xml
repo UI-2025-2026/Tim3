@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="185A1200-669D-F595-1E24-8CCBB6DF8673" containerWithKeyObject="01B20699-E236-C0DB-F8F3-8A43DB635DCA" localFKIndex="D842A8FF-F1BD-C203-3881-86AA4D9A9A43" name="Autorizacija_kartice_Ishod_autorizacije_FK">
+<createdBy>srnam</createdBy>
+<createdTime>2025-12-28 19:57:31 UTC</createdTime>
+<ownerDesignName>Banka_relacioni</ownerDesignName>
+<referredTableLongName>Ishod_autorizacije</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3C7B1383-595C-F599-078F-8CDD4F3427CC</referredTableID>
+<keyObject>9296A891-8722-1019-C62F-14E5DF2F4DAA</keyObject>
+<referredKeyID>9296A891-8722-1019-C62F-14E5DF2F4DAA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ishod_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
